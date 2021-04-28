@@ -22,9 +22,9 @@ module.exports = {
         restaurant: path.join(__dirname, "src/pages/restaurant/restaurant.js"),
         spaSoins: path.join(__dirname, "src/pages/spa-soins/spa-soins.js"),
         // Component
-        footer: path.join(__dirname, "src/assets/component/footer/footer.js"),
-        navbarLeft: path.join(__dirname, "src/assets/component/navbar-left/navbar-left.js"),
-        navbarTop: path.join(__dirname, "src/assets/component/navbar-top/navbar-top.js"),
+        footer: path.join(__dirname, "src/asset/component/footer/footer.js"),
+        navbarLeft: path.join(__dirname, "src/asset/component/navbar-left/navbar-left.js"),
+        navbarTop: path.join(__dirname, "src/asset/component/navbar-top/navbar-top.js"),
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -55,7 +55,8 @@ module.exports = {
                             // postcss plugins, can be exported to postcss.config.js
                             plugins: function () {
                                 return [
-                                    require('autoprefixer')
+                                    require('autoprefixer'),
+                                    require('postcss-nested')
                                 ];
                             }
                         }
@@ -67,11 +68,11 @@ module.exports = {
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'assets/images',
+                type: 'asset/resource',
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                type: 'assets/resource',
+                type: 'asset/resource',
             }
         ],
     },
@@ -80,8 +81,8 @@ module.exports = {
         new CopyWebpackPlugin({
             patterns: [
                 {
-                    from: "./src/assets/images/*",
-                    to: 'assets/images/[name].[ext]',
+                    from: "./src/asset/images/*",
+                    to: 'asset/images/[name][ext]',
                 },
             ],
         }),
@@ -94,6 +95,8 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             filename: "acces.html",
+            title: "Hôtel | Accès",
+            meta: {title: "Hôtel Chambord adresse", description: "Venez découvrir notre palace de luxe en plein centre de Paris, de la quartier vielle ville, venez nous voir a cette adresse: Chambord 1 place des impasse 75000 Paris", keywords:"Hôtel Chambord, Luxe, place, arts deco, adresse"},
             template: path.join(__dirname, "./src/pages/acces/acces.html"),
             chunks: ["acces", "footer", "navbarLeft", "navbarTop"],
         }),

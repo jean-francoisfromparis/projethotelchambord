@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'arbonnie-webfont';
+  src: url('arbonnies-webfont/arbonnie-webfont.woff2') format('woff2'),
+  url('arbonnies-webfont/arbonnie-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'arbonnie-webfont', Arial, sans-serif;
+}
