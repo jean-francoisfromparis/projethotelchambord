@@ -1,0 +1,35 @@
+@mixin breakpoint($device){
+  @if $device == smartphone {
+    @media screen and (max-width: 576px) {
+      @content;
+    }
+  }
+  @else if $device == reader {
+    @media screen and (min-width: 576px) {
+      @content;
+    }
+  }
+  @else if $device == tablette {
+    @media screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  @else if $device == book {
+    @media screen and (min-width: 992px) {
+      @content;
+    }
+  }
+  @else if $device == laptop {
+    @media screen and (min-width: 1200px) {
+      @content;
+    }
+  }
+  @else if $device == desktop  {
+    @media screen and (min-width: 1400px) {
+      @content;
+    }
+  }
+  @else {
+    @error "L'argument $device ne peut valoir que mobile, smartphone, tablette ou desktop.";
+  }
+}
