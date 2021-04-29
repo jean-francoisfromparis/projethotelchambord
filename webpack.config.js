@@ -84,6 +84,22 @@ module.exports = {
                     from: "./src/asset/images/*",
                     to: 'asset/images/[name][ext]',
                 },
+                {
+                    from: "./src/asset/images/accueil/*",
+                    to: 'asset/images/accueil/[name][ext]',
+                },
+                {
+                    from: "./src/asset/images/hotel/*",
+                    to: 'asset/images/hotel/[name][ext]',
+                },
+                {
+                    from: "./src/asset/images/restaurant/*",
+                    to: 'asset/images/restaurant/[name][ext]',
+                },
+                {
+                    from: "./src/asset/images/spa/*",
+                    to: 'asset/images/spa/[name][ext]',
+                },
             ],
         }),
         new HtmlWebpackPlugin({

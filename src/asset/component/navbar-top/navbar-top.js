@@ -19,18 +19,14 @@ if(!languageLocalStorage) {
 navbarTop.innerHTML = `
 <div class="d-flex justify-content-between align-items-center h-100 mx-2">
     <div class="menu-btn">
-        <div class="sandwich">
-            <div class="open d-flex">
+        <div class="sandwich d-flex justify-content-center align-items-center">
+            <div class="open d-flex justify-content-center align-items-center">
                 <i class="fas fa-bars fa-lg m-1 open-close"></i>
-                <div class="d-flex justify-content-center m-1">
-                    <h5>open</h5>
-                </div>
+                <h5 class="mt-2">open</h5>
             </div>
-            <div class="close d-none d-flex">
+            <div class="close d-none d-flex justify-content-center align-items-center">
                 <i class="fas fa-times-circle fa-lg m-1 open-close"></i>
-                <div class="d-flex justify-content-center m-1">
-                    <h5>close</h5>
-                </div>
+                <h5 class="mt-2">close</h5>
             </div>
         </div>
     </div>
