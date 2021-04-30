@@ -8,3 +8,10 @@
 .carousel-indicators, .carousel-caption {
   margin-bottom: 10rem !important;
 }
+
+.carousel-inner img{
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+}

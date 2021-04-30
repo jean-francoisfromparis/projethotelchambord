@@ -4,4 +4,4 @@ import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import "../../asset/styles/styles.scss";
-import "spa-soins.scss";
+import "./spa-soins.scss";
