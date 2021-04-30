@@ -1,0 +1,32 @@
+
+#sommaire{
+font-family: "ARIAL", "sans-serif";
+position:relative;
+left:10vh;
+width: 50vw;
+font-size:2vh;
+}
+p{
+font-family: "ARIAL", "sans-serif";
+position:relative;
+text-align: justify;
+left:10vh;
+max-width: 70vw;
+font-size:2vh;
+}
+.titre{
+position:relative;
+font-family: "ARIAL", "sans-serif";
+left:10vh;
+max-width: 70vw;
+}
+#printer{
+ position:fixed;
+ width: 8vw;
+ height: 3vh;
+ top: 10vh;
+ left:80vw;
+}
+.modal-lg{
+    width: 100% !important;
+}
