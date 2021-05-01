@@ -5,4 +5,3 @@ import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
 import "../../asset/styles/styles.scss";
 import "./cgv.scss";
-import "../../asset/styles/_base.scss";
