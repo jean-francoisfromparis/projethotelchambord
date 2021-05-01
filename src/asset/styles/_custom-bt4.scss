@@ -1,0 +1,47 @@
+@import "./media";
+
+// CAROUSEL
+.carousel-item{
+    position: relative;
+    height: 90vh;
+    overflow: hidden;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      position: absolute !important;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      @include breakpoint(smartphone) {
+        max-height: 500px;
+        left: 30%;
+      }
+      @include breakpoint(reader) {
+        left: 40%;
+      }
+      @include breakpoint(tablette) {
+        left: 50%;
+      }
+    }
+}
+
+.carousel-indicators {
+  height: 15vh;
+}
+
+.carousel-block-text {
+    @include breakpoint(smartphone) {
+      display: block !important;
+    }
+  p {
+    @include breakpoint(smartphone) {
+      display: none !important;
+    }
+  }
+}
+
+.carousel-caption{
+  margin-bottom: 15vh;
+  background-color: rgba(0, 0, 0, 0.46);
+
+}

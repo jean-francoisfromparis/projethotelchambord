@@ -30,11 +30,10 @@ navbarTop.innerHTML = `
             </div>
         </div>
     </div>
-    <a href="/index.html">
+    <a href="#position-1">
         <div class="logo">
         <img class="img-logo" src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
         <h1 class="py-0 m-0 text-center title">CHAMBORD</h1>
-        <h6 class="py-0 m-0 text-center sub-title" >hotel d'exellence à paris</h6>
     </div>
     </a>
     <div class="d-flex menu-option">

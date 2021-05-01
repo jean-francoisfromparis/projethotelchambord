@@ -1,17 +1,14 @@
 @import "node_modules/bootstrap/scss/bootstrap";
 @import "src/asset/component/navbar-top/navbar-top";
 @import "src/asset/component/navbar-left/navbar-left";
+@import "src/asset/component/navbar-bottom/navbar-bottom";
 @import "src/asset/component/footer/footer";
+@import "custom-bt4";
+@import "media";
 @import "base";
 @import "variables";
 
-.carousel-indicators, .carousel-caption {
-  margin-bottom: 10rem !important;
-}
-
-.carousel-inner img{
-  display: flex;
-  justify-items: center;
-  justify-content: center;
-  align-items: center;
+.navbar-top {
+  padding-top: 10vh;
+  height: 100vh;
 }

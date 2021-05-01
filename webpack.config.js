@@ -9,7 +9,7 @@ module.exports = {
         acces: path.join(__dirname, "src/pages/acces/acces.js"),
         actualite: path.join(__dirname, "src/pages/actualite/actualite.js"),
         avis: path.join(__dirname, "src/pages/avis/avis.js"),
-        chambre: path.join(__dirname, "src/pages/chambre/chambre.js"),
+        chambres: path.join(__dirname, "src/pages/chambres/chambres.js"),
         cgv: path.join(__dirname, "src/pages/cgv/cgv.js"),
         contact: path.join(__dirname, "src/pages/contact/contact.js"),
         evenements: path.join(__dirname, "src/pages/evenements/evenements.js"),
@@ -25,6 +25,7 @@ module.exports = {
         footer: path.join(__dirname, "src/asset/component/footer/footer.js"),
         navbarLeft: path.join(__dirname, "src/asset/component/navbar-left/navbar-left.js"),
         navbarTop: path.join(__dirname, "src/asset/component/navbar-top/navbar-top.js"),
+        navbarBottom: path.join(__dirname, "src/asset/component/navbar-bottom/navbar-bottom.js"),
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -89,6 +90,10 @@ module.exports = {
                     to: 'asset/images/accueil/[name][ext]',
                 },
                 {
+                    from: "./src/asset/images/chambres/*",
+                    to: 'asset/images/chambres/[name][ext]',
+                },
+                {
                     from: "./src/asset/images/hotel/*",
                     to: 'asset/images/hotel/[name][ext]',
                 },
@@ -114,7 +119,7 @@ module.exports = {
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/index.html"),
-            chunks: ["main", "footer", "navbarLeft", "navbarTop"]
+            chunks: ["main", "footer", "navbarLeft", "navbarTop", "navbarBottom"]
         }),
         new HtmlWebpackPlugin({
             filename: "acces.html",
@@ -156,7 +161,7 @@ module.exports = {
             chunks: ["avis", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
-            filename: "chambre.html",
+            filename: "chambres.html",
             title: "Chambres | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Découvrez nos chambres - Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
                 description: ` Elégance, chic, patrimoine ; tout ce qui rend Paris spécial se reflète dans nos chambres 
@@ -165,8 +170,8 @@ module.exports = {
                 keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing, Chambre, classique, confort, Deluxe, suite`,
             },
-            template: path.join(__dirname, "./src/pages/chambre/chambre.html"),
-            chunks: ["chambre", "footer", "navbarLeft", "navbarTop"],
+            template: path.join(__dirname, "./src/pages/chambres/chambres.html"),
+            chunks: ["chambres", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             filename: "cgv.html",
@@ -292,7 +297,7 @@ module.exports = {
                 keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, restauration, Master class, premium, unique, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/restaurant/restaurant.html"),
-            chunks: ["restaurant", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["restaurant", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             filename: "spa-soins.html",
