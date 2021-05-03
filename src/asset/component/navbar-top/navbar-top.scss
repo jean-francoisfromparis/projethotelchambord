@@ -32,13 +32,13 @@
       padding: 0;
       margin: 0;
       font-weight: bold !important;
-      height: 4vh;
+      max-height: 4vh;
     }
     .sub-title{
       padding: 0;
       margin: 0;
       font-size: 1rem;
-      height: 2vh;
+      max-height: 2vh;
       @include breakpoint(smartphone) {
         font-size: 0.8rem;
       }
@@ -50,9 +50,22 @@
     align-items: center;
     width: 15vw;
     cursor: pointer;
-    .text-price {
-      @include breakpoint(smartphone) {
-        display: none;
+    a {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .text-price {
+        @include breakpoint(smartphone) {
+          display: none;
+        }
+        @include breakpoint(reader) {
+          display: none;
+        }
+        @include breakpoint(tablette) {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+        }
       }
     }
     .separator {

@@ -3,7 +3,6 @@ const navbarLeft = document.getElementById("navbar-left");
 navbarLeft.style.left = "-250px";
 navbarLeft.appendChild(document.createElement("div")).innerHTML = `
        <div class="search">   
-            <i class="fas fa-search"></i>
             <input type="text" placeholder="SEARCH">
        </div>
        <div class="navLink"></div>
@@ -11,10 +10,9 @@ navbarLeft.appendChild(document.createElement("div")).innerHTML = `
 
 const menuArray = [
     "accueil",
-    "chambre",
+    "chambres",
     "restaurant",
-    "spa-soins",
-    "hotel"
+    "spa-soins"
 ]
 const navLink= document.querySelector(".navLink");
 for (let item of menuArray) {

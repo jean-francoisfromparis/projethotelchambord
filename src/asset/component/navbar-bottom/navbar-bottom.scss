@@ -1,0 +1,62 @@
+@import "src/asset/styles/variables";
+@import "src/asset/styles/media";
+
+#nav-bottom {
+  position: fixed;
+  height: 9vh;
+  width: 100vw;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.69);
+  z-index: 999999;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.54);
+  .navbarBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    .btn-reserved {
+      background-color: $black-gray;
+      padding: 0.5rem;
+      display: flex;
+      height: 12vh;
+      border: none;
+      width: 180px;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      cursor: pointer;
+      &:hover {
+        transition-duration: 0.3s;
+        background-color: $gold;
+      }
+    }
+    .small-display {
+      height: 9vh;
+      color: $black-gray;
+      display: flex;
+      align-items: center;
+      @include breakpoint(smartphone) {
+        margin: 0;
+        width: 100%;
+      }
+      .ico {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+        padding: 0 1rem;
+        &:hover {
+          transition-duration: 0.3s;
+          color: $gold;
+        }
+        @include breakpoint(smartphone) {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          justify-content: space-around;
+        }
+      }
+    }
+  }
+}

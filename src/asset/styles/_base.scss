@@ -6,11 +6,6 @@
   font-style: normal;
 }
 
-main {
-  margin-top: 10vh;
-  height: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'arbonnie-webfont', Arial, sans-serif;
 }
@@ -21,8 +16,4 @@ a {
   &:hover {
     color: black;
   }
-}
-
-section {
-  height: 90vh;
 }
