@@ -1,0 +1,45 @@
+#titre{
+    position: relative;
+    top: 3rem;
+    font-family: 'arbonnie-webfont';
+    font-size: 5rem;
+}
+#adresse{
+    position: relative;
+    top: 1.5rem;
+    font-family: 'arial';
+    font-size: 1.8rem;
+}
+#info{
+    margin-top: 3%;
+    font-family: 'arial';
+    color: white;
+    width: 40rem;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+@media screen and (max-width: 576px) {
+    #titre{
+        position: relative;
+        top: 1.4rem;
+        font-family: 'arbonnie-webfont';
+        font-size: 2rem;
+    }
+    #adresse{
+        position: relative;
+        top: 1.5rem;
+        font-family: 'arial';
+        font-size: 0.9rem;
+        
+    }
+    #info{
+        position: relative;
+        top: 1rem;
+        width: 100%;
+        font-size: 1rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        }
+    }
+    
+
+    
