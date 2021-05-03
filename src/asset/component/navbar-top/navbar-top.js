@@ -37,9 +37,9 @@ navbarTop.innerHTML = `
     </div>
     </a>
     <div class="d-flex menu-option">
-        <div class="d-flex align-items-center"><a href="#"><i class="fas fa-gem fa-sm mx-1"></i><span class="text-price">0</span><span class="fw-bold fs-6 mx-1 text-price">€</span></div></a>
+        <div class="d-flex align-items-center"><a href="#"><span class="text-price">0</span><span class="fw-bold fs-6 text-price"></span><i class="fas fa-euro-sign mx-1"></i></a></div>
         <span class="separator"><div>|</div></span>
-        <div class="d-flex justify-content-center block-language"></a><i class="fas fa-globe m-1"></i><span class="language">${languageLocalStorage}</span></div>
+        <div class="d-flex justify-content-center block-language mx-1"></a><span class="language">${languageLocalStorage}</span></div>
     </div>
     <div id="modal-search"></div>
     <div id="modal-sandwich"></div>

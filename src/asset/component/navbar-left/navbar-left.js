@@ -3,7 +3,7 @@ const navbarLeft = document.getElementById("navbar-left");
 navbarLeft.style.left = "-250px";
 navbarLeft.appendChild(document.createElement("div")).innerHTML = `
        <div class="search">   
-            <input type="text" placeholder="SEARCH">
+            <input type="text" placeholder="SEARCH"><button class="search-btn"><i class="fas fa-search"></i></button>
        </div>
        <div class="navLink"></div>
     `;

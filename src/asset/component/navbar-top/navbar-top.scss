@@ -54,19 +54,19 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
-      .text-price {
-        @include breakpoint(smartphone) {
-          display: none;
-        }
-        @include breakpoint(reader) {
-          display: none;
-        }
-        @include breakpoint(tablette) {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-        }
-      }
+      //.text-price {
+      //  @include breakpoint(smartphone) {
+      //    display: none;
+      //  }
+      //  @include breakpoint(reader) {
+      //    display: none;
+      //  }
+      //  @include breakpoint(tablette) {
+      //    display: flex;
+      //    justify-content: flex-end;
+      //    align-items: center;
+      //  }
+      //}
     }
     .separator {
       display: flex;

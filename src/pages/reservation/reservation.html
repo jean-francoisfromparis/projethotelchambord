@@ -11,11 +11,44 @@
 <nav id="navbar-top"></nav>
 <nav id="navbar-left"></nav>
 <!--main-->
-<main>
-    <h1>TODO <%= htmlWebpackPlugin.options.title %></h1>
+<main class="navbar-top">
+    <section>
+        <div class="container mt-2">
+            <h1>Reservation</h1>
+            <div id="display-info" class="mt-3 d-flex justify-content-between">
+                <div class="col-5 px-0 align-items border-bottom">
+                    <h4>Arrivée:</h4>
+                    <span id="info-arrival" >Aucune date</span>
+                </div>
+                <div  class="col-5 px-0 flex-column align-items border-bottom">
+                    <h4>Depart:</h4>
+                    <span id="info-departure">Aucune date</span>
+                </div>
+            </div>
+            <div id="arrival-date" class="row mt-2">
+               <div id="piker-arrival" class="col-12"></div>
+            </div>
+            <div id="departure-date" class="row mt-2 d-none">
+                <div id="piker-departure" class="col-12"></div>
+            </div>
+            <div id="length-stay" class="my-4"><h4>La durée de votre séjour: <span>0 nuit</span></h4></div>
+            <form novalidate>
+                <div>
+                    <input type="number" name="night" id="input-length-stay" hidden>
+                </div>
+                <div class="my-2">
+                    <label for="input-chamber">Sélectionner une chambre</label>
+                    <select name="chamber" id="input-chamber">
+                        <option value="">--Choisissez une chambre--</option>
+                    </select>
+                </div>
+                <div class="info-total my-2">Total du séjour: 0 €</div>
+                <button id="valid-form" type="button" class="my-2">Validez</button>
+            </form>
+        </div>
+    </section>
 </main>
 <!--footer-->
 <footer></footer>
-</body>
 </body>
 </html>

@@ -21,6 +21,7 @@ module.exports = {
         reservation: path.join(__dirname, "src/pages/reservation/reservation.js"),
         restaurant: path.join(__dirname, "src/pages/restaurant/restaurant.js"),
         spaSoins: path.join(__dirname, "src/pages/spa-soins/spa-soins.js"),
+        panier: path.join(__dirname, "src/pages/panier/panier.js"),
         // Component
         footer: path.join(__dirname, "src/asset/component/footer/footer.js"),
         navbarLeft: path.join(__dirname, "src/asset/component/navbar-left/navbar-left.js"),
@@ -108,28 +109,30 @@ module.exports = {
             ],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "index.html",
             title: "Accueil | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France ",
             meta: {title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
-                    description: `Le CHAMBORD Hôtel Palace ***** a toujours représenté la quintessence de Luxe parisien
+                description: `Le CHAMBORD Hôtel Palace ***** a toujours représenté la quintessence de Luxe parisien
                     dans un style Art Déco depuis 1919. Au centre du Triangle d'Or au 1er de l'avenue Montaigne, nous
                     vous offrons avec notre équipe les plus belles aventures pour profiter de la capitale et 
                     faire de votre séjour parisien un moment inoubliable`,
-                    keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+                keywords: `Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/index.html"),
             chunks: ["main", "footer", "navbarLeft", "navbarTop", "navbarBottom"]
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "acces.html",
             title: "Accès | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
-                    description: ` Au centre du Triangle d'Or au 1er de l'avenue Montaigne,
+                description: ` Au centre du Triangle d'Or au 1er de l'avenue Montaigne,
                     nous vous offrons de découvrir le coeur de la capitale, a proximité des 
                     lieux iconiques que sont la Tour Eiffel, l'Arc de Triomphe les Champs Elysées
                     et le musée du Louvre.      `,
-                    keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+                keywords: `Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing, Tour Eiffel, Avenue Montaigne
                     , Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
@@ -137,11 +140,13 @@ module.exports = {
             chunks: ["acces", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "actualite.html",
             title: "Actualité | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Suivez toute l'actualité ave Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
-                    description: ` L'actualité du luxe à la française et de l'exclusivité se lit sur notre fil. `,
-                    keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+            meta: {
+                title: "Suivez toute l'actualité ave Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
+                description: ` L'actualité du luxe à la française et de l'exclusivité se lit sur notre fil. `,
+                keywords: `Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing, Tour Eiffel, Avenue Montaigne, 
                     Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
@@ -149,11 +154,13 @@ module.exports = {
             chunks: ["actualite", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "avis.html",
             title: "Avis | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
-                   description: ` Venez partager votre expérience de l'excellence sur notre mur d'avis.`,
-                   keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+            meta: {
+                title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
+                description: ` Venez partager votre expérience de l'excellence sur notre mur d'avis.`,
+                keywords: `Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing, Tour Eiffel, Avenue Montaigne, 
                     Champs Elysées, Arc de Triomphe, Musée du Louvre, Avis`,
             },
@@ -161,6 +168,7 @@ module.exports = {
             chunks: ["avis", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "chambres.html",
             title: "Chambres | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Découvrez nos chambres - Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
@@ -174,19 +182,22 @@ module.exports = {
             chunks: ["chambres", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "cgv.html",
             title: "CGV | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Condition des vente - Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
-                    description: ` Description des services, parcours de réservation, Prix et paiement,
+            meta: {
+                title: "Condition des vente - Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
+                description: ` Description des services, parcours de réservation, Prix et paiement,
                         Enregistrement en ligne, Annulation, Engagement et responsabilité du client, 
                         Engagement et responsabilité de l'Hôtel CHAMBORD, Force majeur et délogement, Contact, Service Client et réclamations,
                         Données à caractère personnelle, Loi applicable et réglement des litiges,`,
-                    keywords:`Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
+                keywords: `Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
             },
             template: path.join(__dirname, "./src/pages/cgv/cgv.html"),
             chunks: ["cgv", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "contact.html",
             title: "Contact | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Contact | Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -202,6 +213,7 @@ module.exports = {
             chunks: ["contact", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "evenements.html",
             title: "Evènement| Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Evénement - Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -212,6 +224,7 @@ module.exports = {
             chunks: ["evenements", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "hotel.html",
             title: "Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
@@ -223,20 +236,23 @@ module.exports = {
             chunks: ["hotel", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "mentions-legales.html",
             title: "Mentions-Legales | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Mentions-Legales - Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
-                    description: ` Description des services, parcours de réservation, Prix et paiement,
+            meta: {
+                title: "Mentions-Legales - Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
+                description: ` Description des services, parcours de réservation, Prix et paiement,
                             Enregistrement en ligne, Annulation, Engagement et responsabilité du client, 
                             Engagement et responsabilité de l'Hôtel CHAMBORD, Force majeur et délogement, 
                             Contact, Service Client et réclamations,
                             Données à caractère personnelle, Loi applicable et réglement des litiges,`,
-                    keywords:`Mention légales, Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
+                keywords: `Mention légales, Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
             },
             template: path.join(__dirname, "./src/pages/mentions-legales/mentions-legales.html"),
             chunks: ["mentionsLegales", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "plan-du-site.html",
             title: "Plan du site | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "sitemap - plan du site",
@@ -249,6 +265,7 @@ module.exports = {
             chunks: ["planDuSite", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "presse.html",
             title: "Presse | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "What's news ? Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -261,31 +278,37 @@ module.exports = {
             chunks: ["presse", "footer", "navbarLeft","navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "qui-sommes-nous.html",
             title: "Qui-sommes-nous ? | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Qui-sommes-nous ? - Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
+            meta: {
+                title: "Qui-sommes-nous ? - Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
                 description: `Le style Art Déco de l'Hôtel CHAMBORD a été dessiné par l'architecte star des années d'après-guerre Jean Duchauzel  du style Art Déco`,
-                keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+                keywords: `Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/qui-sommes-nous/qui-sommes-nous.html"),
             chunks: ["quiSommesNous", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "reservation.html",
             title: "Reservation | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: "Reservez votre séjour a l'Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
+            meta: {
+                title: "Reservez votre séjour a l'Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
                 description: `Faites les reservations de vortre séjour dès aujourd'hui avec notre espace de reservation en ligne`,
-                keywords:`Réservation, réserver, reserve, book, booking, Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
-                    étoile, exception, bien-être, expérience d'exception, amazing`,
+                keywords: `Réservation, réserver, reserve, book, booking, Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
+                étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/reservation/reservation.html"),
             chunks: ["reservation", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "restaurant.html",
             title: "Restaurant | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: `Restaurant Gastronomique Le CHAMBORD - Brasserie Art Déco - Salon de Thé Dégustation Plaîsir`,
+            meta: {
+                title: `Restaurant Gastronomique Le CHAMBORD - Brasserie Art Déco - Salon de Thé Dégustation Plaîsir`,
                 description: `L’établissement, lieu cher aux Parisiens et aux voyageurs depuis plus de 100 ans, 
                     propose une expérience d’exception au cœur de la Ville Lumière. 
                     L’hôtel Palace CHAMBORD présente une offre de restauration raffinée, riche de l’héritage culinaire 
@@ -300,22 +323,32 @@ module.exports = {
             chunks: ["restaurant", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
+            minify: false,
             filename: "spa-soins.html",
             title: "Soins et SPA | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
-            meta: {title: `Le SPA "Le Jardin des Hespérides"`,
+            meta: {
+                title: `Le SPA "Le Jardin des Hespérides"`,
                 description: `Le Spa de l'Hôtel Palace CHAMBORD "Le Jardin de Hespérides" luxueux écrin de 700 m2, 
                     dévoile son approche unique basée sur les quatre éléments : air, terre, eau et feu. Le Spa s’est entouré 
                     de marques expertes pour faire du lieu une référence de qualité et offrir une sélection de soins et 
                     de programmes issus des dernières avancées dans les domaines du bien-être, de la beauté, de la nutrition 
                     et de la forme. Se basant sur une prise en charge totale du corps et de l’esprit.  `,
-                keywords:`Authenticité, Luxe, arts deco, bien-être, soin, beauté, coiffure, Fitness, coach fitness, Triangle d'Or, Master class, premium, unique, exception, expérience émotionnelle, 
-                    effet whaoo, whaoo effect,amazing`,},
+                keywords: `Authenticité, Luxe, arts deco, bien-être, soin, beauté, coiffure, Fitness, coach fitness, Triangle d'Or, Master class, premium, unique, exception, expérience émotionnelle, 
+                    effet whaoo, whaoo effect,amazing`,
+            },
             template: path.join(__dirname, "./src/pages/spa-soins/spa-soins.html"),
-            chunks: ["spaSoins", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["spaSoins", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
+        new HtmlWebpackPlugin({
+            minify: false,
+            filename: "panier.html",
+            title: "Panier | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
+            template: path.join(__dirname, "./src/pages/panier/panier.html"),
+            chunks: ["panier", "footer", "navbarLeft", "navbarTop"],
+        })
     ],
     stats: "minimal",
-    devtool: "source-map",
+    devtool: "inline-source-map",
     mode: "development",
     devServer: {
         open: false,
