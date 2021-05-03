@@ -1,0 +1,802 @@
+
+<!DOCTYPE html>
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#"><head>
+<title>Le jardin du Luxembourg - L'Art à travers le Monde</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="content-language" content="fr" />
+<meta name="Description" content="&nbsp; J'ai &nbsp;visité&nbsp; le Jardin du Luxembourg &nbsp; Parmi les nombreux parcs de&nbsp;Paris, le&nbsp;Jardin du..." />
+<meta name="Keywords" content="" />
+<meta name="generator" content="CanalBlog - http://www.canalblog.com" />
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://beautemondial.canalblog.com/rss.xml" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.canalblog.com/cf/fe/rsd/?bid=1062674" />
+<link rel="stylesheet" href="http://beautemondial.canalblog.com/style/1/1/1627811/style.css" type="text/css" />
+<script>
+dataLayer = [{
+'Slots':'{"atf_rectangle_left_ad":"div-gpt-ad-37567","atf_rectangle_right_ad":"div-gpt-ad-23605","rectangle_atf":"div-gpt-ad-47585","header_ad":"div-gpt-ad-41069","sticky_footer_ad":"div-gpt-ad-35929","footer_ad":"div-gpt-ad-98982","slidein":"div-gpt-ad-68145"}',
+'isExplicit':'0',
+'isDev':'0',
+'isCDom':'0',
+'blogLang':'fr',
+'isMember':'0',
+'source':'CANALBLOG',
+'Zone':'BLOG',
+'CategoryId':'42',
+'PageSafe':'1',
+'BlogLastUpdate':'45',
+'StopSU':'1',
+'PageType':'message',
+'CategoryName':'Arts plastiques et Artistes',
+'BlogId':'1062674',
+'BlogUrl':'beautemondial',
+'DocumentId':'26740315',
+'DocumentCatName':'Art de l\'Architecture',
+'DocumentTags':'Cassandra78',
+'CategoryGroupName':'Blog-Loisirs-Culture'
+}];
+</script>
+<script>
+if (/72|55|71|44/.test(dataLayer[0].CategoryId) === false && dataLayer[0].isExplicit !== '1') {
+var jsonSlots = JSON.parse(dataLayer[0].Slots);
+var jadPagePositions = [];
+var jadPositionTranslation = {
+header: "header_ad",
+rectangle_atf : "rectangle_atf",
+rectangle_atf_left: "atf_rectangle_left_ad",
+rectangle_atf_right: "atf_rectangle_right_ad",
+rectangle_mtf : "rectangle_mtf",
+rectangle_mtf_left: "mtf_rectangle_left_ad",
+rectangle_mtf_right: "mtf_rectangle_right_ad",
+rectangle_btf: "rectangle_btf",
+rectangle_btf_left: "btf_rectangle_left_ad",
+rectangle_btf_right: "btf_rectangle_right_ad",
+footer: "footer_ad",
+slidein: "slidein"
+};
+var jadElementsMapping = {};
+for (var p in jadPositionTranslation) {
+if (jsonSlots.hasOwnProperty(jadPositionTranslation[p])) {
+jadElementsMapping[p] = jsonSlots[jadPositionTranslation[p]];
+jadPagePositions.push(p);
+}
+}
+window.jad = window.jad || {};
+jad.cmd = jad.cmd || [];
+var s = document.createElement("script");
+s.async = true;
+s.src = "https://cdn.api.getjad.io/library/1038167/CANALBLOG_FR_WEB";
+s.setAttribute("importance", "high");
+var g = document.getElementsByTagName("head")[0];
+g.parentNode.insertBefore(s, g);
+jad.cmd.push(function() {
+jad.public.setConfig({
+page: "/1038167/CANALBLOG_FR_WEB/blog",
+targeting: {
+"catId": [dataLayer[0].CategoryId]
+},
+elementsMapping: jadElementsMapping,
+pagePositions: jadPagePositions,
+cmp: {
+name: 'didomi',
+siteId: 'e23a01f6-a508-4e71-8f50-c1a9cae7c0d0',
+noticeId: 'rwDMiqxN',
+paywall: {
+clientId: 'AVvF60FpOZcS6UoBe6sf8isBLYwzuLgMQCnNdE-FvpoW_OhR8P6zERqhyuIBGPOxqrTHKxv7QxsXnfck',
+planId: 'P-8MT44702TY458861PMBQZWFY',
+touUrl: 'https://www.canalblog.com/cf/tos.cfm',
+tosUrl: 'https://www.canalblog.com/cf/terms.cfm',
+privacyUrl: 'https://www.canalblog.com/cf/privacy.cfm',
+},
+includeCmp: true
+}
+})
+jad.public.loadPositions();
+jad.public.displayPositions();
+})
+} else {
+window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e,tgt){
+var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target_type=notice&target="+tgt;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("e23a01f6-a508-4e71-8f50-c1a9cae7c0d0","FXUNFVFn")})();
+}
+</script><meta name="robots" content="max-snippet:-1,max-image-preview:large,max-video-preview:-1,index,follow" />
+<meta property="fb:app_id" content="116867175007475" />
+<meta property="fb:admins" content="717607561" />
+<meta property="og:title" content="Le jardin du Luxembourg - L&#39;Art &agrave; travers le Monde" />
+<meta property="og:description" content="&amp;nbsp; J&#39;ai &amp;nbsp;visit&eacute;&amp;nbsp; le Jardin du Luxembourg &amp;nbsp; Parmi les nombreux parcs de&amp;nbsp;Paris, le&amp;nbsp;Jardin du..." />
+<meta property="og:image" content="https://p1.storage.canalblog.com/27/28/1062674/85029431.jpg" />
+<meta property="og:image:width" content="536" />
+<meta property="og:image:height" content="800" />
+<meta property="og:url" content="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2013-03-26T11:12" />
+<meta property="article:tag" content="Cassandra78" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Le jardin du Luxembourg - L&#39;Art &agrave; travers le Monde" />
+<meta name="twitter:description" content="&amp;nbsp; J&#39;ai &amp;nbsp;visit&eacute;&amp;nbsp; le Jardin du Luxembourg &amp;nbsp; Parmi les nombreux parcs de&amp;nbsp;Paris, le&amp;nbsp;Jardin du..." />
+<meta name="twitter:image:src" content="https://p1.storage.canalblog.com/27/28/1062674/85029431_q.jpg" />
+<link rel="image_src" href="https://p1.storage.canalblog.com/27/28/1062674/85029431.jpg" />
+<link rel="canonical" href="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html" />
+<script type="application/ld+json">
+{
+"@context": "schema.org",
+"@type": "NewsArticle",
+"headline": "Le jardin du Luxembourg",
+"description": "J'ai visit\u00E9 le Jardin du Luxembourg Parmi les nombreux parcs de Paris, le Jardin du...",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html"
+},
+"datePublished": "2013-03-26T07:35",
+"dateModified": "2013-03-26T10:12",
+"author": {
+"@type": "Person",
+"name": "CASSANDRA78"
+},
+"image": "https://p1.storage.canalblog.com/27/28/1062674/85029431.jpg",
+"publisher": {
+"@type": "Organization",
+"name": "L'Art \u00E0 travers le Monde",
+"url": "http://beautemondial.canalblog.com/",
+"logo": {
+"@type": "ImageObject",
+"url": "https://static.canalblog.com/sharedDocs/images/frontend/logo.png",
+"width": 278,
+"height": 93
+}
+}
+}
+</script>
+<script type="text/javascript">
+var google_analytics_domain_name = '.canalblog.com';
+window.google_analytics_uacct = 'UA-12099278-1';
+</script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+var id = 1062674;
+var pid = 26740315;
+var meid = 0;
+</script>
+<script type="text/javascript">var CBVARS = {"is_mobile":false,"URLROOT":"https://www.canalblog.com","URLSROOT":"https://www.canalblog.com","STATICSERVER":"static.canalblog.com","ref_keyword":"","post_allow_comments":1,"is_logged":false,"blog_domain":"canalblog.com","blog_full_url":"http://beautemondial.canalblog.com/","blog_last_post_nb_day":"45","blog_id":1062674,"s":"zpuRjJLd0p6EwtKZmN/QjIfc2J6C1dOfkpLOnYXZ0JqC2w==","cat_id":42,"partner_name":"canalblog","blog_owner_member_id":873000,"widget_conf":{"rating":{"skin":"star","skin_wording":"%%i18n_you_like%%"},"sharebar":{"is_print":1,"is_email":1,"is_fb":1,"is_pin":1,"is_tw":1,"is_gp":1,"is_ln":0,"is_hc":0,"is_kd":0},"followbtn":{"pinterest":{"username":""},"twitter":{"username":""},"hc":{"username":""},"gp":{"username":"u/0/102303909692333188859","type":"page"},"fb":{"pageurl":"","width":"300","showfaces":"true","showstream":"false","showheader":"false"},"ig":{"username":"","size":"48"}},"extract":{"home":"0","archive":"0","align":"left","sticky":"0"},"profileimg":{"align":"center"},"menu":{"fixed":"1"},"navigation":{"new":"0"},"newsletter":{"showCount":"1"},"carrousel":{"activated":1},"tag":{"showPhotos":"1"},"column":{"fixed":1}},"is_a":false};</script>
+<script type='text/javascript'>
+var tag = document.createElement('script');
+tag.src = 'https://www.youtube.com/iframe_api';
+var firstScriptTag = document.getElementsByTagName('script')[0];
+firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+players = new Array();
+function onYouTubeIframeAPIReady() {
+var YTEmbeds = $('iframe[src*="youtube.com"], iframe[src*="youtube-nocookie.com"]');
+YTEmbeds.each(function(i) {
+// Attribution d'un id à chaque iframe
+var iframe_id = 'iframe-youtube-' + i;
+$(this).attr('id', iframe_id);
+// Check que le param enablejsapi est présent dans l'url de l'iframe
+var url = $(this).attr('src');
+if (!url.includes('enablejsapi=1')) {
+url += url.indexOf('?') == -1 ? '?' : '&';
+$(this).attr('src', url + 'enablejsapi=1');
+}
+// Si le param origin est spécifié, on l'efface (le js ne fonctionne pas sinon)
+if (url.includes('&origin=https%3A%2F%2Fwww.canalblog.com')) {
+url += url.indexOf('?') == -1 ? '?' : '&';
+$(this).attr('src', url.replace('&origin=https%3A%2F%2Fwww.canalblog.com',''));
+}
+// Instanciation du player en JS
+var player = new YT.Player(
+iframe_id,
+{
+events: {
+'onStateChange': function(event){onPlayerStateChange(event,iframe_id);}
+}
+}
+);
+// On l'ajoute au tableau global
+players.push(player);
+});
+}
+// Si lecture alors stop des autres
+function onPlayerStateChange(event,iid) {
+if (event.data == YT.PlayerState.PLAYING) {
+for (var i = 0; i < players.length; i++) {
+if (players[i].f.id != iid)
+players[i].stopVideo();
+}
+}
+}
+</script><script>window.twttr = (function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0],
+t = window.twttr || {};
+if (d.getElementById(id)) return t;
+js = d.createElement(s);
+js.id = id;
+js.src = "https://platform.twitter.com/widgets.js";
+fjs.parentNode.insertBefore(js, fjs);
+t._e = [];
+t.ready = function(f) {
+t._e.push(f);
+};
+return t;
+}(document, "script", "twitter-wjs"));</script><script type="text/javascript" src="https://static.canalblog.com/sharedDocs/js/blog/all-blog-min.js?1615293360"></script>
+<link rel="stylesheet" href="https://static.canalblog.com/sharedDocs/css/blog/all-blog-min.css?1615293360" media="screen" />
+<link rel="stylesheet" href="/sharedDocs/css/icomoon/style.css?1615293360" media="screen" />
+<script type="text/javascript">$(document).ready(function() {$("#content a:not('.no_lightbox'):has(img)").filter(function() {if($(this).attr('href')) return $(this).attr('href').toLowerCase().match(/\.(jpg|jpeg|png|gif|bmp)/);}).photosharebox(); initBxSlider();$(".navlinks a:not('.no_lightbox'):has(img)").filter(function() {if($(this).attr('href')) return $(this).attr('href').toLowerCase().match(/\.(jpg|jpeg|png|gif|bmp)/);}).photosharebox();$('.navlinks').fitVids({customSelector: "iframe[src^='http://www.dailymotion.com']"});initCarrousel(); });</script>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script><!--[if lt IE 9]>
+<script type="text/javascript" src="https://static.canalblog.com/sharedDocs/js/html5shiv.js"></script>
+<![endif]-->
+<!-- Début CanalBlog Stats -->
+<script type="text/javascript">
+$(document).ready(function() {
+$("body").on("click","a.postemailbut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'PostSuggest','eventLabel': 'Message'});});
+$("body").on("click","a.pageemailbut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'PostSuggest','eventLabel': 'Page'});});
+$("body").on("click","a.albumemailbut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'PostSuggest','eventLabel': 'Album'});});
+$("body").on("click","a.editpostbut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'EditPost','eventLabel': $(this).attr("href")});});
+$("body").on("click","a.editpagebut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'EditPage','eventLabel': $(this).attr("href")});});
+$("body").on("click",".edit_div img.delete_com_img", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'DeleteComment','eventLabel': 'frontend'});});
+$("body").on("click","a.editpalbumbut", function(){dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'EditAlbum','eventLabel': $(this).attr("href")});});
+$(".relatedlinks li a").click(function() {dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'related','eventLabel': $(this).attr("href"),'eventValue': $(this).closest("li").prevAll().length});});
+$("#cb_footer a").click(function() {dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'footer','eventLabel': $(this).text()});});
+$("#branding_bar a").on("click",function() {dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'topbar-link','eventLabel': $(this).text()});});
+$("#item_logo a").click(function(e) {dataLayer.push({'event': 'sendUAEvent','eventCategory': 'clickzone','eventAction': 'topbar-logo','eventLabel': 'logocb'});e.stopPropagation();});
+var display = "no";
+if ($("div#countercb").length) {
+display = "yes";
+}
+var i = new Image();
+t = "Le%20jardin%20du%20Luxembourg%20%2D%20L%27Art%20%C3%A0%20travers%20le%20%20Monde";
+i.src = 'http://stats.canalblog.com/stats/?id=' + id + '&display=' + display + '&pid=' + pid + '&u=' + escape(document.location) + '&r=' + escape(document.referrer) + '&t=' + t + '&w=' + escape(screen.width) + '&java=1' + '&sc_random=' + Math.random();
+if ($("div#countercb").length) {
+$("div#countercb").html(i);
+}
+else {
+i.style.display = "none";
+$("body").append(i);
+}
+});
+</script>
+<!-- Fin CanalBlog Stats -->
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Calligraffitti" /><style type="text/css">
+		body { padding-top: 30px !important; }
+		#branding_bar{background:#F5F5F5; border-bottom:1px solid #BABABA;}
+		#branding_bar a:link{color:#999999;}
+		#branding_bar a:visited{color:#999999;}
+		#branding_bar a:hover{color:#6B6B6B;}
+		.item_left{padding:0 5px;}
+		#item_menu{}
+		#item_menu div{color:#999999;}
+		.item_right{padding:0 7px;}
+		.item_submenu{background-color:#F5F5F5; border-top:1px solid #BABABA; border-left:1px solid #BABABA;}
+		.item_submenulast{background-color:#F5F5F5; border-top:1px solid #BABABA; border-left:1px solid #BABABA; border-bottom:1px solid #BABABA;}
+		#item_close{}
+		#content img{max-width:100%;height:auto;}
+		#comment_list img {max-width:none;}
+		#blogsugitem {}
+		</style><script type="text/javascript">hostName = '.canalblog.com'; setCookie('key','5E0DA85E75FC485A5C4A8908AF095619');</script><style type="text/css">div.error-form-comment {font-weight:bold;} input.error-form-comment,textarea.error-form-comment {border:2px solid red;}</style></head>
+<body>
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v3.2&appId=116867175007475&autoLogAppEvents=1"></script>
+<div id="branding_bar" style="display:block;"><ul id="topnav"><li id="item_logo"><a href="https://www.canalblog.com" onClick="javascript:window.open(this.href);return false;"><img src="https://static.canalblog.com/sharedDocs/images/bb-canalblog2.png" style="width:84px; margin:10px 0 0 0;" /></a></li><li id="item_form">
+<form action="https://www.canalblog.com/cf/search.cfm" method="get" target="_blank">
+<input type="text" id="q" name="q" class="text" placeholder="Rechercher.." value="" style="float:left;" />
+<input type="hidden" value="1062674" name="bid" />
+<input type="hidden" value="search" name="action" />
+<button type="submit"><span class="icon-search"></span></button>
+<input type="hidden" id="s" name="s" value="604D8FE71C9C9CE4429287FB538451EF" /></form>
+</li><li class="item_left"><span><a href="https://www.canalblog.com/cf/contactAuthor.cfm?mid=873000&bid=1062674" onClick="javascript:window.open(this.href);return false;" rel="nofollow">Contacter l'auteur</a></span></li><li id="blogsugitem" class="item_left"><a href="https://www.canalblog.com/cf/blogsuggest.cfm?bid=1062674" class="cboxpopup" rel="nofollow">Envoyer à un ami</a></li><li style="display:none;" class="item_left item_cb_subscribe"><a href="#" class="item_cb_subscribe_link"><img src="https://static.canalblog.com/sharedDocs/images/cb_plane.png" class="item_cb_subscribe_img"><span class="item_cb_subscribe_text">S'abonner</span></a></li><li id="item_share"></li><li id="item_close" ><span class="icon-circle-up"></span></li><li id="item_menu" style="display:none;"></li><li id="item_menu_2" class="item_right" style="display:none;"></li><li id="item_menu_3" class="item_right" style="display:none;"></li></ul></div><div id="branding_bar_closed" style="display:none;"><ul id="topnav_closed"><li id="item_open" ><span class="icon-circle-down"></span></li></ul></div><div style='text-align:center;margin-bottom:8px;'><div id="div-gpt-ad-41069">
+</div>
+</div><div id="container"><div id="topbar-logo"><div class="logolink"><a href="http://beautemondial.canalblog.com/"></a></div></div><div id="topbar"><div id="topbar-title"><a href="http://beautemondial.canalblog.com/">L'Art à travers le Monde</a></div></div>
+<div id="leftbar"><div class="navlinks">
+<div class="image" style="text-align:center;"><a href="http://beautemondial.canalblog.com/profile/873000/index.html"><img src="https://profilepics.canalblog.com/profilepics/8/7/873000.jpg" border="0" /></a></div>
+<div class='title'>Votez pour moi</div><div style='text-align:left;'><p style="text-align: center;"><a href="http://www.boosterblog.com" target="_blank"><img src="http://www.boosterblog.com/ban/2_88x31.gif" border="0" alt="Booste le trafic de ton blog" width="88" height="31" /></a></p></div><div class="item">
+<script type="text/javascript">
+<!--
+document.write('<a href="https://www.canalblog.com/cf/contactAuthor.cfm?mid=873000&amp;bid=1062674">Contactez l\'auteur</a>'); // -->
+</script>
+</div><div class="title">L'Art à travers le Monde</div><div class="item"><em>Ce blog est un inventaire, créé au travers des sites que je visite. J'y sélectionne ce qui me plaît. Je vous présente des portes. A vous de les ouvrir ou de les laisser closes. Je ne garde rien, Je veux que ces créateurs soient connus du plus grand nombre.</em></div><ul><li><a href="http://beautemondial.canalblog.com/">Accueil du blog</a></li><li><a rel="nofollow" href="https://www.canalblog.com/cf/blogsuggest.cfm?bid=1062674" class="cboxpopup">Recommander ce blog</a></li><li><a href="https://www.canalblog.com/signin/">Créer un blog avec CanalBlog</a></li></ul><div class='title'>Superbe gifs</div><div style='text-align:left;'><p>
+<script src="http://geo1.geocompteur.com/private/geocompteur.js?c=398bf63cf8b6d8f42d9de8f91dc0c1ab" type="text/javascript"></script>
+</p>
+<noscript><!--Important : Pour une fonctionnalité optimale de votre compteur, ne pas modifier ce code-->
+<a href="http://geo1.geocompteur.com/?c=398bf63cf8b6d8f42d9de8f91dc0c1ab"><img src="http://geo1.geocompteur.com/private/geocompteur.php?c=398bf63cf8b6d8f42d9de8f91dc0c1ab" alt=""></img></a>
+</noscript>
+<p><a name="IMG_120005322" href="https://p1.storage.canalblog.com/13/34/1062674/120005322_o.gif" target="_blank"><img src="https://p1.storage.canalblog.com/13/34/1062674/120005322.gif" border="0" alt="7a8-Ani" class="widthadapted nonealign" /></a><br /><br /><br /></p>
+<p><a name="IMG_120005325" href="https://p5.storage.canalblog.com/57/01/1062674/120005325_o.gif" target="_blank"><img src="https://p5.storage.canalblog.com/57/01/1062674/120005325.gif" border="0" alt="205a1-Ani" class="widthadapted nonealign" /><br /><br /><br /></a></p>
+<p><a name="IMG_120123609" href="https://p5.storage.canalblog.com/56/75/1062674/120123609_o.gif" target="_blank"><img src="https://p5.storage.canalblog.com/56/75/1062674/120123609.gif" border="0" alt="art3" class="widthadapted nonealign" /></a></p>
+<p><a name="IMG_120005325" href="https://p5.storage.canalblog.com/57/01/1062674/120005325_o.gif" target="_blank"></a></p>
+<p><span style="font-size: 8pt;"><a href="http://www.geocompteur.com">&nbsp;</a></span></p></div><div id="countercb"></div><div class="title">Pages</div><CBPages></CBPages><div class="title">Cat&eacute;gories</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/archives/1_an_d_existence_/index.html">1 an d'existence </a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/1_livre_d_or/index.html">1 LIVRE D'OR</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/affiche_ancienne_de_cinema/index.html">Affiche ancienne de cinéma</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_africain/index.html">Art Africain</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_avec__du_riz/index.html">Art avec du riz</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_avec_des_clous/index.html">Art avec des clous</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_avec_des_perles/index.html">Art avec des perles</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_de_la_photographie/index.html">Art de la photographie</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_de_la_table/index.html">Art de la table</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_de_l_architecture/index.html">Art de l'Architecture</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_des_montages/index.html">Art des montages</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_digital/index.html">Art digital</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_divers/index.html">Art divers</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_du_metal/index.html">Art du métal</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_du_mosaique/index.html">Art du mosaïque</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_du_numerique/index.html">Art du numérique</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_du_tatouage/index.html">Art du tatouage</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_egytien/index.html">Art Egytien</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_en_chocolat/index.html">Art en chocolat</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_publicitaire/index.html">Art publicitaire</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_aluminium/index.html">Art sur aluminium</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_bijoux/index.html">Art sur bijoux</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_carton/index.html">Art sur carton</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_cuivre/index.html">Art sur cuivre</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_papier/index.html">Art sur papier</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_papier_adhesif/index.html">Art sur papier adhésif</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_plumes/index.html">Art sur plumes</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_porcelaine/index.html">Art sur porcelaine</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_sel/index.html">Art sur sel</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_tissu/index.html">Art sur tissu</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_sur_verre/index.html">Art sur verre</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_urbain/index.html">Art urbain</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/art_vegetal/index.html">Art végétal</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/artiste_peintre/index.html">Artiste peintre</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/artiste_sculpteur/index.html">Artiste Sculpteur</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/artistes_de_poupees/index.html">Artistes de poupées</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/artistes_divers/index.html">Artistes divers</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/cartes_anciennes/index.html">Cartes Anciennes</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/construction_ferroviaire/index.html">Construction férroviaire</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/createurs_de_poupees_en_porcelaine/index.html">Créateurs de poupées en porcelaine</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/creatrice_sur_fil_de_fer/index.html">Créatrice sur fil de fer</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/dessin_en_3_d/index.html">Dessin en 3 D</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/evenement/index.html">Evénement</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/expositions_galerie_d_art/index.html">Expositions Galerie d'Art</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/galerie_d_art/index.html">Galerie d'Art</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/l_art_de_la_ferronnerie/index.html">l'Art de la Ferronnerie</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/l_art_du_maquillage/index.html">l'Art du maquillage</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/maitre_verrier/index.html">Maître Verrier</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/musee_sur_paris/index.html">Musée sur Paris</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/peintres_/index.html">Peintres </a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/peintres_sur__sol/index.html">Peintres sur sol</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/peintres_sculpteur/index.html">Peintres-Sculpteur</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/peintures_corporelles/index.html">Peintures Corporelles</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/photographe/index.html">Photographe</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/remerciement_a_mes_10_000_visiteurs/index.html">Remerciement à mes 10 000 visiteurs</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/remerciement_a_mes_20_000_visiteurs/index.html">Remerciement à mes 20 000 visiteurs</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/remerciement_a_mes_30_000_visiteurs/index.html">remerciement à mes 30 000 visiteurs</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/remerciement_a_mes_40_000_visiteurs/index.html">Remerciement à mes 40 000 visiteurs</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/sculpteurs/index.html">Sculpteurs</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/sculptures_sur_bois/index.html">Sculptures sur bois</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/sculptures_sur_sable/index.html">Sculptures sur sable</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/sculptures_vegetale/index.html">Sculptures végétale</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/street_art/index.html">Street Art</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/verriers/index.html">Verriers</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/videos_personnelle/index.html">Vidéos personnelle</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/videos_slash/index.html">Vidéos Slash</a></li>
+</ul><div class='title'>Vidéo</div><div style='text-align:left;'><iframe src="//www.youtube.com/embed/Jor91foKBbo" frameborder="0" width="420" height="315"></iframe></div><div class="title">Messages les plus populaires</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/10/14/35766799.html">John Neil sculpteur</a> <div class="post_rating"><span id="raty_lp_35766799" class="raty_ro" data-rating="5.00" data-postid="35766799" data-key="htrVmoPY25WE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/10/10/35755406.html">GUICHARD BUNEL Jeannette artiste peintre Français</a> <div class="post_rating"><span id="raty_lp_35755406" class="raty_ro" data-rating="5.00" data-postid="35755406" data-key="htrVmYDb0pqE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/08/19/35597695.html">Bouquet d'oignons artiste inconnu</a> <div class="post_rating"><span id="raty_lp_35597695" class="raty_ro" data-rating="5.00" data-postid="35597695" data-key="htrXlYLZ25mE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/07/06/35452574.html">Dessins artistes divers</a> <div class="post_rating"><span id="raty_lp_35452574" class="raty_ro" data-rating="5.00" data-postid="35452574" data-key="htrWmYfa1ZiE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/05/31/35340054.html">Liu Bolin Peintre chinois...</a> <div class="post_rating"><span id="raty_lp_35340054" class="raty_ro" data-rating="5.00" data-postid="35340054" data-key="htrRmIXf15iE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/03/05/35009965.html">l'Art du chocolat vu par l'artiste Franc Grom</a> <div class="post_rating"><span id="raty_lp_35009965" class="raty_ro" data-rating="5.00" data-postid="35009965" data-key="htrSnIzW1JmE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/12/16/34696109.html">Les crèches de Cracovie </a> <div class="post_rating"><span id="raty_lp_34696109" class="raty_ro" data-rating="5.00" data-postid="34696109" data-key="htvUlYPe0pWE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/11/07/34538929.html">Street Art sur Paris</a> <div class="post_rating"><span id="raty_lp_34538929" class="raty_ro" data-rating="5.00" data-postid="34538929" data-key="htvXn43W0JWE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/10/21/34467465.html">HALLOWEEN LA MASCARADE COMMENCE PAR LE MAQUILLAGE</a> <div class="post_rating"><span id="raty_lp_34467465" class="raty_ro" data-rating="5.00" data-postid="34467465" data-key="htvWmoLb1JmE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/03/26/33570600.html">Oeufs de Pâques de l'Art à croquer</a> <div class="post_rating"><span id="raty_lp_33570600" class="raty_ro" data-rating="5.00" data-postid="33570600" data-key="htzXm4XZ0pyE39Seg9jW"></span></div></li>
+</ul><div class="title">Derniers messages</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/08/19/35597695.html">Bouquet d'oignons artiste inconnu</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/03/26/33570600.html">Oeufs de Pâques de l'Art à croquer</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/04/19/26959821.html">Andreea Cernestean Art digital</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/06/11/27378155.html">Kirsi Salonen</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/05/30/33886599.html">Jodi Harvey-Brown artiste sculpteur</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/01/04/26061883.html">Harpenko-yuri-ivanvich</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/17/25934600.html">l'Art du Maquillage</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/19/25953075.html">Art sur poupée de divers artistes (non vendu sur ce blog) juste pour la beauté des yeux</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2014/06/24/30135982.html">Kate MacDowell Art de la porcelaine</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/09/03/27946084.html"> Kumi Yamashita l'Art avec des clous </a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/08/24/27886210.html">Nicolas Evariste coup de coeur pour ce jeune photgraphe de talent</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/03/05/35009965.html">l'Art du chocolat vu par l'artiste Franc Grom</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/06/25762633.html">L'Art en chocolat Bientôt les fêtes hummm</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2014/03/22/29499020.html">BILL VIOLA - Grand Palais</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/19/25952755.html">Art avec des plumes fantastique !</a></li>
+</ul><div class="title">Messages préférés de CASSANDRA78</div>
+<ul>
+<li><a href="http://cassandra78.canalblog.com/archives/2020/11/30/38681476.html">Redevenir une enfant</a> <div class="post_rating"><span id="raty_lp_38681476" class="raty_ro" data-rating="5.00" data-postid="38681476" data-key="htfUlITb1ZqE39Seg9jW"></span></div></li>
+<li><a href="http://minouchapassion2.canalblog.com/archives/2020/10/01/38564057.html">La Biche et la chouette Hulotte !!</a> <div class="post_rating"><span id="raty_lp_38564057" class="raty_ro" data-rating="5.00" data-postid="38564057" data-key="htfXmoHf15uE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2020/04/06/38173266.html">Texte de Pâques pour cartes</a> <div class="post_rating"><span id="raty_lp_38173266" class="raty_ro" data-rating="5.00" data-postid="38173266" data-key="htfTm4bd1JqE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/07/23/24759533.html">Je veille sur ce blog !</a> <div class="post_rating"><span id="raty_lp_24759533" class="raty_ro" data-rating="5.00" data-postid="24759533" data-key="h9vVmYza0Z%2BE39Seg9jW"></span></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2019/12/28/37896818.html">Bijoux Annabella en verre</a> <div class="post_rating"><span id="raty_lp_37896818" class="raty_ro" data-rating="5.00" data-postid="37896818" data-key="htjalYPX05SE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/08/06/24844208.html">Si j'étais une fée...</a> <div class="post_rating"><span id="raty_lp_24844208" class="raty_ro" data-rating="5.00" data-postid="24844208" data-key="h9vamIHd0pSE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/08/07/24851540.html">Qui es-tu toi ?</a> <div class="post_rating"><span id="raty_lp_24851540" class="raty_ro" data-rating="5.00" data-postid="24851540" data-key="h9vamYTa1pyE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/08/12/24882006.html">Par une nuit étoilée</a> <div class="post_rating"><span id="raty_lp_24882006" class="raty_ro" data-rating="5.00" data-postid="24882006" data-key="h9valIff0pqE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/08/13/24883884.html">L'emmuré </a> <div class="post_rating"><span id="raty_lp_24883884" class="raty_ro" data-rating="5.00" data-postid="24883884" data-key="h9valIbX2piE39Seg9jW"></span></div></li>
+<li><a href="http://cassandra78.canalblog.com/archives/2012/08/14/24891766.html">Une fée nommée Elfa</a> <div class="post_rating"><span id="raty_lp_24891766" class="raty_ro" data-rating="5.00" data-postid="24891766" data-key="h9valYTY1JqE39Seg9jW"></span></div></li>
+</ul><div class="title">Derniers commentaires</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/82646141">bonjour minoucha les œufs sont super bisous</a> sur <a href="http://beautemondial.canalblog.com/archives/2016/03/26/33570600.html">Oeufs de Pâques de l'Art à croquer</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/81456762">Superbes tableaux, félicitations</a> sur <a href="http://beautemondial.canalblog.com/archives/2013/08/17/27849668.html">Artiste peintres Linda Picken</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/80319713">Merci beaucoup cela me vas droit au cœur bis</a> sur <a href="http://beautemondial.canalblog.com/archives/2012/11/22/25644265.html">Livre d'Or</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/80317838">Un immense merci pour les images et le lien que</a> sur <a href="http://beautemondial.canalblog.com/archives/2012/11/22/25644265.html">Livre d'Or</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/76655152">Salut l'artiste. J'habite la ville de</a> sur <a href="http://beautemondial.canalblog.com/archives/2012/11/16/25598258.html">Robert Mickelsen Maître verrier</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/76011023">j'espere que tu vas bien</a> sur <a href="http://beautemondial.canalblog.com/archives/2015/01/03/31247689.html">Jodi Harven-Brown sculpteur sur livres ...</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/75879417">on dirais que s est inpossible c est enorme</a> sur <a href="http://beautemondial.canalblog.com/archives/2013/01/15/26159306.html">Sudarshan Pattnaik</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/74242523">Bonjour je viens de dire pas c'est qu'elle mot</a> sur <a href="http://beautemondial.canalblog.com/archives/2014/04/03/29586227.html">l'Opéra de Paris visiter par moi, gros coup de cœur !</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/74241794">Bonjour diane, je viens vous voir et merci pour</a> sur <a href="http://beautemondial.canalblog.com/archives/2014/04/03/29586227.html">l'Opéra de Paris visiter par moi, gros coup de cœur !</a></li>
+<li><a href="http://beautemondial.canalblog.com/permalink/comments/74238834">Ce fut très intéressant a visiter :-) Je suis</a> sur <a href="http://beautemondial.canalblog.com/archives/2014/04/03/29586227.html">l'Opéra de Paris visiter par moi, gros coup de cœur !</a></li>
+</ul><div class="title">Auteurs</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/profile/873000/index.html">CASSANDRA78</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/814883/index.html">jeanpierre59</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/886027/index.html">POSEIDON55</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/809063/index.html">alinejanne1</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/942929/index.html">jp 37</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/889260/index.html">florasoleil48</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/815776/index.html">jojo bruxelles</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/973249/index.html">rachid68</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/810143/index.html">rocanelle</a></li>
+<li><a href="http://beautemondial.canalblog.com/profile/1044402/index.html">DODOSIXBULLE</a></li>
+</ul><div class="title">Archives</div>
+<ul>
+<li><a href="http://beautemondial.canalblog.com/archives/2021/03/25/index.html">25-03-21</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2021/02/25/index.html">25-02-21</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/11/30/index.html">30-11-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/11/05/index.html">05-11-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/10/22/index.html">22-10-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/10/02/index.html">02-10-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/06/15/index.html">15-06-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/03/31/index.html">31-03-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2020/02/28/index.html">28-02-20</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2019/12/28/index.html">28-12-19</a></li>
+<li><a href="http://beautemondial.canalblog.com/archives/index.html">Toutes les archives</a></li>
+</ul><div class="title">Newsletter</div><form name="newsletter" id="newsletter" action="https://www.canalblog.com/cf/blogsubscribe.cfm?bid=1062674" method="post" target="_blank">
+<input name="email" id="email" value="email" type="text" onfocus="this.select();" />
+<input name="submit" value="M'abonner" type="submit" />
+<div class='nbsub'>12 abonnés</div>
+<input type="hidden" id="s" name="s" value="604D8FE71C9C9CE4429287FB538451EF" /></form><form name="sengine" id="sengine" action="https://www.canalblog.com/cf/search.cfm?bid=1062674" method="get">
+<input type="text" name="q" id="sengine_q" value="" />
+<input type="hidden" name="bid" id="sengine_bid" value="1062674" />
+<input type="submit" name="searchbtn" id="sengine_searchbtn" value="Rechercher" />
+<input type="hidden" id="s" name="s" value="604D8FE71C9C9CE4429287FB538451EF" /></form>
+<div class="item"><a href="http://beautemondial.canalblog.com/rss.xml" title="S'abonner à ce blog (messages)"><img class="bullet" width="14" height="14" src="https://static.canalblog.com/sharedDocs/images/rss.png" alt="RSS" /></a><a href="http://beautemondial.canalblog.com/rss.xml" title="S'abonner à ce blog (messages)">Flux RSS des messages</a></div>
+<div class="item"><a href="http://beautemondial.canalblog.com/feeds/rss/comments/" title="S'abonner à ce blog (messages)"><img class="bullet" width="14" height="14" src="https://static.canalblog.com/sharedDocs/images/rss.png" alt="RSS" /></a><a href="http://beautemondial.canalblog.com/feeds/rss/comments/" title="S'abonner à ce blog (commentaires)">Flux RSS des commentaires</a></div>
+<div class="title">Tags</div>
+<ul class="tagcloud">
+<li><a href="http://beautemondial.canalblog.com/tag/Cassandra78" style="font-size:100%;" title="322 message(s)" rel="tag">Cassandra78</a></li>
+</ul>
+</div></div><div id="content"><div class="blogbody"><div class="breadcrumb"><div><a href="http://beautemondial.canalblog.com/"><span>L'Art à travers le Monde</span></a></div> &gt; <div><a href="http://beautemondial.canalblog.com/archives/art_de_l_architecture/index.html"><span>Art de l'Architecture</span></a></div> &gt; <div><h1 style="display:inline;font-size:x-small;font-weight:normal;">Le jardin du Luxembourg</h1></div></div>
+<div id="26740315" class="item_div" data-edittype="post"><!-- post "26740315"-->
+<div class="dateheader">mardi 26 mars 2013</div>
+<a name="26740315"></a>
+<h2 class="articletitle"><a href="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html" title="Le jardin du Luxembourg" rel="bookmark">Le jardin du Luxembourg</a></h2>
+<div class="articlebody" itemprop="articleBody"><p style="text-align: center;"><a href="https://p1.storage.canalblog.com/27/28/1062674/85029431_o.jpg" target="_blank"><img src="https://p1.storage.canalblog.com/27/28/1062674/85029431_p.jpg" alt="Jardin du Luxembourg 2012 2013 (58)" width="402" height="600" border="0" /></a></p>
+<p style="text-align: center;"><iframe src="http://www.youtube.com/embed/dzAJgJ8dqhU" frameborder="0" width="420" height="315"></iframe>&nbsp;</p>
+<p style="text-align: center;"><strong style="font-size: 12pt; font-family: tahoma, arial, helvetica, sans-serif;">J'ai &nbsp;visité&nbsp; le Jardin du Luxembourg</strong></p>
+<p><a href="https://p5.storage.canalblog.com/53/63/1062674/85029554_o.jpg" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://p5.storage.canalblog.com/53/63/1062674/85029554_p.jpg" alt="Jardin du Luxembourg 2012 2013 (41)" width="550" height="279" border="0" /></a></p>
+<p style="text-align: center;"><a href="https://p0.storage.canalblog.com/02/87/1062674/85029561_o.jpg" target="_blank"><img src="https://p0.storage.canalblog.com/02/87/1062674/85029561_p.jpg" alt="Jardin du Luxembourg 2012 2013 (42)" width="600" height="419" border="0" /></a></p>
+<p style="text-align: center;"><span style="font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p><span style="font-size: 10pt;">Parmi les nombreux parcs de&nbsp;<a title="Paris" href="http://frenchmoments.com/Paris.html" target="_blank">Paris</a>, le&nbsp;<strong>Jardin du Luxembourg</strong>&nbsp;est certainement l’un des plus prisés des Parisiens, des étudiants et des touristes. Fascinés par ce poumon vert historique au centre de la capitale, ils apprécient le spectacle de verdure agrémentée d’innombrables statues, de terrains de jeu et du célèbre théâtre de marionnettes de guignol.</span></p>
+<p><span style="font-size: 10pt;">Composé en grande partie d’un jardin à la française, ce lieu de rendez-vous du Tout-Paris offre également des zones de repos grâce au jardin anglais, situé le long des rues Guynemer et Auguste-Comte. Il est enrichi d’un verger et de quelques vignes.</span></p>
+<p><span style="font-size: 10pt;">Le parc doit son succès à ses arbres magnifiques, notamment les beaux marronniers et les paulownias. Une petite orangerie abrite des lauriers-roses, des palmiers, des camphriers mais aussi des grenadiers.</span></p>
+<p><span style="font-size: 10pt;">Dans la partie du jardin «&nbsp;<em>à la française&nbsp;</em>» situé dans l’axe du Palais du Luxembourg, un espace dégagé créé par&nbsp;<strong>Le Nôtre</strong>&nbsp;est organisé autour d’un bassin octogonal.</span></p>
+<p style="text-align: center;"><a href="https://p0.storage.canalblog.com/03/74/1062674/85029462_o.jpg" target="_blank"><img src="https://p0.storage.canalblog.com/03/74/1062674/85029462_p.jpg" alt="Jardin du Luxembourg 2012 2013 (20)" width="600" height="450" border="0" /></a></p>
+<p style="text-align: center;"><strong style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;">Un peu d’histoire</strong></p>
+<p><span style="font-size: 10pt;">Le Jardin du Luxembourg a été créé en 1617 et doit son nom au&nbsp;<strong>duc de Piney-Luxembourg</strong>, propriétaire du domaine ultérieurement racheté par&nbsp;<strong>Marie de Médicis</strong>, veuve du roi de France Henri IV. La reine d’origine italienne souhaitait édifier un bâtiment lui rappelant le palais Pitti, ainsi que la création de jardins évoquant ceux de&nbsp;<strong>Boboli</strong>&nbsp;à Florence. La construction du Palais (actuel Palais du Luxembourg) a été confiée à <strong>Salomon de la Brosse</strong>, s’ouvrant sur un parc de huit hectares. On y planta plus de 2000 ormes et de grands parterres furent aménagés. Les fontaines étaient quant à elles alimentées par l’aqueduc d’Arcueil, récemment construit.</span></p>
+<p style="text-align: center;"><a href="https://p1.storage.canalblog.com/14/67/1062674/85029479_o.jpg" target="_blank"><img src="https://p1.storage.canalblog.com/14/67/1062674/85029479_p.jpg" alt="Jardin du Luxembourg 2012 2013 (22)" width="600" height="450" border="0" /></a></p>
+<p><span style="font-size: 10pt;">La plus célèbre d’entre elles, la&nbsp;<strong>Fontaine Médicis</strong>, date des années 1630 et fut commandée par Marie de Médicis à l’ingénieur florentin&nbsp;<strong>Thomas Francine</strong>. Initialement nommée «&nbsp;<em>Grotte du Luxembourg&nbsp;</em>», elle se compose d’un portique de style italien à lequel on a ajouté une fontaine et un bassin de forme allongée. Plusieurs modifications y ont été apportées.</span></p>
+<p><span style="font-size: 10pt;">En 1863,&nbsp;<strong>Auguste Ottin</strong>&nbsp;l’a notamment agrémentée d’un groupe de trois personnages mythologiques&nbsp;: «&nbsp;<em>Polyphème surprenant Galatée dans les bras d’Acis&nbsp;</em>». Dans une niche, le cyclope Polyphème, amoureux de Galatée, belle et jeune déesse marine, la surprend dans les bras d’Acis. Accroupi sur un rocher, le sombre cyclope s’apprête à écraser le couple enlacé au bord de l’eau.</span></p>
+<p><span style="font-size: 10pt;">Lorsque la rue de Médicis fut percée dans le cadre des grands travaux d’urbanisme du préfet Haussmann, la fontaine a été déplacée vers son emplacement actuel en 1862. Le bassin précédant la fontaine se dévoile dans un cadre de verdure superbe et la forme même du bassin procure l’illusion que le plan d’eau est incliné. La&nbsp;<strong>Fontaine de Léda</strong>, autrefois située à l’angle des rue du Regard et de Vaugirard, a été remontée contre la face arrière du portique.</span></p>
+<p><span>Le jardin a été plusieurs fois remanié et agrandi. L’architecte<span class="apple-converted-space">&nbsp;</span><strong><span>Le Nôtre</span></strong><span class="apple-converted-space">&nbsp;</span>aménagea au centre du jardin à la française un grand bassin octogonal sur lequel flottent de petits bateaux. Du jardin dessiné pour Marie de Médicis, il ne reste aujourd’hui plus grand-chose, mis à part l’orangerie et la Fontaine Médicis d’inspiration florentine. A partir de 1810, l’espace de verdure du parc est prolongé au sud par les jardins de l’avenue de l’Observatoire.</span></p>
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;"><a href="https://p5.storage.canalblog.com/55/14/1062674/85029529_o.jpg" target="_blank"><img src="https://p5.storage.canalblog.com/55/14/1062674/85029529_p.jpg" alt="Jardin du Luxembourg 2012 2013 (54)" width="600" height="450" border="0" /></a></p>
+<p style="text-align: center;">&nbsp;<span style="font-family: tahoma, arial, helvetica, sans-serif;">D</span><span style="font-size: 10pt;">ès 1642, le Jardin du Luxembourg est ouvert au public par&nbsp;<strong>Gaston d’Orléans</strong>, le frère cadet de Louis XIII qui en hérite. Les premiers visiteurs sont des bourgeois du quartier, des ecclésiastiques, des gens de lettres et des bonnes d’enfants qui doivent louer les chaises à une loueuse installée devant le palais. Aujourd’hui, le parc est l’espace de verdure favori des étudiants des universités du Ve arrondissement tout proche.</span></p>
+<p style="text-align: center;"><a href="https://p4.storage.canalblog.com/41/25/1062674/85029602_o.jpeg" target="_blank"><img src="https://p4.storage.canalblog.com/41/25/1062674/85029602_p.jpeg" alt="Jardin du Luxembourg 2012 2013 (1)" width="600" height="450" border="0" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;"><strong>Les statues du Jardin du Luxembourg</strong></span></p>
+<p>L<span style="font-size: 10pt;">es innombrables statues qui parsèment le parc depuis le règne de Louis-Philippe ajoutent au caractère romantique du lieu.</span></p>
+<p><span style="font-size: 10pt;">Les fameuses statues des «&nbsp;<em>Reines de France et Femmes illustres&nbsp;</em>» ont été exécutées sous le règne de&nbsp;<strong>Louis-Philippe</strong>&nbsp;(vers 1843) par les plus grands sculpteurs de l’époque. Cette série de vingt sculptures en marbre a été disposée sur les terrasses à gauche et à droite du grand bassin, devant le palais du Luxembourg.</span></p>
+<p><span style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;">Installée dans le jardin du Luxembourg depuis 1906, une copie en bronze de la&nbsp;</span><a style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;" title="La Statue de la Liberté, symbole de l’amitié franco-américaine" href="http://www.frenchmomentsblog.com/?p=1745" target="_blank">Statue de la Liberté</a><span style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;offerte par&nbsp;</span><strong style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;">Frédéric Auguste Bartholdi</strong><span style="font-size: 10pt; font-family: tahoma, arial, helvetica, sans-serif;">&nbsp;est certainement la statue la plus insolite du parc.</span></p>
+<p><a href="https://p7.storage.canalblog.com/71/39/1062674/85029644_o.jpg" target="_blank"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://p7.storage.canalblog.com/71/39/1062674/85029644_p.jpg" alt="Jardin du Luxembourg 2012 2013 (18)" width="600" height="450" border="0" /></a></p>
+<p><strong>Le Jardin du Luxembourg&nbsp;: un espace de loisir</strong></p>
+<p>Le Jardin du Luxembourg abrite plusieurs équipements qui font la joie des enfants et des plus grands.</p>
+<p>On ne peut mentionner le jardin sans décrire le jeu de paume, le terrain de pétanque, les terrains de tennis, les terrains de jeu pour enfants, le manège de chevaux en bois et le fameux&nbsp;<strong>théâtre de marionnettes de Guignol</strong>.</p>
+<p>A l’extrémité sud-ouest du jardin, un&nbsp;<strong>rucher-école</strong>&nbsp;produit quelques centaines de kilos de miel par an.</p>
+<p>mettre photos</p>
+<p>Créé &nbsp;en 1856, le rucher a été reconstruit en 1991. Il est flanqué d’un verger contenant plus de 700 pommiers et poiriers, ainsi que de vignes.</p>
+<p>Le&nbsp;<a title="Les jolis kiosques à musique de France" href="http://www.frenchmomentsblog.com/?p=2297" target="_blank">kiosque à musique</a>&nbsp;a été construit dans le parc en 1879, au même moment que le manège de chevaux en bois, sur les plans de&nbsp;<strong>Charles Garnier</strong>. Des concerts de fanfare sont toujours programmés sous le&nbsp;<a title="Les jolis kiosques à musique de France" href="http://www.frenchmomentsblog.com/?p=2297" target="_blank">kiosque</a>.</p>
+<p style="text-align: center;"><a href="https://p4.storage.canalblog.com/49/54/1062674/85029648_o.jpg" target="_blank"><img src="https://p4.storage.canalblog.com/49/54/1062674/85029648_p.jpg" alt="Jardin du Luxembourg 2012 2013 (52)" width="600" height="450" border="0" /></a></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">&nbsp;</span></p>
+<p style="text-align: center;"><span style="font-size: 10pt;">&nbsp;</span></p><div style='clear:both;'></div></div>
+<div class="itemfooter">Posté par : <span class='articlecreator'>CASSANDRA78</span> à <span class="articledate">11:12</span> - <a href="http://beautemondial.canalblog.com/archives/art_de_l_architecture/index.html" title="Autres messages dans cette catégorie" rel="tag">Art de l'Architecture</a> - <a href="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html#comments" title="Tous les commentaires sur Le jardin du Luxembourg">Commentaires [6]</a> - Permalien [<a href="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html" rel="bookmark" title="Le jardin du Luxembourg">#</a>]
+<br />Tags : <a href="http://beautemondial.canalblog.com/tag/Cassandra78" rel="tag">Cassandra78</a>
+<br /><div class="share_widget" data-sharemediaurl="https://p1.storage.canalblog.com/27/28/1062674/85029431_q.jpg" data-sharetype="post" data-shareemailcount="0" data-shareid="26740315" data-sharelink="http://beautemondial.canalblog.com/archives/2013/03/26/26740315.html" data-sharesummary="Le%20jardin%20du%20Luxembourg"></div><br /><div class="post_rating"><span class="rating_wording"></span><span id="raty_p_26740315" class="raty" data-rating="5.00" data-postid="26740315" data-key="h9nVmIXc05mE39Seg9jW" content="5.00"></span><span id="raters_p_26740315" class="raters" data-raters="3" content="3"></span></span>
+<span class="hreview-aggregate"><span class="item"><span class="fn"><span class="value-title" title="Le jardin du Luxembourg"/></span></span><span class="rating"><span class="average"><span class="value-title" title="5.00"/></span><span class="worst"><span class="value-title" title="0"/></span><span class="best"><span class="value-title" title="5"/></span></span><span class="votes"><span class="value-title" title="3"/></span>
+</div>
+</div>
+<div id='blognavigation'><div id='prevnavdiv'><a class='prevnav' rel='prev' href='http://beautemondial.canalblog.com/archives/2013/03/20/26693240.html' title="Voir l'article: Gilbert LEGRAND">&laquo; Gilbert LEGRAND</a></div><div id='nextnavdiv'><a class='nextnav' rel='next' href='http://beautemondial.canalblog.com/archives/2013/03/13/26642581.html' title="Voir l'article: Petra Kohle & Nicolas Vermot">Petra Kohle & Nicolas Vermot &raquo;</a></div><div style='clear:both;'></div></div>
+<div class="relatedlinks">
+<div class="title">Vous aimerez peut-être :</div>
+<ul id="relatedpostslist" class="relatedpostslist">
+<li><a href="http://beautemondial.canalblog.com/archives/2013/09/03/27946084.html"><img src="https://p0.storage.canalblog.com/07/46/1062674/89516480_q.jpg" alt=" kumi yamashita l'art avec des clous " /></a> <div><a href="http://beautemondial.canalblog.com/archives/2013/09/03/27946084.html"> kumi yamashita l'art avec des clous </a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2014/06/24/30135982.html"><img src="https://p4.storage.canalblog.com/46/26/1062674/97158159_q.jpg" alt="Kate macdowell art de la porcelaine" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2014/06/24/30135982.html">Kate macdowell art de la porcelaine</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/19/25953075.html"><img src="https://p8.storage.canalblog.com/82/04/1062674/82122312_q.jpg" alt="Art sur poupée de divers artistes (non vendu sur ce blog) juste pour la beauté des yeux" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2012/12/19/25953075.html">Art sur poupée de divers artistes (non vendu sur ce blog) juste pour la beauté des yeux</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2012/12/17/25934600.html"><img src="https://p7.storage.canalblog.com/72/46/1062674/82054277_q.jpg" alt="L'art du maquillage" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2012/12/17/25934600.html">L'art du maquillage</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/01/04/26061883.html"><img src="https://p8.storage.canalblog.com/80/77/1062674/82514011_q.jpg" alt="Harpenko-yuri-ivanvich" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2013/01/04/26061883.html">Harpenko-yuri-ivanvich</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/05/30/33886599.html"><img src="https://p8.storage.canalblog.com/87/65/1062674/110936630_q.jpg" alt="Jodi harvey-brown artiste sculpteur" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2016/05/30/33886599.html">Jodi harvey-brown artiste sculpteur</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/06/11/27378155.html"><img src="https://p1.storage.canalblog.com/27/28/1062674/87419474_q.jpg" alt="Kirsi salonen" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2013/06/11/27378155.html">Kirsi salonen</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2013/04/19/26959821.html"><img src="https://p1.storage.canalblog.com/10/02/1062674/85779604_q.jpg" alt="Andreea cernestean art digital" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2013/04/19/26959821.html">Andreea cernestean art digital</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2016/03/26/33570600.html"><img src="https://p7.storage.canalblog.com/70/09/1062674/109807549_q.jpg" alt="Oeufs de pâques de l'art à croquer" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2016/03/26/33570600.html">Oeufs de pâques de l'art à croquer</a></div></li>
+<li><a href="http://beautemondial.canalblog.com/archives/2017/08/19/35597695.html"><img src="https://p3.storage.canalblog.com/39/45/1062674/117047905_q.png" alt="Bouquet d'oignons artiste inconnu" /></a> <div><a href="http://beautemondial.canalblog.com/archives/2017/08/19/35597695.html">Bouquet d'oignons artiste inconnu</a></div></li>
+</ul>
+<div style="clear:both;"></div>
+</div>
+</div><div id="taboola-below-article-thumbnails"></div><div id='cbinsideads'><div style='float:left;'><div id="div-gpt-ad-37567">
+</div>
+</div><div style='float:right;'><div id="div-gpt-ad-23605">
+</div>
+</div></div><div style='clear:both;'></div><br />
+<h3><a id="comments"></a>Commentaires sur Le jardin du Luxembourg</h3>
+<ul id="comment_list" class="comment_thread level-1"><li class="comment member level-1"><div class="comment_item" id="comment_54927631" data-edittype="post" data-cid="54927631" data-pid="26740315" data-mid="0"><a id="c54927631"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=814883"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/1/814883.jpg?0" /></a></div> Magnifique vidéo et quel bel endroit , j adore mis ballader avec toi mon coeur !<br />gros bisous</p>
+<div class="itemfooter">Posté par <a href="http://" rel="nofollow" title="http://" onclick="window.open(this.href); return false;">jeanpierre59</a>, <abbr class="timeago" title="2013-03-26T17:54:17">mardi 26 mars 2013 à 17:54</abbr> | <span id="rating_w_54927631" class="comment_rating" data-commentid="54927631" data-raters="" data-rating="0" href="" data-key="gNvbnoLZ0Z2E39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li><li><ul class="comment_thread"><li class="comment post-owner member level-2"><div class="comment_item" id="comment_54927883" data-edittype="post" data-cid="54927883" data-pid="26740315" data-mid="0"><a id="c54927883"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=873000"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/7/873000.jpg?0" /></a></div> C'est gentil mon coeur, il y en as tellement ! j'espère que ça plaisait aux visiteurs ?</p>
+<div class="itemfooter">Posté par <a href="http://cassandra78.canalblog.com" title="http://cassandra78.canalblog.com" onclick="window.open(this.href); return false;">CASSANDRA78</a>, <abbr class="timeago" title="2013-03-26T18:06:03">mardi 26 mars 2013 à 18:06</abbr> | <span id="rating_w_54927883" class="comment_rating" data-commentid="54927883" data-raters="" data-rating="0" href="" data-key="gNvbnoLX2p%2BE39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li></ul></li><li class="comment member level-1"><div class="comment_item" id="comment_54988041" data-edittype="post" data-cid="54988041" data-pid="26740315" data-mid="0"><a id="c54988041"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=808903"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/0/808903.jpg?0" /></a></div> le parc est magnifique merci pour la ballade du parc du Luxembourg</p>
+<div class="itemfooter">Posté par <a href="http://buffalo55.canalblog.com" title="http://buffalo55.canalblog.com" onclick="window.open(this.href); return false;">Buffalo55</a>, <abbr class="timeago" title="2013-03-29T18:30:21">vendredi 29 mars 2013 à 18:30</abbr> | <span id="rating_w_54988041" class="comment_rating" data-commentid="54988041" data-raters="" data-rating="0" href="" data-key="gNvblI3f1p2E39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li><li><ul class="comment_thread"><li class="comment post-owner member level-2"><div class="comment_item" id="comment_55002936" data-edittype="post" data-cid="55002936" data-pid="26740315" data-mid="0"><a id="c55002936"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=873000"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/7/873000.jpg?0" /></a></div> Bonjour Bauffalo, j'espère que tu as apprécier ? gros bisous</p>
+<div class="itemfooter">Posté par <a href="http://cassandra78.canalblog.com" title="http://cassandra78.canalblog.com" onclick="window.open(this.href); return false;">CASSANDRA78</a>, <abbr class="timeago" title="2013-03-30T16:03:53">samedi 30 mars 2013 à 16:03</abbr> | <span id="rating_w_55002936" class="comment_rating" data-commentid="55002936" data-raters="" data-rating="0" href="" data-key="gNrSnIfW0ZqE39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li></ul></li><li class="comment member level-1"><div class="comment_item" id="comment_58130808" data-edittype="post" data-cid="58130808" data-pid="26740315" data-mid="0"><a id="c58130808"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=822665"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/2/822665.jpg?0" /></a></div> ma minoucha j'ai prie 2 photos du parc de Luxembourg merci elles sont superbes gros bisous jalane</p>
+<div class="itemfooter">Posté par jalane, <abbr class="timeago" title="2013-10-16T19:42:50">mercredi 16 octobre 2013 à 19:42</abbr> | <span id="rating_w_58130808" class="comment_rating" data-commentid="58130808" data-raters="1" data-rating="5.00" href="" data-key="gNfTn4XX0pSE39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li><li><ul class="comment_thread"><li class="comment post-owner member level-2"><div class="comment_item" id="comment_58132276" data-edittype="post" data-cid="58132276" data-pid="26740315" data-mid="0"><a id="c58132276"></a>
+<p><div class="pp-container"><a class="profile_link" onclick="window.open(this.href); return false;" href="https://www.canalblog.com/cf/profile.cfm?mid=873000"><img class="gravatar" src="https://profilepics.canalblog.com/profilepics/8/7/873000.jpg?0" /></a></div> C'est mes photos, je fais ce que je veux avec, alors pas de problème bisous</p>
+<div class="itemfooter">Posté par <a href="http://cassandra78.canalblog.com" title="http://cassandra78.canalblog.com" onclick="window.open(this.href); return false;">CASSANDRA78</a>, <abbr class="timeago" title="2013-10-16T20:46:35">mercredi 16 octobre 2013 à 20:46</abbr> | <span id="rating_w_58132276" class="comment_rating" data-commentid="58132276" data-raters="" data-rating="0" href="" data-key="gNfTn4fd1ZqE39Seg9jW"></span> | <span class="comment_reply"><a rel="nofollow" href="#">Répondre</a></span></div>
+</div></li></ul></li></ul><div>
+</div> <!--
+<p></p>
+-->
+<div id="origFrmComment">
+<div class="commentheader">Nouveau commentaire</div>
+<form action="" method="post" name="frmComment" id="frmComment">
+<div id="cancel_reply_comment"><a rel="nofollow" class="cancel_reply_comment_lnk" href="http://beautemondial.canalblog.com/archives/2017/08/19/35597695.html">Annuler la réponse</a></div>
+<div>
+<textarea id="commentBody" name="commentBody" placeholder="Entrez votre commentaire"></textarea>
+</div>
+<div id="comment_service_list" style="display:none;" class="cb_guest">
+Commenter avec
+<a rel="nofollow" class="cowith" href="https://www.canalblog.com/cf/loginbox.cfm"><img src="https://static.canalblog.com/sharedDocs/images/comment_with_cb.png" width="20" height="20" border="0" />CanalBlog</a> |
+Utiliser <a rel="nofollow" href="https://www.facebook.com/dialog/oauth/?client_id=116867175007475&scope=email&display=popup&redirect_uri=https%3A%2F%2Fwww%2Ecanalblog%2Ecom%2Fcf%2Ffe%2Fremote%2Ffacebook%2Ecfm%3Fredirect%3Dtrue" class="cowith"><img src="https://static.canalblog.com/sharedDocs/images/comment_with_fb.png" width="20" height="20" border="0" />Facebook</a>
+</div>
+<div id="comment_logued_as" style="display:none;"><span id="comment_logued_as_username"></span>
+<a rel="nofollow" class="cb_logout" href="https://www.canalblog.com/cf/SessionController.cfc?method=logout">Se déconnecter</a>
+</div>
+<div id="comment_error_container"></div>
+<div id="comment_guest_fields" style="display:none;" class="cb_guest">
+OU
+<div><input id="authorNickName" name="authorNickName" value="" maxlength="16" placeholder="* Nom ou pseudo" /></div>
+<div><input id="authorEmail" name="authorEmail" value="" maxlength="64" placeholder="* Votre email" /></div>
+<div><input id="authorWebsiteUrl" name="authorWebsiteUrl" value="" maxlength="128" placeholder="Site Web" /></div>
+<div id="comment_conditions">* Champs obligatoires. Adresse email visible uniquement par l'auteur du blog.</div>
+</div>
+<div id="comment_options">
+<label>
+<input checked="checked" type="checkbox" id="receiveAlert" name="receiveAlert" value="1" />
+Recevoir un email lorsqu'un commentaire est publié sur ce message.</label>
+</div>
+<input type="hidden" name="commentIdentity" id="commentIdentity" value="guest" />
+<input type="hidden" name="commentParentId" id="commentParentId" value="" />
+<div id="rememberInfo_field">
+<button class="comment_submit" type="submit">Publier</button>
+</div>
+<input type="hidden" id="s" name="s" value="604D8FE71C9C9CE4429287FB538451EF" /></form>
+</div>
+</div></div><div id="rightbar"><div class="navlinks">
+<div class='title'></div><div style='text-align:left;'><script src="http://www.24webclock.com/clock24.js" type="text/javascript"></script>
+<table class="clock24st" style="line-height: 14px; padding: 0;" border="0" cellspacing="1" cellpadding="3" bgcolor="#3C4C3F">
+<tbody>
+<tr>
+<td class="clock24std" style="font-family: arial; font-size: 12px;" bgcolor="#769576"><a href="http://www.russianwoman.ca/index.php?Language=French"><img src="http://www.24webclock.com/ico.gif" border="0" alt="femme russe mature" width="14" height="14" /></a> <a href="http://www.24webclock.com/fr/" style="text-decoration: none;"><span class="clock24s" id="clock24_51686" style="color: #3c4c3f;">horloge blog</span></a></td>
+</tr>
+</tbody>
+</table>
+<script type="text/javascript">// <![CDATA[
+var clock24_51686 = new clock24('51686',60,'%hh:%nn:%ss','fr');
+clock24_51686.daylight('FR'); clock24_51686.refresh();
+// ]]></script></div><div style="padding:10px 0px 10px 0px;text-align:center;"><div id="div-gpt-ad-47585">
+</div>
+</div><div id="calendar"><table><caption><a href = "http://beautemondial.canalblog.com/archives/2013/02/index.html">&#171;</a>&nbsp;mars&nbsp;2013&nbsp;<a href = "http://beautemondial.canalblog.com/archives/2013/04/index.html">&#187;</a></caption><tr><th>dim</th><th>lun</th><th>mar</th><th>mer</th><th>jeu</th><th>ven</th><th>sam</th></tr><tr><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>1 </td><td>2 </td></tr><tr><td>3 </td><td>4 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/05/index.html">5</a></td><td>6 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/07/index.html">7</a></td><td>8 </td><td>9 </td></tr><tr><td>10 </td><td>11 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/12/index.html">12</a></td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/13/index.html">13</a></td><td>14 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/15/index.html">15</a></td><td>16 </td></tr><tr><td><a href="http://beautemondial.canalblog.com/archives/2013/03/17/index.html">17</a></td><td>18 </td><td>19 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/20/index.html">20</a></td><td>21 </td><td>22 </td><td>23 </td></tr><tr><td>24 </td><td>25 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/26/index.html">26</a></td><td>27 </td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/28/index.html">28</a></td><td><a href="http://beautemondial.canalblog.com/archives/2013/03/29/index.html">29</a></td><td>30 </td></tr><tr><td>31 </td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr></table></div><div class='title'>Playlists </div><div style='text-align:left;'></div><div class="title">Albums photos</div>
+<ul class="albumlist">
+<li><a href="http://beautemondial.canalblog.com/albums/adriana_ciobanu/index.html"><img src="https://p4.storage.canalblog.com/41/05/1062674/81507936_q.jpg" width="120" height="120" alt="Adriana Ciobanu" /></a><br /><a href="http://beautemondial.canalblog.com/albums/adriana_ciobanu/index.html" title="Adriana Ciobanu : 5 photos">Adriana Ciobanu</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/affiches_de_pub_anciennes/index.html"><img src="https://p7.storage.canalblog.com/74/88/1062674/82063152_q.jpg" width="120" height="120" alt="Affiches de pub anciennes" /></a><br /><a href="http://beautemondial.canalblog.com/albums/affiches_de_pub_anciennes/index.html" title="Affiches de pub anciennes : 5 photos">Affiches de pub anciennes</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/andrew_atroshenko_/index.html"><img src="https://p6.storage.canalblog.com/66/64/1062674/81508061_q.jpg" width="120" height="120" alt="Andrew Atroshenko " /></a><br /><a href="http://beautemondial.canalblog.com/albums/andrew_atroshenko_/index.html" title="Andrew Atroshenko : 3 photos">Andrew Atroshenko </a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art__sur_gateaux/index.html"><img src="https://p9.storage.canalblog.com/95/41/1062674/81751523_q.jpg" width="120" height="120" alt="Art sur gâteaux" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art__sur_gateaux/index.html" title="Art sur gâteaux : 4 photos">Art sur gâteaux</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_avec_des_plumes/index.html"><img src="https://p9.storage.canalblog.com/94/82/1062674/82121326_q.jpg" width="120" height="120" alt="Art avec des plumes" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_avec_des_plumes/index.html" title="Art avec des plumes : 5 photos">Art avec des plumes</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_des_maquettes/index.html"><img src="https://p3.storage.canalblog.com/36/21/1062674/82231239_q.jpg" width="120" height="120" alt="Art des maquettes" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_des_maquettes/index.html" title="Art des maquettes : 5 photos">Art des maquettes</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_des_montages/index.html"><img src="https://p9.storage.canalblog.com/93/44/1062674/82155528_q.jpg" width="120" height="120" alt="Art des montages" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_des_montages/index.html" title="Art des montages : 2 photos">Art des montages</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_chocolat/index.html"><img src="https://p5.storage.canalblog.com/50/80/1062674/81751116_q.jpg" width="120" height="120" alt="Art du chocolat" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_chocolat/index.html" title="Art du chocolat : 5 photos">Art du chocolat</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_maquillage/index.html"><img src="https://p7.storage.canalblog.com/71/54/1062674/82054437_q.jpg" width="120" height="120" alt="Art du maquillage" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_maquillage/index.html" title="Art du maquillage : 5 photos">Art du maquillage</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_montage/index.html"><img src="https://p5.storage.canalblog.com/58/09/1062674/82663183_q.jpg" width="120" height="120" alt="Art du montage" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_montage/index.html" title="Art du montage : 9 photos">Art du montage</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_montage_mes_creations/index.html"><img src="https://p7.storage.canalblog.com/73/95/1062674/82753684_q.jpg" width="120" height="120" alt="Art du montage mes créations" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_montage_mes_creations/index.html" title="Art du montage mes créations : 13 photos">Art du montage mes créations</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_montage_mes_creations_crayon_couleur/index.html"><img src="https://p1.storage.canalblog.com/10/40/1062674/82962625_q.jpg" width="120" height="120" alt="Art du montage mes créations crayon couleur" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_montage_mes_creations_crayon_couleur/index.html" title="Art du montage mes créations crayon couleur : 10 photos">Art du montage mes créations crayon couleur</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_sucre/index.html"><img src="https://p7.storage.canalblog.com/70/24/1062674/81678784_q.jpg" width="120" height="120" alt="Art du sucre" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_sucre/index.html" title="Art du sucre : 5 photos">Art du sucre</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_du_tatouage_japonais/index.html"><img src="https://p3.storage.canalblog.com/31/47/1062674/82491883_q.jpg" width="120" height="120" alt="Art du tatouage Japonais" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_du_tatouage_japonais/index.html" title="Art du tatouage Japonais : 10 photos">Art du tatouage Japonais</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_floral/index.html"><img src="https://p9.storage.canalblog.com/93/55/1062674/81751281_q.jpg" width="120" height="120" alt="Art floral" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_floral/index.html" title="Art floral : 5 photos">Art floral</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_graphique/index.html"><img src="https://p7.storage.canalblog.com/75/20/1062674/81772557_q.jpg" width="120" height="120" alt="Art graphique" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_graphique/index.html" title="Art graphique : 5 photos">Art graphique</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_bijoux/index.html"><img src="https://p7.storage.canalblog.com/75/73/1062674/81813532_q.jpg" width="120" height="120" alt="Art sur bijoux" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_bijoux/index.html" title="Art sur bijoux : 5 photos">Art sur bijoux</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_carton/index.html"><img src="https://p0.storage.canalblog.com/00/78/1062674/81854139_q.jpg" width="120" height="120" alt="Art sur carton" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_carton/index.html" title="Art sur carton : 7 photos">Art sur carton</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_email_emaux/index.html"><img src="https://p1.storage.canalblog.com/23/30/1062674/82122097_q.jpg" width="120" height="120" alt="Art sur émail-émaux" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_email_emaux/index.html" title="Art sur émail-émaux : 7 photos">Art sur émail-émaux</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_ivoire/index.html"><img src="https://p1.storage.canalblog.com/15/61/1062674/82734533_q.jpg" width="120" height="120" alt="Art sur ivoire" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_ivoire/index.html" title="Art sur ivoire : 5 photos">Art sur ivoire</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_livre/index.html"><img src="https://p7.storage.canalblog.com/77/22/1062674/81976761_q.jpg" width="120" height="120" alt="Art sur livre" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_livre/index.html" title="Art sur livre : 5 photos">Art sur livre</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_mine_de_crayon/index.html"><img src="https://p4.storage.canalblog.com/45/14/1062674/82379207_q.jpg" width="120" height="120" alt="Art sur mine de crayon" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_mine_de_crayon/index.html" title="Art sur mine de crayon : 6 photos">Art sur mine de crayon</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/art_sur_mosaique/index.html"><img src="https://p7.storage.canalblog.com/73/59/1062674/81813806_q.jpg" width="120" height="120" alt="Art sur mosaïque" /></a><br /><a href="http://beautemondial.canalblog.com/albums/art_sur_mosaique/index.html" title="Art sur mosaïque : 5 photos">Art sur mosaïque</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/artiste_peintre_krishinafu/index.html"><img src="https://p0.storage.canalblog.com/08/66/1062674/94710847_q.jpg" width="120" height="120" alt="Artiste peintre krishinafu" /></a><br /><a href="http://beautemondial.canalblog.com/albums/artiste_peintre_krishinafu/index.html" title="Artiste peintre krishinafu : 6 photos">Artiste peintre krishinafu</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/artistes_sur_poupees/index.html"><img src="https://p7.storage.canalblog.com/75/31/1062674/82122484_q.jpg" width="120" height="120" alt="Artistes sur poupées" /></a><br /><a href="http://beautemondial.canalblog.com/albums/artistes_sur_poupees/index.html" title="Artistes sur poupées : 5 photos">Artistes sur poupées</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/bouteilles_peintes_a_la_main/index.html"><img src="https://p8.storage.canalblog.com/82/10/1062674/82377239_q.jpg" width="120" height="120" alt="Bouteilles peintes à la main" /></a><br /><a href="http://beautemondial.canalblog.com/albums/bouteilles_peintes_a_la_main/index.html" title="Bouteilles peintes à la main : 12 photos">Bouteilles peintes à la main</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/brice_cameron_liston/index.html"><img src="https://p7.storage.canalblog.com/75/84/1062674/81776601_q.png" width="120" height="120" alt="Brice Cameron Liston" /></a><br /><a href="http://beautemondial.canalblog.com/albums/brice_cameron_liston/index.html" title="Brice Cameron Liston : 3 photos">Brice Cameron Liston</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/calendriers_d_antan/index.html"><img src="https://p9.storage.canalblog.com/90/31/1062674/90753830_q.jpg" width="120" height="120" alt="Calendriers d'Antan" /></a><br /><a href="http://beautemondial.canalblog.com/albums/calendriers_d_antan/index.html" title="Calendriers d'Antan : 12 photos">Calendriers d'Antan</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/camille_allen/index.html"><img src="https://p4.storage.canalblog.com/46/46/1062674/82335434_q.jpg" width="120" height="120" alt="Camille Allen" /></a><br /><a href="http://beautemondial.canalblog.com/albums/camille_allen/index.html" title="Camille Allen : 5 photos">Camille Allen</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/carlos_alberto/index.html"><img src="https://p4.storage.canalblog.com/49/75/1062674/81508162_q.jpg" width="120" height="120" alt="Carlos Alberto" /></a><br /><a href="http://beautemondial.canalblog.com/albums/carlos_alberto/index.html" title="Carlos Alberto : 8 photos">Carlos Alberto</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/carol_carvalaris/index.html"><img src="https://p5.storage.canalblog.com/58/48/1062674/82538835_q.jpg" width="120" height="120" alt="Carol-Carvalaris" /></a><br /><a href="http://beautemondial.canalblog.com/albums/carol_carvalaris/index.html" title="Carol-Carvalaris : 7 photos">Carol-Carvalaris</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/chateau_de_chenonceau/index.html"><img src="https://p1.storage.canalblog.com/15/85/1062674/82300098_q.jpg" width="120" height="120" alt="Château de Chenonceau" /></a><br /><a href="http://beautemondial.canalblog.com/albums/chateau_de_chenonceau/index.html" title="Château de Chenonceau : 6 photos">Château de Chenonceau</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/createurs_de_poupees_de_porcelaine/index.html"><img src="https://p5.storage.canalblog.com/59/02/1062674/81483387_q.jpg" width="120" height="120" alt="Créateurs de poupées de porcelaine" /></a><br /><a href="http://beautemondial.canalblog.com/albums/createurs_de_poupees_de_porcelaine/index.html" title="Créateurs de poupées de porcelaine : 6 photos">Créateurs de poupées de porcelaine</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/elena_tener/index.html"><img src="https://p6.storage.canalblog.com/61/23/1062674/82450519_q.jpg" width="120" height="120" alt="Elena-tener" /></a><br /><a href="http://beautemondial.canalblog.com/albums/elena_tener/index.html" title="Elena-tener : 9 photos">Elena-tener</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/eugene_delacroix/index.html"><img src="https://p5.storage.canalblog.com/51/30/1062674/81440341_q.jpg" width="120" height="120" alt="Eugène Delacroix" /></a><br /><a href="http://beautemondial.canalblog.com/albums/eugene_delacroix/index.html" title="Eugène Delacroix : 5 photos">Eugène Delacroix</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/fragonard/index.html"><img src="https://p3.storage.canalblog.com/34/98/1062674/81239295_q.jpg" width="120" height="120" alt="Fragonard" /></a><br /><a href="http://beautemondial.canalblog.com/albums/fragonard/index.html" title="Fragonard : 2 photos">Fragonard</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/francisco_jose_de_goya/index.html"><img src="https://p7.storage.canalblog.com/75/00/1062674/82379358_q.jpg" width="120" height="120" alt="Francisco José de Goya" /></a><br /><a href="http://beautemondial.canalblog.com/albums/francisco_jose_de_goya/index.html" title="Francisco José de Goya : 5 photos">Francisco José de Goya</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/francois_boucher/index.html"><img src="https://p8.storage.canalblog.com/84/31/1062674/81535348_q.jpg" width="120" height="120" alt="François Boucher" /></a><br /><a href="http://beautemondial.canalblog.com/albums/francois_boucher/index.html" title="François Boucher : 4 photos">François Boucher</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/gilbert_legrand/index.html"><img src="https://p3.storage.canalblog.com/33/51/1062674/84841064_q.jpg" width="120" height="120" alt="Gilbert LEGRAND" /></a><br /><a href="http://beautemondial.canalblog.com/albums/gilbert_legrand/index.html" title="Gilbert LEGRAND : 11 photos">Gilbert LEGRAND</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/harpenko_yuri_ivanvich/index.html"><img src="https://p7.storage.canalblog.com/72/34/1062674/82514170_q.jpg" width="120" height="120" alt="harpenko-yuri-ivanvich" /></a><br /><a href="http://beautemondial.canalblog.com/albums/harpenko_yuri_ivanvich/index.html" title="harpenko-yuri-ivanvich : 16 photos">harpenko-yuri-ivanvich</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/honore_daumier/index.html"><img src="https://p4.storage.canalblog.com/42/42/1062674/81709444_q.jpg" width="120" height="120" alt="Honoré Daumier" /></a><br /><a href="http://beautemondial.canalblog.com/albums/honore_daumier/index.html" title="Honoré Daumier : 5 photos">Honoré Daumier</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/howard_fogg_lockhar/index.html"><img src="https://p1.storage.canalblog.com/20/88/1062674/83556537_q.jpg" width="120" height="120" alt="Howard Fogg Lockhar" /></a><br /><a href="http://beautemondial.canalblog.com/albums/howard_fogg_lockhar/index.html" title="Howard Fogg Lockhar : 11 photos">Howard Fogg Lockhar</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/igor_zenin/index.html"><img src="https://p1.storage.canalblog.com/17/33/1062674/81709387_q.jpg" width="120" height="120" alt="Igor Zenin" /></a><br /><a href="http://beautemondial.canalblog.com/albums/igor_zenin/index.html" title="Igor Zenin : 5 photos">Igor Zenin</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/ivan__aivazovsky/index.html"><img src="https://p8.storage.canalblog.com/87/86/1062674/82300238_q.jpg" width="120" height="120" alt="Ivan Aïvazovsky" /></a><br /><a href="http://beautemondial.canalblog.com/albums/ivan__aivazovsky/index.html" title="Ivan Aïvazovsky : 5 photos">Ivan Aïvazovsky</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jacques_emile_blanche/index.html"><img src="https://p1.storage.canalblog.com/27/16/1062674/81963848_q.jpg" width="120" height="120" alt="Jacques-Emile Blanche" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jacques_emile_blanche/index.html" title="Jacques-Emile Blanche : 5 photos">Jacques-Emile Blanche</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jean_antoine_wateau/index.html"><img src="https://p7.storage.canalblog.com/72/22/1062674/81889946_q.jpg" width="120" height="120" alt="Jean Antoine Wateau" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jean_antoine_wateau/index.html" title="Jean Antoine Wateau : 5 photos">Jean Antoine Wateau</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jean_beraud/index.html"><img src="https://p7.storage.canalblog.com/74/85/1062674/81209065_q.jpg" width="120" height="120" alt="Jean Beraud" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jean_beraud/index.html" title="Jean Beraud : 2 photos">Jean Beraud</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jean_baptiste_valadie/index.html"><img src="https://p9.storage.canalblog.com/97/61/1062674/81544758_q.jpg" width="120" height="120" alt="Jean-Baptiste Valadié" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jean_baptiste_valadie/index.html" title="Jean-Baptiste Valadié : 6 photos">Jean-Baptiste Valadié</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jim_carson_studio/index.html"><img src="https://p1.storage.canalblog.com/29/94/1062674/84379703_q.jpg" width="120" height="120" alt="Jim Carson Studio" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jim_carson_studio/index.html" title="Jim Carson Studio : 9 photos">Jim Carson Studio</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jodi_harvey_brown__a/index.html"><img src="https://p3.storage.canalblog.com/36/08/1062674/110936793_q.jpg" width="120" height="120" alt="Jodi Harvey-Brown a" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jodi_harvey_brown__a/index.html" title="Jodi Harvey-Brown a : 13 photos">Jodi Harvey-Brown a</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/jody_bergsma/index.html"><img src="https://p3.storage.canalblog.com/38/29/1062674/83762643_q.jpg" width="120" height="120" alt="Jody Bergsma" /></a><br /><a href="http://beautemondial.canalblog.com/albums/jody_bergsma/index.html" title="Jody Bergsma : 12 photos">Jody Bergsma</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/joseph_furst/index.html"><img src="https://p1.storage.canalblog.com/16/77/1062674/82962579_q.jpg" width="120" height="120" alt="Joseph Fürst" /></a><br /><a href="http://beautemondial.canalblog.com/albums/joseph_furst/index.html" title="Joseph Fürst : 11 photos">Joseph Fürst</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/julien_dupre/index.html"><img src="https://p3.storage.canalblog.com/34/63/1062674/82150478_q.jpg" width="120" height="120" alt="Julien Dupré" /></a><br /><a href="http://beautemondial.canalblog.com/albums/julien_dupre/index.html" title="Julien Dupré : 5 photos">Julien Dupré</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/kate_church/index.html"><img src="https://p8.storage.canalblog.com/88/89/1062674/81678137_q.jpg" width="120" height="120" alt="Kate Church" /></a><br /><a href="http://beautemondial.canalblog.com/albums/kate_church/index.html" title="Kate Church : 5 photos">Kate Church</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/la_citee_interdite/index.html"><img src="https://p3.storage.canalblog.com/33/08/1062674/82326512_q.jpg" width="120" height="120" alt="La Citée Interdite" /></a><br /><a href="http://beautemondial.canalblog.com/albums/la_citee_interdite/index.html" title="La Citée Interdite : 5 photos">La Citée Interdite</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/l_art_de_la_calligraphie_chinoise/index.html"><img src="https://p3.storage.canalblog.com/33/94/1062674/85726289_q.jpg" width="120" height="120" alt="l'Art de la Calligraphie chinoise" /></a><br /><a href="http://beautemondial.canalblog.com/albums/l_art_de_la_calligraphie_chinoise/index.html" title="l'Art de la Calligraphie chinoise : 9 photos">l'Art de la Calligraphie chinoise</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/l_art_d_isabella/index.html"><img src="https://p9.storage.canalblog.com/99/02/1062674/81740796_q.jpg" width="120" height="120" alt="L'Art d'isabella" /></a><br /><a href="http://beautemondial.canalblog.com/albums/l_art_d_isabella/index.html" title="L'Art d'isabella : 4 photos">L'Art d'isabella</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/l_art_urbain/index.html"><img src="https://p1.storage.canalblog.com/11/45/1062674/90489683_q.jpg" width="120" height="120" alt="l'Art Urbain" /></a><br /><a href="http://beautemondial.canalblog.com/albums/l_art_urbain/index.html" title="l'Art Urbain : 15 photos">l'Art Urbain</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/le_louvre/index.html"><img src="https://p9.storage.canalblog.com/95/00/1062674/85782116_q.jpg" width="120" height="120" alt="Le Louvre" /></a><br /><a href="http://beautemondial.canalblog.com/albums/le_louvre/index.html" title="Le Louvre : 10 photos">Le Louvre</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/le_taj_mahal/index.html"><img src="https://p4.storage.canalblog.com/42/65/1062674/82062782_q.jpg" width="120" height="120" alt="Le Taj Mahal" /></a><br /><a href="http://beautemondial.canalblog.com/albums/le_taj_mahal/index.html" title="Le Taj Mahal : 4 photos">Le Taj Mahal</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/l_homme_a_la_craie/index.html"><img src="https://p5.storage.canalblog.com/58/91/1062674/81655051_q.jpg" width="120" height="120" alt="L'homme à la craie" /></a><br /><a href="http://beautemondial.canalblog.com/albums/l_homme_a_la_craie/index.html" title="L'homme à la craie : 5 photos">L'homme à la craie</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/masques_venitien/index.html"><img src="https://p4.storage.canalblog.com/48/57/1062674/82379557_q.jpg" width="120" height="120" alt="Masques Vénitien" /></a><br /><a href="http://beautemondial.canalblog.com/albums/masques_venitien/index.html" title="Masques Vénitien : 6 photos">Masques Vénitien</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/mehmet_ozgur/index.html"><img src="https://p5.storage.canalblog.com/54/81/1062674/81540700_q.jpg" width="120" height="120" alt="MEHMET OZGUR" /></a><br /><a href="http://beautemondial.canalblog.com/albums/mehmet_ozgur/index.html" title="MEHMET OZGUR : 5 photos">MEHMET OZGUR</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/metro_de_moscou/index.html"><img src="https://p6.storage.canalblog.com/64/63/1062674/81889985_q.jpg" width="120" height="120" alt="Métro de Moscou" /></a><br /><a href="http://beautemondial.canalblog.com/albums/metro_de_moscou/index.html" title="Métro de Moscou : 5 photos">Métro de Moscou</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/nicholls_calvin/index.html"><img src="https://p9.storage.canalblog.com/91/88/1062674/81561195_q.png" width="120" height="120" alt="Nicholls Calvin" /></a><br /><a href="http://beautemondial.canalblog.com/albums/nicholls_calvin/index.html" title="Nicholls Calvin : 6 photos">Nicholls Calvin</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/notre_dame_de_paris/index.html"><img src="https://p0.storage.canalblog.com/00/09/1062674/81747092_q.jpg" width="120" height="120" alt="Notre Dame de Paris" /></a><br /><a href="http://beautemondial.canalblog.com/albums/notre_dame_de_paris/index.html" title="Notre Dame de Paris : 4 photos">Notre Dame de Paris</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/octavio_otanpo/index.html"><img src="https://p1.storage.canalblog.com/27/66/1062674/81508318_q.jpg" width="120" height="120" alt="Octavio Otanpo" /></a><br /><a href="http://beautemondial.canalblog.com/albums/octavio_otanpo/index.html" title="Octavio Otanpo : 4 photos">Octavio Otanpo</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/opera_de_vienne/index.html"><img src="https://p5.storage.canalblog.com/58/28/1062674/81814971_q.jpg" width="120" height="120" alt="Opéra de Vienne" /></a><br /><a href="http://beautemondial.canalblog.com/albums/opera_de_vienne/index.html" title="Opéra de Vienne : 5 photos">Opéra de Vienne</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintres_linda_picken/index.html"><img src="https://p3.storage.canalblog.com/36/39/1062674/89102162_q.jpg" width="120" height="120" alt="Peintres Linda Picken" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintres_linda_picken/index.html" title="Peintres Linda Picken : 10 photos">Peintres Linda Picken</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures__espagnole/index.html"><img src="https://p9.storage.canalblog.com/93/38/1062674/82120745_q.jpg" width="120" height="120" alt="Peintures Espagnole" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures__espagnole/index.html" title="Peintures Espagnole : 4 photos">Peintures Espagnole</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_de_cristaux_de_swarovski/index.html"><img src="https://p1.storage.canalblog.com/26/48/1062674/86225902_q.jpg" width="120" height="120" alt="Peintures de cristaux de swarovski" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_de_cristaux_de_swarovski/index.html" title="Peintures de cristaux de swarovski : 21 photos">Peintures de cristaux de swarovski</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_de_sirene/index.html"><img src="https://p6.storage.canalblog.com/64/74/1062674/82566455_q.jpg" width="120" height="120" alt="Peintures de Sirène" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_de_sirene/index.html" title="Peintures de Sirène : 10 photos">Peintures de Sirène</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_indiennes/index.html"><img src="https://p1.storage.canalblog.com/10/71/1062674/81209101_q.jpg" width="120" height="120" alt="Peintures indiennes" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_indiennes/index.html" title="Peintures indiennes : 5 photos">Peintures indiennes</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_sur_soie/index.html"><img src="https://p8.storage.canalblog.com/81/15/1062674/81440295_q.jpg" width="120" height="120" alt="Peintures sur soie" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_sur_soie/index.html" title="Peintures sur soie : 7 photos">Peintures sur soie</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_surrealiste/index.html"><img src="https://p5.storage.canalblog.com/53/84/1062674/84741495_q.jpg" width="120" height="120" alt="Peintures surréaliste" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_surrealiste/index.html" title="Peintures surréaliste : 11 photos">Peintures surréaliste</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_zhao_guojing/index.html"><img src="https://p1.storage.canalblog.com/22/30/1062674/83276610_q.jpg" width="120" height="120" alt="Peintures Zhao Guojing" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_zhao_guojing/index.html" title="Peintures Zhao Guojing : 11 photos">Peintures Zhao Guojing</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/peintures_walter_martin_baumhofer/index.html"><img src="https://p5.storage.canalblog.com/54/15/1062674/86377147_q.jpg" width="120" height="120" alt="peintures-walter-martin-baumhofer" /></a><br /><a href="http://beautemondial.canalblog.com/albums/peintures_walter_martin_baumhofer/index.html" title="peintures-walter-martin-baumhofer : 11 photos">peintures-walter-martin-baumhofer</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/penil_art/index.html"><img src="https://p9.storage.canalblog.com/92/15/1062674/89101800_q.jpg" width="120" height="120" alt="Penil Art" /></a><br /><a href="http://beautemondial.canalblog.com/albums/penil_art/index.html" title="Penil Art : 10 photos">Penil Art</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/pierres_et_papillons/index.html"><img src="https://p9.storage.canalblog.com/92/39/1062674/81560280_q.jpg" width="120" height="120" alt="Pierres et Papillons" /></a><br /><a href="http://beautemondial.canalblog.com/albums/pierres_et_papillons/index.html" title="Pierres et Papillons : 5 photos">Pierres et Papillons</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/poen_de_wijs__peintre__/index.html"><img src="https://p3.storage.canalblog.com/34/27/1062674/90949652_q.jpg" width="120" height="120" alt="Poen de Wijs (peintre) " /></a><br /><a href="http://beautemondial.canalblog.com/albums/poen_de_wijs__peintre__/index.html" title="Poen de Wijs (peintre) : 20 photos">Poen de Wijs (peintre) </a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/realisation_en_cuivre/index.html"><img src="https://p1.storage.canalblog.com/11/37/1062674/82455844_q.jpg" width="120" height="120" alt="Réalisation en cuivre" /></a><br /><a href="http://beautemondial.canalblog.com/albums/realisation_en_cuivre/index.html" title="Réalisation en cuivre : 8 photos">Réalisation en cuivre</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/renoir/index.html"><img src="https://p6.storage.canalblog.com/65/97/1062674/81208831_q.jpg" width="120" height="120" alt="Renoir" /></a><br /><a href="http://beautemondial.canalblog.com/albums/renoir/index.html" title="Renoir : 2 photos">Renoir</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/sculpteurs_sur_sable/index.html"><img src="https://p6.storage.canalblog.com/65/34/1062674/82858775_q.jpg" width="120" height="120" alt="Sculpteurs sur sable" /></a><br /><a href="http://beautemondial.canalblog.com/albums/sculpteurs_sur_sable/index.html" title="Sculpteurs sur sable : 11 photos">Sculpteurs sur sable</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/scuptures_vegetal/index.html"><img src="https://p9.storage.canalblog.com/96/31/1062674/82734575_q.jpg" width="120" height="120" alt="Scuptures végétal" /></a><br /><a href="http://beautemondial.canalblog.com/albums/scuptures_vegetal/index.html" title="Scuptures végétal : 7 photos">Scuptures végétal</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/shahin/index.html"><img src="https://p5.storage.canalblog.com/55/05/1062674/81208909_q.jpg" width="120" height="120" alt="Shahin" /></a><br /><a href="http://beautemondial.canalblog.com/albums/shahin/index.html" title="Shahin : 2 photos">Shahin</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/vladimir_aniskin/index.html"><img src="https://p0.storage.canalblog.com/05/74/1062674/82913400_q.jpg" width="120" height="120" alt="Vladimir Aniskin" /></a><br /><a href="http://beautemondial.canalblog.com/albums/vladimir_aniskin/index.html" title="Vladimir Aniskin : 6 photos">Vladimir Aniskin</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/vladimir_kush/index.html"><img src="https://p1.storage.canalblog.com/21/26/1062674/81208994_q.jpg" width="120" height="120" alt="VLADIMIR kUSH" /></a><br /><a href="http://beautemondial.canalblog.com/albums/vladimir_kush/index.html" title="VLADIMIR kUSH : 2 photos">VLADIMIR kUSH</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/vladimir_volegov/index.html"><img src="https://p6.storage.canalblog.com/62/68/1062674/81654651_q.jpg" width="120" height="120" alt="Vladimir Volegov" /></a><br /><a href="http://beautemondial.canalblog.com/albums/vladimir_volegov/index.html" title="Vladimir Volegov : 5 photos">Vladimir Volegov</a></li>
+<li><a href="http://beautemondial.canalblog.com/albums/_______/index.html"><img src="https://p7.storage.canalblog.com/71/18/1062674/81300068_q.jpg" width="120" height="120" alt="黃太生葉雕藝術" /></a><br /><a href="http://beautemondial.canalblog.com/albums/_______/index.html" title="黃太生葉雕藝術 : 2 photos">黃太生葉雕藝術</a></li>
+</ul>
+</div></div><div class="clear">&nbsp;</div></div><script type="text/javascript">$(document).ready(function() {var color = new RGBColor($('body').css('background-color'));var rgb = color.toRGB();var re = /rgb\((\d+), (\d+), (\d+)\)/;rgb = re.exec(rgb);var r = parseInt(rgb[1], 10),g = parseInt(rgb[2], 10),b = parseInt(rgb[3], 10);var brightness = (r*299 + g*587 + b*114) / 1000;if (brightness > 125) {$('#cb_footer,#cb_footer a').css('color','#000000');} else {$('#cb_footer,#cb_footer a').css('color','#FFFFFF');}});</script><div id="cb_footer" style="font: 11px Arial;text-align:center;margin:5em 0em 1em 0em"><a style="color:black;text-decoration:underline;" href="https://www.canalblog.com">Blog hébergé par CanalBlog</a> | <a style="color:black;text-decoration:underline;" href="https://www.canalblog.com/cf/legalnotice.cfm" onclick="javascript:window.open(this.href);return false;">Mentions légales</a> | <a style="color:black;text-decoration:underline;" href="http://beautemondial.canalblog.com/archives/index.html" title="Plan du site L'Art à travers le Monde">Plan du site</a> | <a style="color:black;text-decoration:underline;" href="https://www.canalblog.com/directory/Arts plastiques et Artistes/">Blog Arts plastiques et Artistes</a> <a style="color:black;text-decoration:underline;" href='https://www.canalblog.com/birthday/Arts%20plastiques%20et%20Artistes/2012/47/'>créé le 14/11/2012</a> | <a style="color:black;text-decoration:underline;" href="https://www.canalblog.com/cf/contactAuthor.cfm?mid=873000&amp;bid=1062674" onclick="javascript:window.open(this.href);return false;" rel="nofollow">Contacter l'auteur</a> | <a style="color:black;text-decoration:underline;" href="javascript:Didomi.notice.show()">Préférences cookies</a> | <a style="color:black;text-decoration:underline;" href="https://www.canalblog.com/cf/terms.cfm" onclick="javascript:window.open(this.href);return false;">CGV</a> | <a style="color:black;text-decoration:underline;" href="https://www.canalblog.com/cf/contact.cfm?bid=1062674" onclick="javascript:window.open(this.href);return false;">Signaler un abus</a></div><script type="text/javascript">
+var xl8_script = document.createElement("script");
+xl8_script.src = "http://loadeu.exelator.com/load/?p=527&g=001&j=d&ctg=artsplastiquesetartistes";
+xl8_script.type = "text/javascript";
+xl8_script.async = true;
+document.body.appendChild(xl8_script);
+</script>
+<script type="text/javascript">
+window._taboola = window._taboola || [];
+_taboola.push({flush: true});
+</script>
+<div id="div-gpt-ad-35929">
+</div>
+<div id="div-gpt-ad-98982">
+</div>
+<div id="div-gpt-ad-68145">
+</div>
+<script type="text/javascript">
+twttr.ready(function (twttr) {
+twttr.events.bind('tweet', function(event) {
+if (event) {
+var targetUrl;
+if (event.target && event.target.nodeName == 'IFRAME') {
+targetUrl = extractParamFromUri(event.target.src, 'url');
+}
+_gaq.push(['_trackSocial', 'twitter', 'tweet', targetUrl]);
+$.get(CBVARS.URLROOT+'/cf/fe/remote/updatesharequeue.cfm?t=twitter&bid='+CBVARS.blog_id+'&u='+encodeURIComponent(targetUrl));
+}
+});
+});
+$(document).ready(function() {
+$.getScript('http://assets.pinterest.com/js/pinit.js', function() {
+// Nothing
+});
+});
+$(document).ready(function() {
+$.getScript('http:////platform.linkedin.com/in.js', function() {
+// Nothing
+});
+});
+$(document).ready(function() {
+$.getScript('https://d1xnn692s7u6t6.cloudfront.net/widget.js', function() {
+// Nothing
+});
+(function k(){window.$SendToKindle&&window.$SendToKindle.Widget?$SendToKindle.Widget.init({"content":".item_div","exclude":".relatedlinks,.itemfooter","title":".articletitle","author":".articlecreator","published":".articledate"}):setTimeout(k,500);})();
+});
+</script><script>
+(function(){
+var sendConsentOK = false;
+function sendConsent(hasDidomiConsent=false){
+if(hasDidomiConsent){
+dataLayer.push({'DidomiConsent': 'true','AllowAdPersonalizationSignals':'false'});
+}else{
+dataLayer.push({'DidomiConsent': 'false','AllowAdFeatures':'false'});
+}
+sendConsentOK = true
+}
+var sendConsentTimeoutID = setTimeout(function(){
+sendConsent()
+}, 1000);
+window.didomiOnReady = window.didomiOnReady || [];
+window.didomiOnReady.push(function (Didomi) {
+clearTimeout(sendConsentTimeoutID);
+function getDidomiConsent(didomiId){
+var consents = false;
+if (Didomi.isConsentRequired()) {
+consents = Didomi.getUserConsentStatusForVendor(didomiId);
+} else {
+consents = true;
+}
+return consents;
+}
+var hasGADidomiConsent = getDidomiConsent('google') && getDidomiConsent('c:googleana-XMqagawa');
+if(!sendConsentOK){
+sendConsent(hasGADidomiConsent);
+}
+});
+})();
+</script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm'+'.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WG3SK3P');
+</script>
+<!-- End Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'}
+);var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm'+'.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PXZQ89');
+</script>
+<!-- End Google Tag Manager -->
+<script type='text/javascript' src='/sharedDocs/js/ads.js'></script>
+<script type='text/javascript'>
+if(document.getElementById('OoqBWgJyUzcQ')){
+dataLayer.push({'event': 'sendGAAdblockerEvent','AdBlocker': 'noblock'});
+} else {
+dataLayer.push({'event': 'sendGAAdblockerEvent','AdBlocker': 'adblock'});
+}
+</script>
+</body>
+</html>

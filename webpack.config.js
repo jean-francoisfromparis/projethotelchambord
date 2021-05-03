@@ -100,6 +100,10 @@ module.exports = {
                     from: "./src/asset/images/spa/*",
                     to: 'asset/images/spa/[name][ext]',
                 },
+                {
+                    from: "./src/asset/images/presse/*",
+                    to: 'asset/images/presse/[name][ext]',
+                },
             ],
         }),
         new HtmlWebpackPlugin({

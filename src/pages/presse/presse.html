@@ -12,8 +12,114 @@
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <h1>TODO <%= htmlWebpackPlugin.options.title %></h1>
-</main>
+<section>
+  <img src="asset/images/presse/Article_1.JPG" class="d-block w-100" alt="...">
+                        <!-- carousel -->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" id="slide_1">
+          <img src="asset/images/presse/jardin_du_luxembourg.jpg" class="d-block w-100" alt="...">
+          <article id="article1">
+            <p id="date1"> 03 mai 2021</p>
+            <P id="CA">Chiffres d'affaires du T1 2021: 26 Millions d'Euros<br>+15% en données comparables</P>
+            <P id="texte2">* * * 
+              RevPAR EN BAISSE DE 6% PAR RAPPORT AU T1 2019
+              OUVERTURE DE 100 CHAMBRES EN CROISSANCE ORGANIQUE 
+              INDICATEURS DE SENSIBILITTÉ OPÉRATIONNELLE ET
+              DE CONSOMMATION DE LIQUIDITÉ LIMITÉ </P>
+          </article>
+        </div>
+        <div class="carousel-item" id="slide_1">
+          <article id="article2">
+            <p id="date1"> 05 mai 2021</p>
+            <P id="CA">Chiffres d'affaires Annuel 2019: 126 Millions d'Euros<br>+5% en données comparables</P>
+            <P id="texte2">* * * 
+              RevPAR EN BAISSE DE 6% PAR RAPPORT à l'année 2018
+              Consommation de liquidité réduite.</P>
+          </article>
+        </div>
+        <div class="carousel-item" id="slide_1">
+          <article id="article3">
+
+            <p id="date1"> 30 mai 2021</p>
+            <P id="CA">Organisation de l'annuelle Chasse au Trésor <Br>du Jardin du Luxembourg </P>
+            <P id="texte2">* * * 
+              En faveur de l'Association de Patronage qui milite pour la bonne cause en faveur
+              des enfants de l'école malade de l'hôpital.</P>
+          </article>
+        </div>
+      </div>
+    </div>
+<div class="text-center">
+  <img src=".\asset\images\logo.png" alt="logo" id="logo1">
+</div>
+<div class=" col-12 text-center" id="titre1">Nos Dernières Publications</div>
+</section>
+<section>
+  <div class=" col-12 text-center" id="texte3">Vous trouverez ici nos derniers communiqués de presse</div>
+<!-- Card des derniers articles de presses -->
+
+  <div class="row w-100 p-2" id="card_row">
+    <div class="col-sm-4">
+      <a href="#"><div class="card rounded" id="card1"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        <div class="card-body">         
+         <a ><img src=".\asset\images\logo.png" alt="logo" id="logo2"></a>
+          <article id="article4">
+          <p class="card-title" id="card_titre">Rapport Annuel 2019</p>
+          <p class="card-text" id="card_texte">Assemblé Générale Mixte des Actionnaires.</p>
+          </article>
+        </div>
+      </div></a>
+    </div>
+    <div class="col-sm-4">
+      <div class="card" id="card1">
+        <div class="card-body">
+          <article id="article4">
+            <p class="card-title" id="card_titre">Nomination</p>
+            <p class="card-text" id="card_texte">Assemblé Générale Mixte des Actionnaires.</p>
+            </article>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4" >
+      <div class="card" id="card1">
+        <div class="card-body">
+          <h5 class="card-title">Special title treatment</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- modal d'ouverture des articles  -->
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <p class="modal-title" id="staticBackdropLabel">Rapport Annuel 2019</p><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <iframe src="https://www.qwant.com/" width="80%" height="500" frameborder="0"
+        allowfullscreen sandbox></iframe>
+      </div>
+      <div class="modal-footer noborder">
+        <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal">Fermer</button>
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+    </main>
 <!--footer-->
 <footer></footer>
 </body>
