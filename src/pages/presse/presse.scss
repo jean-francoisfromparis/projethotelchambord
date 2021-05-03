@@ -2,9 +2,14 @@
     background-color: darkblue;    
     height: 80vh;
 }
+#slide_2{
+    // background-color: darkblue;    
+    height: 80vh;
+}
 #logo1{
     position:relative;
-    top: -45vh;
+    left: 45vw;
+    top: 43vh;
     width: 250px; 
     z-index: 30;
 }
@@ -19,6 +24,7 @@
     font-family: Arial, sans-serif;
     font-size: 1.4rem;
     color:white;
+    z-index: 10;
 }
 #CA{
     position:relative;
@@ -29,6 +35,7 @@
     overflow: visible;
     flex-wrap: nowrap;
     color:white;
+    z-index: 10;
 }
 #texte2{
     position:relative;
@@ -41,6 +48,7 @@
     overflow: visible;
     flex-wrap: nowrap;
     color:white; 
+    z-index: 10;
 }
 #titre1{
     position:absolute;
