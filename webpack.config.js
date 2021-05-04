@@ -347,9 +347,12 @@ module.exports = {
             chunks: ["panier", "footer", "navbarLeft", "navbarTop"],
         })
     ],
+    optimization: {
+        minimize: true,
+    },
     stats: "minimal",
     devtool: "inline-source-map",
-    mode: "development",
+    mode: "production",
     devServer: {
         open: false,
         contentBase: path.join(__dirname, 'dist'),
