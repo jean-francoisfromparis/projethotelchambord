@@ -69,7 +69,7 @@ module.exports = {
                 }],
             },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|pdf|mp4)$/i,
                 type: 'asset/resource',
             },
             {
@@ -105,6 +105,10 @@ module.exports = {
                 {
                     from: "./src/asset/images/spa/*",
                     to: 'asset/images/spa/[name][ext]',
+                },
+                {
+                    from: "./src/asset/images/presse/*",
+                    to: 'asset/images/presse/[name][ext]',
                 },
             ],
         }),

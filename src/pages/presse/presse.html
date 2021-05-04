@@ -17,8 +17,287 @@
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <h1>TODO <%= htmlWebpackPlugin.options.title %></h1>
-</main>
+<section id="section1">
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" id="slide_1" style="height: 80vh;">
+        <img  src=".\asset\images\logo.png" alt="logo" id="logo1">
+        
+        <div class="carousel-caption d-none d-sm-block w-100 text-start" >
+            <p id="caption_date"> 03 mai 2021</p>
+            <P id="caption_CA">Chiffres d'affaires du T1 2021: 26 Millions d'Euros<br>+15% en données comparables</P>
+            <P id="caption_texte">* * * 
+              RevPAR EN BAISSE DE 6% PAR RAPPORT AU T1 2019
+              OUVERTURE DE 100 CHAMBRES EN CROISSANCE ORGANIQUE 
+              INDICATEURS DE SENSIBILITTÉ OPÉRATIONNELLE ET
+              DE CONSOMMATION DE LIQUIDITÉ LIMITÉ </P>
+        </div>
+      </div>
+      <div class="carousel-item" id="slide_1" style="height: 80vh;">
+        <img  src=".\asset\images\logo.png" alt="logo" id="logo1">
+        
+        <div class="carousel-caption d-none d-md-block w-100 text-start">
+          <p id="caption_date"> 05 mai 2021</p>
+            <P id="caption_CA">Chiffres d'affaires Annuel 2019: 126 Millions d'Euros<br>+5% en données comparables</P>
+            <P id="caption_texte">* * * 
+              RevPAR EN BAISSE DE 6% PAR RAPPORT à l'année 2018
+              Consommation de liquidité réduite.</P>
+        </div>
+      </div>
+      <div class="carousel-item" style="height: 80vh;" id="slide_1">
+        <img id="image" src=".\asset\images\presse\jardin_du_luxembourg.jpg" alt="jardin du Luxembourg" >
+        <div class="carousel-caption d-none d-md-block w-100 text-start" >
+          <p id="caption_date">30 mai 2021</P>
+            <p id="caption_texte">* * * <br>Chasse au trésor organiser par l'Hôtel Chambord sous le haut patronage de son Madame La Duchesse de Chambord au profit des Enfants Malade.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class=" col-12 text-center" id="titre1">Nos Dernières Publications</div>
+  
+</section>
+<div class="container" id="section2">
+  <div class=" col-12 text-center" id="texte3">Vous trouverez ici nos derniers communiqués de presse</div>
+ 
+  <div class="container mt-5">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <!-- card 1-->
+        <div class="col">
+          <a href="#"><div class="card rounded" id="card1"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+            <div class="card-body text-center"> 
+              <img src=".\asset\images\logo.png" alt="logo" id="logo2">
+              <article id="article4">
+              <p class="card-title text-white" id="card_titre">Rapport Annuel 2019</p>
+              <p class="card-text text-white" id="card_texte">Assemblé Générale Mixte des Actionnaires.</p>
+              </article>
+            </div></a>
+          </div>
+        </div>
+                                           <!-- card 2-->
+        <div class="col">
+        <a href="#"></a><div class="card rounded" id="card1" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+          <div class="card-body text-center">
+            <img class="rounded" src=".\asset\images\presse\executif.jpg" alt="executif" id="image1">
+            <article id="article4">
+              <p class="card-title" id="card_titre">Nomination</p>
+              <p class="card-text" id="card_texte">Arrivé du Jean Durand au poste de Directeur Générale</p>
+              </article>
+          </div></a>
+        </div>
+      </div>
+    </div>
+ </div>
+</div>
+<div class="container" id="inter"></div>
+<div class="container" id="section3">
+<div class="container">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+                                     <!-- card 3-->
+      <div class="col mr-sm-2">
+        <a href="#"><div class="card rounded" id="card1" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+          <div class="card-body text-center">
+            <img src=".\asset\images\presse\piscine_hotel.jpg" class="rounded" alt="piscine" id="image2" width="90%">
+              <article id="article4">
+              <p class="card-title text-white" id="card_titre">Distinction</p>
+              <p class="card-text text-white" id="card_texte">Le Spa de l'Hôtel CHAMBORD Distingué parmis les plus beau spa du monde. </p>
+            </article>
+          </div></a>
+        </div>
+      </div>
+                                      <!-- card 4-->
+      <div class="col ml-sm-2">
+        <a href="#"><div class="card rounded" id="card1"  data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+          <div class="card-body text-center">         
+            <img src=".\asset\images\presse\femme-chef.jpg" alt="chel de cuisine" id="image3">
+              <article id="article4">
+              <p class="card-title text-white" id="card_titre">Interview</p>
+              <p class="card-text text-white" id="card_texte">Retrouvé ici l'interview de notre chef</p>
+            </article>
+          </div></a>
+        </div>
+      </div>
+  </div>
+</div>
+</div>
+<div class="container" id="inter"></div>
+<div class="container" id="section4">
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+                                         <!-- card 5-->
+    <div class="col">
+        <a href="#"></a><div class="card rounded" id="card1" data-bs-toggle="modal" data-bs-target="#staticBackdrop4">
+          <div class="card-body text-center">
+            <img class="rounded text-white" src=".\asset\images\presse\maître_patissier.jpg" alt="chef patissier" width="65%">
+            <article id="article4">
+              <p class="card-title text-white" id="card_titre">Ils ont parlé de nous !</p>
+              <p class="card-text" id="card_texte">L'émission de TV est venu déguster les créations de notre chef et notamment son dessert signature le flan à la vanille.</p>
+              </article>
+          </div>
+        </div></a>
+      </div>
+                 <!-- card 6-->
+      <div class="col">
+        <a href="#"></a><div class="card rounded" id="card1" data-bs-toggle="modal" data-bs-target="#staticBackdrop5">
+          <div class="card-body text-center">
+          <img src=".\asset\images\presse\la_semaine_de_la_mode_2019.jpg" class="rounded" alt="semain de la mode" id="image2" width="100%">
+            <article id="article4">
+            <p class="card-title" id="card_titre">La Mode</p>
+            <p class="card-text" id="card_texte">La jeune styliste Marie Eva a choisie l'hôtel CHAMBORD pour son défilé de la collection Printemps-Eté 2022. </p>
+          </article>
+          </div></a>
+        </div>
+    </div>
+   </div>
+  </div>      
+  
+<!-- modal d'ouverture des articles  -->
+<!-- modal 1 -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p class="fs-6" id="titre_modal">Rapport Annuel 2019</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed src=".\asset\images\presse\RAPPORT_ANNUEL2019.pdf" width="100%" height="600" frameborder="0"
+        allowfullscreen sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+                              <!-- modal 2 -->
+<div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p id="titre_modal">Nomination</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed src=".\asset\images\presse\nomination.pdf" width="100%" height="800" frameborder="0"
+        allowfullscreen sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+                                           <!-- modal 3 -->
+<div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p id="titre_modal">Distinction</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed src="http://www.luxe-magazine.com/fr/article/7995-4_salles_de_sport_select_a_paris.html" width="90%" height="700" frameborder="0"
+        allowfullscreen sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+                               <!-- modal 4 -->
+<div class="modal fade" id="staticBackdrop3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-fullscreen-lg-down modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p id="titre_modal">Interview</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed src="https://yam.paris/stephanie-le-quellec-2/" width="90%" height="700" frameborder="0"
+        allowfullscreen sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 5 -->
+<div class="modal fade" id="staticBackdrop4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p id="titre_modal">Dégustation Pâtissierie</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed type="video/webm"
+        src=".\asset\images\presse\Tres_Tres_Bon-Ils_ont_parle_de_nous.mp4"
+        width="640"   height="360" frameborder="0" autostart="0" showcontrols="1" sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- modal 6 -->
+<div class="modal fade" id="staticBackdrop5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-fullscreen-xl-down modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content" id="ma_modal">
+      <div class="modal-header">
+        <div class="modal-title text-start" id="staticBackdropLabel" id="titre_modal"><p id="titre_modal">La Mode à l'Hôtel CHAMBORD</p></div><img src=".\asset\images\logo.png" alt="logo" id="logo3">
+        <button type="button" class="btn-close btn-close-white fs-3" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        
+        <embed src="http://www.luxe-magazine.com/fr/article/9661-paris_fashion_week_focus_sur_les_pepites_du_catwalk.html" width="100%" height="700" frameborder="0"
+        allowfullscreen sandbox>
+      </div>
+      <div class="modal-footer">
+        <!-- <button type="button" class="btn btn-outline-light" data-bs-dismiss="modal" aria-label="Close">Fermer</button> -->
+        <!-- <button type="button" class="btn btn-outline-light">Understood</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="container" id="inter"></div>
+
+
+
+
+
+
+
+
+
+    </main>
 <!--footer-->
 <footer></footer>
 <!--CDN-->
