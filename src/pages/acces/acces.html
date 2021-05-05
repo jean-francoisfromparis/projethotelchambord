@@ -17,7 +17,18 @@
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <h1>TODO <%= htmlWebpackPlugin.options.title %></h1>
+    <div class="container text-center"><p id="titre">SE RENDRE à L'Hôtel<br id="break"> CHAMBORD</p></div>
+    <div class="container text-center"><p id="sous_titre"></p></div>
+    <div class="container text-center" id="conteneur_map">
+          <div class="conteneur">
+                <iframe id="gmap" src="https://www.google.com/maps/d/embed?mid=1ivi_eKAuGQDb-4LDbNtG8bJnoQ5MnvGk" 
+                width="640" height="480"></iframe>
+            </div>
+      </div>
+      <i id="icon" class="fas fa-layer-group"></i><p id="clicker">Ouvrir</p>
+<div id="container_adresse1" class="container text-center"><p id="adresse1">1 ~ Avenue Montaigne ~ 75008 ~ PARIS</p></div>
+<div id="container_adresse2" class="container text-center"><p id="adresse2">+33 1 555 555 555</p></div>
+
 </main>
 <!--footer-->
 <footer></footer>
