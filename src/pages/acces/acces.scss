@@ -1,0 +1,165 @@
+@media screen and (max-width: 768px) {    
+#titre{
+position:relative;
+top:10vh;
+font-family: 'ARBONNIE-webfont';
+font-size: 2rem;
+}
+#conteneur_map{
+position:relative;
+top: 13vh;
+}
+.conteneur{
+position: absolute;
+top:0;   
+left:0;
+width: 100%;
+height: 40vh;
+}
+#gmap{
+position: relative;
+width: 80%;
+height:40vh;
+}
+#icon{
+position:relative;
+top: 54vh;
+left: 8vw;
+}
+#clicker{
+position:relative;
+top: 51vh;
+left: 13vw;
+font-family: Arial, sans-serif;
+font-size: 1rem;
+}
+#container_adresse1{
+position:relative;
+top: 54vh;
+width: 83%;
+font-family: Arial, sans-serif;
+font-size: 1rem;
+border-bottom: black 1px solid;
+}
+#container_adresse2{
+position:relative;
+top: 54vh;
+font-family: Arial, sans-serif;
+width: 50%;
+font-size: 1rem;
+}
+}
+@media screen and (min-width: 768px) {
+#titre{
+position:relative;
+top:20vh;
+font-family: 'ARBONNIE-webfont';
+font-size: 3.3rem;
+}
+#break{
+display:none;
+}
+#conteneur_map{
+position:relative;
+top: 25vh;
+}
+.conteneur{
+position: absolute;
+top:0;   
+left:0;
+width: 100%;
+height: 40vh;
+}
+#gmap{
+position: relative;
+width: 60%;
+height:40vh;
+}
+#icon{
+position:relative;
+top: 66vh;
+left: 22vw;
+font-size: 1.5rem;
+}
+#clicker{
+position:relative;
+top: 64vh;
+left: 26vw;
+font-family: Arial, sans-serif;
+font-size: 1.4rem;
+}
+#container_adresse1{
+position:relative;
+top: 68vh;
+width: 63%;
+font-family: Arial, sans-serif;
+font-size: 1.4rem;
+border-bottom: black 1px solid;
+}
+#container_adresse2{
+position:relative;
+top: 70vh;
+font-family: Arial, sans-serif;
+width: 50%;
+font-size: 1.4rem;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+#titre{
+    position:relative;
+    top:13vh;
+    font-family: 'ARBONNIE-webfont';
+    font-size: 3.3rem;
+    }
+#break{
+    display:none;
+}
+#conteneur_map{
+    position:relative;
+    top: 11vh;
+    }
+.conteneur{
+    position: absolute;
+    top:0;   
+    left:0;
+    width: 100%;
+    height: 50vh;
+    }
+#gmap{
+    position: relative;
+    width: 640px;
+    height:460px;
+    }
+#icon{
+    position:relative;
+    top: 64vh;
+    left: 27vw;
+    font-size: 1.7rem;
+    z-index: 10;
+    }
+#clicker{
+    position:relative;
+    top: 60vh;
+    left: 30vw;
+    width: fit-content;
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    padding: 0;
+    }
+#container_adresse1{
+    position:relative;
+    top: 62vh;
+    width: 40%;
+    font-family: Arial, sans-serif;
+    font-size: 1.7rem;
+    border-bottom: black 1px solid;
+    }
+#container_adresse2{
+    position:relative;
+    top: 65vh;
+    font-family: Arial, sans-serif;
+    font-size: 1.5rem;
+    }
+}
