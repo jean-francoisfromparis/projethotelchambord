@@ -356,7 +356,7 @@ module.exports = {
     },
     stats: "minimal",
     devtool: "inline-source-map",
-    mode: "production",
+    mode: "development",
     devServer: {
         open: false,
         contentBase: path.join(__dirname, 'dist'),
