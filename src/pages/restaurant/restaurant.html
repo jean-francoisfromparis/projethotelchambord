@@ -11,13 +11,15 @@
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 <nav id="navbar-top"></nav>
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <section id="position-1" class="navbar-top">
+    <!--    carousel-->
+    <section id="position-1" class="carrousel-top">
         <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -81,35 +83,479 @@
             </button>
         </div>
     </section>
-    <section id="position-2" class="navbar-top">
-        section2
+
+    <div class="separator-page"></div>
+
+    <!--    Presentation-->
+    <section id="position-2" class="top-present-item pb-5 d-flex justify-content-center">
+        <div class="container m-2 mt-4 block">
+            <div class="row mx-0 justify-content-between w-100">
+                <div class="col-4 img-fluid img-restaurant"></div>
+                <article class="col-8 d-flex align-items-center flex-column block-info">
+                    <div class="row title-section">
+                        <h1>Le Restaurant</h1>
+                    </div>
+                    <div class="block-description mx-1 mt-4 w-100">
+                        <div class="mobile-descripton-accueil"><h3>- Chers hôtes</h3></div>
+                        <div class="row">
+                            <div class="mobile-descripton-accueil">
+                                <div>
+                                    <div class="ico p-0 mb-1">MIDI</div>
+                                    <div class="ico">SOIR</div>
+                                </div>
+                                <div>
+                                    <div class="ico-light-dark mb-1">11h30</div>
+                                    <div class="ico-light-dark">19h30</div>
+                                </div>
+
+                                <div>
+                                    <div class="ico-light-dark mb-1">14h30</div>
+                                    <div class="ico-light-dark">23h30</div>
+                                </div>
+                            </div>
+                            <div>
+                                <button class="open-modal" data-id="restaurant">voir la carte</button>
+                            </div>
+                            <p class="descripton-accueil pt-3"> Je suis heureux de pouvoir vous accueillir dans ce
+                                restaurant entièrement remodelé au cœur des Jardins de <strong>L'hôtel Chambord</strong>.
+                                Ce lieu magique, au centre de la Capitale où règnent calme, sérénité et fraîcheur, est
+                                pour moi idéal pour s’accorder une pause gourmande.
+                                On ne peut rester indifférent à ces majestueuses façades, témoins de tant d’évènements
+                                tragiques et dramatiques de l’histoire de France.</p>
+                        </div>
+                        <div class="text-desciption">
+                            <hr>
+                            <div class="d-flex justify-content-center">
+                                <span class="text-center">☙ Ainsi, l'art de la cuisine, tout éphémère qu'il soit, dépasse de loin le plaisir de manger.
+                                Les cinq sens se combinent pour apporter cette touche subtile que <strong>Chambord</strong> saura vous faire saisir.❧
+                                </span>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
-    <section id="position-3" class="navbar-top">
-        section3
+
+    <div class="separator-page"></div>
+
+    <section id="position-3" class="top-present-item pb-5 d-flex justify-content-center">
+        <div class="container mt-4 block">
+            <div class="row mx-0 justify-content-between w-100">
+                <div class="col-4 img-fluid img-degustation"></div>
+                <div class="col-8 d-flex align-items-center flex-column block-info">
+                    <div class="row title-section">
+                        <h1>Dégustation</h1>
+                    </div>
+                    <div class="block-description mx-1 mt-4 w-100">
+                        <div class="mobile-descripton-accueil"><h3>- Le Café</h3></div>
+                        <div class="row">
+                            <h5>Le plaisir</h5>
+                            <div class="mobile-descripton-accueil">
+                                <div class="ico">9h00</div>
+                                <div class="ico">19h00</div>
+                            </div>
+                            <div>
+                                <button class="open-modal" data-id="menuCafe">voir la carte</button>
+                            </div>
+                            <p class="descripton-accueil pt-3"> Ici, c'est le coin des gourmands où règnent le calme et la découverte des goûts,
+                                vos papilles seront en explosions avec les différentes saveurs du monde pour le café et le thé.
+                                Vous pouvez accompagner votre voyage tout le long de la journée avec quelques douceurs sucrées ou salées</p>
+                        </div>
+                        <hr>
+                        <div class="d-flex justify-content-center">
+                            <span class="text-center">☙ La vie est douce, salée, amère. Il n'a rien de plus intenses que le sentiment de la vie, entre amis, en famille ou solitaire ❧</span>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="position-4" class="navbar-top">
-        section4
+
+    <div class="separator-page"></div>
+
+    <section id="position-4" class="top-present-item pb-5 d-flex justify-content-center">
+        <div class="container mt-4 block justify-content-center">
+            <div class="row mx-0 justify-content-between w-100">
+                <div class="col-4 img-fluid img-brasserie"></div>
+                <div class="col-8 d-flex align-items-center flex-column block-info">
+                    <div class="row title-section">
+                        <h1>La Brasserie</h1>
+                    </div>
+                    <div class="block-description mx-1 mt-4 w-100">
+                        <div class="mobile-descripton-accueil"><h3>- La France</h3></div>
+                        <div class="row">
+                            <h4>Endroit typique</h4>
+                            <div class="mobile-descripton-accueil">
+                                <div class="ico">6h30</div>
+                                <div class="ico">2h00</div>
+                            </div>
+                            <div>
+                                <button class="open-modal" data-id="menuBrasserie">voir la carte</button>
+                            </div>
+                            <p class="descripton-accueil">Style chaleureux, ambiance vivante, les serveurs crient leur
+                                commande on entend le bruit des baristas et des couverts.
+                                Bienvenue dans un vrai bistrot parisien </p>
+                        </div>
+                        <div class="text-desciption">
+                            <hr>
+                            <div class="d-flex justify-content-center">
+                                <span>☙ Les lustres en cristal, les chaises et fauteuil en cuir antiques table en marbre et les horloges anciennes confèrent à notre
+                                magnifique chambre Vendôme de 40 m² un charme classique parisien. ❧</span>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+    <div class="separator-page"></div>
 </main>
 <!--footer-->
 <footer></footer>
+
+<!--nav-bar-bottom-->
 <nav id="nav-bottom">
     <div class="navbarBottom">
         <div class="btn-reserved">
             <h2 class="mx-2">Réservez</h2>
         </div>
         <div class="small-display">
-            <div class="m-1 ico"><a href="#position-2" class="ico"><h5>Brasserie</h5></a></div>
+            <div class="m-1 ico"><a href="#position-2" class="ico"><h5>Restaurant</h5></a></div>
             <div class="m-1 ico"><a href="#position-3" class="ico"><h5>Dégustation</h5></a></div>
-            <div class="m-1 ico"><a href="#position-4" class="ico"><h5>Restaurant</h5></a></div>
+            <div class="m-1 ico"><a href="#position-4" class="ico"><h5>Brasserie</h5></a></div>
         </div>
     </div>
 </nav>
 
+<section id="menu-restaurant" class="modal"  data-id="menu-restaurant">
+    <div class="display-menu-restaurant">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper ">
+            <div class="swiper-wrapper">
+<!--                Scroll 1-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="restaurant">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="laCarte">télécharger</button>
+                        <div class="title-menu">
+                            <h1>- La carte -</h1>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-2 px-5 block-menu">
+                                <h1>ENTREE</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Brocoli | Encornet | Gwell | Citron </p> <p class="d-flex flex-nowrap">38 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Maïs | Chou-fleur | Truffe Blanche </p> <p class="d-flex flex-nowrap">50 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Saint Jacques | Endive | Pomme Verte </p> <p class="d-flex flex-nowrap">42 €</p>
+                                </div>
+                                <h1>PLATS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Bar | Fenouil | Citron confit</p> <p class="d-flex flex-nowrap">69 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Sole | Butternut | Kaffir  </p> <p class="d-flex flex-nowrap">69 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Porcelet | Raisin | Grenailles </p> <p class="d-flex flex-nowrap">65 €</p>
+                                </div>
+                                <h1>DESSERTS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Café | Crème | Noisette </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Pomme | Yaourt | Hibiscus </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Citron | Coco | Meringue </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                Scroll 2-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="restaurant">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="menuEvasion">télécharger</button>
+                        <div class="title-menu mb-4">
+                            <h1>- Menu évasions -</h1>
+                            <h3>259 €</h3>
+                            <p>ACCORDS METS & VINS – 150 €</p>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center flex-column">
+                            <h1>Avant plat</h1>
+                            <p class="text-menu">Foies gras des trois empereurs</p>
+                            <h1>Entree</h1>
+                            <p class="text-menu">Caviars Ossetra TSAR Imperial Petrossian</p>
+                            <h1>Mise en bouche</h1>
+                            <p class="text-menu">La socle Cardinal</p>
+                            <h1>Plat</h1>
+                            <p class="text-menu">Le Canneton Challandais a la royale</p>
+                            <h1>Dessert</h1>
+                            <p class="text-menu">Baba Champagne Tour d'argent</p>
+                        </div>
+                    </div>
+                </div>
+                <!--                Scroll 3-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="restaurant">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="menuDegustation">télécharger</button>
+                        <div class="title-menu mb-4">
+                            <h1>- Menu DÉGUSTATION -</h1>
+                            <h3>167 €</h3>
+                            <p>ACCORDS METS & VINS – 100 €</p>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center flex-column">
+                            <h1>Avant plat</h1>
+                            <p class="text-menu">Brocoli | Encornet | Gwell | Citron</p>
+                            <h1>Entree</h1>
+                            <p class="text-menu">Saint Jacques | Maïs | Verveine citronnelle</p>
+                            <h1>Mise en bouche</h1>
+                            <p class="text-menu">Bar | Fenouil | Citron confi</p>
+                            <h1>Plat</h1>
+                            <p class="text-menu">Canard | Raisin | Grenailles</p>
+                            <h1>Dessert</h1>
+                            <p class="text-menu">Fraicheur | Agrumes</p>
+                            <p class="text-menu">Pomme | Yaourt | Hibiscus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+<section id="menu-cafe" class="modal"  data-id="menuCafe">
+    <div class="display-menu-restaurant">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper ">
+            <div class="swiper-wrapper">
+                <!--                Scroll 1-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuCafe">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="laBrochure">télécharger</button>
+                        <div class="title-menu">
+                            <h1>- La Brochure -</h1>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-2 px-5 block-menu">
+                                <h1>ENTREE</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Salade: Asiatique | Nepal | France </p> <p class="d-flex flex-nowrap">25 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Wrap: Mexicain | Truffe Blanche </p> <p class="d-flex flex-nowrap">35 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Tapas: Océans | Ibérique | Végan </p> <p class="d-flex flex-nowrap">29 €</p>
+                                </div>
+                                <h1>PLATS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Burger: French | Paris | Chambord</p> <p class="d-flex flex-nowrap">51 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Tocos: Piquos | Avocado | Frencès</p> <p class="d-flex flex-nowrap">45 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Végétal: Tifull | Orose | Mesalim</p> <p class="d-flex flex-nowrap">49 €</p>
+                                </div>
+                                <h1>DESSERTS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Gateaux: Cheesecake | Fondant </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Biscuit: Cookies | scone | Finister </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Déjeuner : Pancake | Viennoiseries </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                Scroll 2-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuCafe">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="menuEquitable">télécharger</button>
+                        <div class="title-menu mb-4">
+                            <h1>- Menu Equitable -</h1>
+                            <h3>60 €</h3>
+                            <p>ACCORDS METS & SODA – 20 €</p>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center flex-column">
+                            <h1>Avant plat</h1>
+                            <p class="text-menu">le tour du monde en 80 jours</p>
+                            <h1>Entree</h1>
+                            <p class="text-menu">Sous les arbres</p>
+                            <h1>Mise en bouche</h1>
+                            <p class="text-menu">Un sentiment floral</p>
+                            <h1>Plat</h1>
+                            <p class="text-menu">Les continents</p>
+                            <h1>Dessert</h1>
+                            <p class="text-menu">Voyages dans les airs</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+<section id="menu-brasserie" class="modal"  data-id="menu-brasserie">
+    <div class="display-menu-restaurant">
+        <!-- Swiper -->
+        <div class="swiper-container mySwiper ">
+            <div class="swiper-wrapper">
+                <!--                Scroll 1-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuBrasserie">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="leMenu">télécharger</button>
+                        <div class="title-menu">
+                            <h1>- Le Menu -</h1>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center">
+                            <div class="mt-2 px-5 block-menu">
+                                <h1>ENTREE</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Salade : Parisienne | Sud-Ouest </p> <p class="d-flex flex-nowrap">38 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Tapas: Pesca | Ibérique | Végan </p> <p class="d-flex flex-nowrap">42 €</p>
+                                </div>
+                                <h1>PLATS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Burger: Végétal | Paris | Chambord</p> <p class="d-flex flex-nowrap">35 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Viandes: Boeuf | agneau | Volaille  </p> <p class="d-flex flex-nowrap">45 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Végétal: Tifull | Orose | Mesa </p> <p class="d-flex flex-nowrap">38 €</p>
+                                </div>
+                                <h1>DESSERTS</h1>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Gateaux: Cheesecake | Basque  </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                                <div class="menu-modal">
+                                    <p class="text-menu">Biscuit: Cookies | scone </p> <p class="d-flex flex-nowrap">22 €</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--                Scroll 2-->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuBrasserie">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                        </div>
+                        <button class="mt-5 btn-print" data-id="menuParis">télécharger</button>
+                        <div class="title-menu mb-4">
+                            <h1>- Menu Paris -</h1>
+                            <h3>60 €</h3>
+                            <p>ACCORDS METS & VIN – 40 €</p>
+                        </div>
+                        <!--                    MENU-->
+                        <div class="d-flex justify-content-center flex-column">
+                            <h1>Avant plat</h1>
+                            <p class="text-menu">Balade Française</p>
+                            <h1>Entree</h1>
+                            <p class="text-menu">Le sud</p>
+                            <h1>Mise en bouche</h1>
+                            <p class="text-menu">Le terroir</p>
+                            <h1>Plat</h1>
+                            <p class="text-menu">Entre amis</p>
+                            <h1>Dessert</h1>
+                            <p class="text-menu">Café gourmand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
 <!--CDN-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 
 </html>

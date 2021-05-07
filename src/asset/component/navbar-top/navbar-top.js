@@ -32,9 +32,9 @@ navbarTop.innerHTML = `
     </div>
     <a href="#position-1">
         <div class="logo">
-        <img class="img-logo" src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
-        <h1 class="py-0 m-0 text-center title">CHAMBORD</h1>
-    </div>
+            <img class="img-logo" src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+            <h1 class="py-0 m-0 text-center title">CHAMBORD</h1>
+        </div>
     </a>
     <div class="d-flex menu-option">
         <div class="d-flex align-items-center"><a href="#"><span class="text-price">0</span><span class="fw-bold fs-6 text-price"></span><i class="fas fa-euro-sign mx-1"></i></a></div>

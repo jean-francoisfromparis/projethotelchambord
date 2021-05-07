@@ -28,6 +28,7 @@
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "node-sass": "^5.0.0",
+    "pdfmake": "^0.1.71",
     "postcss-cli": "^8.3.1",
     "regenerator-runtime": "^0.13.7",
     "toml": "^3.0.0",
