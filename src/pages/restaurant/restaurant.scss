@@ -1,0 +1,216 @@
+@import "../../asset/styles/media";
+@import "./src/asset/styles/variables";
+
+.img-restaurant {
+  height: 70vh;
+  background-image: url("../../asset/images/restaurant/restaurant-1.jpg");
+  background-size: cover;
+}
+
+.img-degustation {
+  height: 70vh;
+  background-image: url("../../asset/images/restaurant/restaurant-4.jpg");
+  background-size: cover;
+}
+
+.img-brasserie {
+  height: 70vh;
+  background-image: url("../../asset/images/restaurant/restaurant-5.jpg");
+  background-size: cover;
+}
+
+
+.block {
+  height: 80vh;
+}
+
+.title-section {
+  text-align: center;
+  width: 100%;
+  background-color: #606060;
+  color: white;
+  padding-top: 0.5rem;
+}
+
+.a-btn {
+  background-color: #333333;
+  padding: 1rem;
+  color: whitesmoke;
+
+  &:hover {
+    background-color: #666666;
+    transition-duration: 0.3s;
+    color: whitesmoke;
+  }
+}
+
+.block-info {
+  max-height: 70vh;
+}
+
+.mobile-descripton-accueil {
+  display: flex;
+
+  .ico {
+    margin: 0 0.1rem 0.8rem 0;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
+    background-color: #d7b076;
+    color: white;
+    border-radius: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .ico-light-dark {
+    margin: 0 0.1rem 0.8rem 0;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
+    background-color: #c6c6c6;
+    color: white;
+    border-radius: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+
+.descripton-accueil {
+  display: none;
+  font-style: italic;
+  @include breakpoint(tablette) {
+    display: block;
+  }
+}
+
+/**
+  swiper carousel
+ */
+.swiper-container {
+  //max-width: 100%;
+  //max-height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: block;
+}
+
+.swiper-button-next {
+  color: white;
+  padding-right: 1.8rem;
+  @include breakpoint(smartphone) {
+    padding-right: 0;
+  }
+}
+
+.swiper-button-prev {
+  color: white;
+}
+
+
+/**
+  MENU
+ */
+.open-modal {
+  background-color: #333333;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 5px;
+}
+
+.close-modal {
+  border: 3px solid whitesmoke;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  margin-right: 2rem;
+  &:hover {
+    background-color: whitesmoke;
+    color: $gold;
+    transition-duration: 0.3s;
+    border: 3px solid $gold;
+  }
+  @include breakpoint(smartphone) {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid whitesmoke;
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: -100vw;
+  z-index: 3;
+  color: white;
+  background-color: rgba(3, 3, 3, 0.87) !important;
+  display: block;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  transition-duration: 0.5s;
+}
+
+.logo-menu {
+  height: 5vh;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  img {
+    max-width: 80%;
+  }
+}
+
+.text-menu {
+  @include breakpoint(smartphone) {
+    font-size: 0.8rem;
+  }
+}
+
+.scroll-modal {
+  padding: 1rem !important;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.btn-print {
+  border: none;
+  padding: 0.5rem 2rem;
+  margin: 1rem 0;
+  outline: none;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: $gold;
+    color: white;
+  }
+  @include breakpoint(smartphone) {
+    font-size: 0.8rem;
+  }
+}
+
+.menu-modal {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-menu {
+  h1 {
+    font-size: 3rem !important;
+  }
+}
+
+.block-menu {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+}
+

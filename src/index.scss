@@ -1,6 +1,7 @@
 @import "asset/styles/media";
 
 .block {
+  height: 80vh;
   min-height: 100%;
   justify-content: center;
 }
@@ -24,10 +25,6 @@
   background-size: cover;
 }
 
-.block{
-  height: 80vh;
-}
-
 .title-section {
   text-align: center;
   width: 100%;
@@ -49,6 +46,7 @@
 
 .block-info {
   max-height: 70vh;
+  padding-right: 0;
 }
 
 .mobile-descripton-accueil {

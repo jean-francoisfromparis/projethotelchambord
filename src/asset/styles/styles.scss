@@ -7,16 +7,19 @@
 @import "base";
 @import "variables";
 
-.navbar-top {
-  padding-top: 10vh;
+.carrousel-top {
+  height: 100vh;
+}
+
+.top-present-item {
+  padding-top: 80px;
   height: 100vh;
 }
 
 .top-of-page {
-  padding-top: 10vh;
+  padding-top: 80px;
 }
 
 .separator-page {
-  height: 10vh;
-  background-color: #333333;
+  height: 20vh;
 }
