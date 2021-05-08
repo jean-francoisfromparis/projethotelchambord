@@ -7,9 +7,9 @@ var loginForm = document.forms.formulaire;
 var alert = document.querySelector(".alerte");
 
 document.querySelector("#valid").addEventListener("click", ()=> {
-    if(loginForm.elements.nom.value == "" || loginForm.elements.email.value == "" || loginForm.elements.prenom.value == ""  
-    || loginForm.elements.societe.value == "" || loginForm.elements.pays.value == "" || loginForm.elements.sujet.value == "" ||
-    loginForm.elements.categorie.value == "" || loginForm.elements.message.value == "") {
+    if(loginForm.elements.nom.value === "" || loginForm.elements.email.value === "" || loginForm.elements.prenom.value === ""
+    || loginForm.elements.societe.value === "" || loginForm.elements.pays.value === "" || loginForm.elements.sujet.value === "" ||
+    loginForm.elements.categorie.value === "" || loginForm.elements.message.value === "") {
         alert.textContent = "les champs sont requis"
     } else {
         const REGEX = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9-]{2,}[.][a-zA-Z]{2,3}$/;

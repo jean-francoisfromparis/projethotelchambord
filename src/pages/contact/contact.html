@@ -17,81 +17,85 @@
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <div class="container text-center g-0" ><p id="titre">CONTACT</p></div>
-    <div class="container text-center"><p id="adresse"> 1 Avenue Montaigne ~ 75008 ~ PARIS </p></div>
-    <div class="container text-center"><p class="alerte" id="info">info!</p></div>
-    <form name="formulaire" action="" method="get" class="mt-4 mt-sm-5" novalidate> 
-    <div class="container text-center mt-4 mt-sm-5">
-        <div class="row"> 
-            <div class="col-md-6">
-                <div class="input-group mb-3 ">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Nom &nbsp&nbsp&nbsp</span>
-                    <input type="text" name="nom" class="form-control" placeholder="Votre nom" aria-label="nom" aria-describedby="basic-addon1" maxlength="20" required>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Prénom</span>
-                    <input type="text" name="prenom" class="form-control" placeholder="Prénom" aria-label="prenom" aria-describedby="basic-addon1" maxlength="20" required>
-                </div>
-            </div>
-        </div>  
-        <div class="row">
-            <div class="col-md-6">
-                <div class="input-group mb-3 ">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Société</span>
-                    <input type="text" name="societe" class="form-control" placeholder="société" aria-label="company" aria-describedby="basic-addon1" maxlength="20" required>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">email</span>
-                    <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
-                    
-                </div>
-            </div>
+    <section class="top-present-item">
+        <div class="container text-center mt-5" ><h1>CONTACT</h1></div>
+        <div class="container text-center"><p id="adresse"> 1 Avenue Montaigne ~ 75008 ~ PARIS </p></div>
+        <div class="d-flex justify-content-center w-100">
+            <div class="container text-center"><p class="alerte" id="info">Remplissez le formulaire</p></div>
         </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Pays</span>
-                    <input type="text" name="pays" class="form-control" placeholder="pays" aria-label="pays" aria-describedby="basic-addon1" maxlength="20" required>
+        <form name="formulaire" action="" method="get" class="mt-4 mt-sm-5" novalidate>
+            <div class="container text-center mt-4 mt-sm-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Nom</span>
+                            <input type="text" name="nom" class="form-control" placeholder="Votre nom" aria-label="nom" aria-describedby="basic-addon1" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3 d-flex">
+                            <span class="input-group-text" >Prénom</span>
+                            <input type="text" name="prenom" class="form-control" placeholder="Prénom" aria-label="prenom" aria-describedby="basic-addon1" maxlength="20" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3 ">
+                            <span class="input-group-text" >Société</span>
+                            <input type="text" name="societe" class="form-control flex-grow-1" placeholder="société" aria-label="company" aria-describedby="basic-addon1" maxlength="20" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" >email</span>
+                            <input type="email" name="email" class="form-control flex-grow-1" id="exampleFormControlInput1" placeholder="name@example.com" required>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" >Pays</span>
+                            <input type="text" name="pays" class="form-control" placeholder="pays" aria-label="pays" aria-describedby="basic-addon1" maxlength="20" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text">Sujet</span>
+                            <input type="text" name="sujet" class="form-control" placeholder="Sujet" aria-label="sujet" aria-describedby="basic-addon1" maxlength="20" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <select name="categorie" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                            <option selected>Choissisez la catégorie</option>
+                            <option value="1">Chambre</option>
+                            <option value="2">Restauration</option>
+                            <option value="3">Spa</option>
+                            <option value="4">Ordre Générale</option>
+                        </select>
+                    </div>
+                    <div class="col-md-6"></div>
+                </div>
+                <div class="mt-4">
+                    <textarea name="message" class="form-control" id="formControlTextarea" placeholder="Votre message ..." rows="5" maxlength="150" required></textarea>
+                </div >
+                <div class="row justify-content-between">
+                    <div class="row justify-content-end">
+                        <div class=" col-6 mt-3">
+                            <button id="reset" class="btn btn-dark" type="reset">réinitialisez</button>
+                        </div>
+                        <div class=" col-6 mt-3">
+                            <button id="valid" class="btn btn-dark" type="button">Envoyez</button>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Sujet</span>
-                    <input type="text" name="sujet" class="form-control" placeholder="Sujet" aria-label="sujet" aria-describedby="basic-addon1" maxlength="20" required>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <select name="categorie" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
-                    <option selected>Choissisez la catégorie</option>
-                    <option value="1">Chambre</option>
-                    <option value="2">Restauration</option>
-                    <option value="3">Spa</option>
-                    <option value="4">Ordre Générale</option>
-                </select>
-            </div>
-            <div class="col-md-6"></div>
-        </div>
-        <div class="mt-4">            
-            <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message ..." rows="5" maxlength="150" required></textarea>
-        </div >
-        <div class="row justify-content-between">
-            <div class="row justify-content-end">
-                <div class=" col-6 mt-3">
-                <button id="valid" class="btn btn-outline-dark" type="button">Envoyez</button>
-                </div>
-                <div class=" col-6 mt-3">
-                <button id="reset" class="btn btn-outline-dark" type="reset">réinitialisez</button>
-            </div>
-            </div>
-    </div>
-    </div>
-</form>
+        </form>
+    </section>
 </main>
 <!--footer-->
 <footer></footer>

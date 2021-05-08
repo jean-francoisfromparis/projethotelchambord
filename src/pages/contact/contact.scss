@@ -1,45 +1,52 @@
-#titre{
-    position: relative;
-    top: 3rem;
-    font-family: 'arbonnie-webfont';
-    font-size: 5rem;
-}
-#adresse{
-    position: relative;
-    top: 1.5rem;
-    font-family: 'arial';
-    font-size: 1.8rem;
-}
 #info{
     margin-top: 3%;
-    font-family: 'arial';
+    font-family: 'arial', sans-serif;
     color: white;
-    width: 40rem;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.5);
 }
-@media screen and (max-width: 576px) {
-    #titre{
-        position: relative;
-        top: 1.4rem;
-        font-family: 'arbonnie-webfont';
-        font-size: 2rem;
+
+#formControlTextarea {
+    outline: none  !important;
+    flex-grow: 4;
+    &:focus {
+        box-shadow: none !important;
+        border: 1px solid #454545;
+        background-color: #eaeaea;
     }
-    #adresse{
-        position: relative;
-        top: 1.5rem;
-        font-family: 'arial';
-        font-size: 0.9rem;
-        
+}
+
+.input-group-tex {
+    width: 100px;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    .input-group-text{
+        background-color: #454545;
+        border: 1px solid #454545;
+        color: white;
+        width: 80px;
     }
-    #info{
-        position: relative;
-        top: 1rem;
-        width: 100%;
-        font-size: 1rem;
-        background-color: rgba(0, 0, 0, 0.5);
+    .form-control {
+        outline: none  !important;
+        flex-grow: 4;
+        &:focus {
+            box-shadow: none !important;
+            border: 1px solid #454545;
+            background-color: #eaeaea;
         }
     }
-    
+}
 
+.form-select {
+    outline: none  !important;
+    flex-grow: 4;
+    &:focus {
+        box-shadow: none !important;
+        border: 1px solid #454545;
+        background-color: #eaeaea;
+    }
+}
     

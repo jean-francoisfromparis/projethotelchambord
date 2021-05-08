@@ -1,248 +1,272 @@
-#slide_1{
-    background-color: black;  
-    width: 100%;
-}
-#logo1{
-    position:relative;
-    left: 41vw;
-    top: 43vh;
-    width: 250px; 
-    z-index: 30;
-}
-#caption_date{
-    position: relative;
-    left: -5rem;
-    margin-left: 2rem;
-    font-family: Arial, sans-serif;
-    font-size: 1.4rem;
-}
-#caption_CA{
-    position: relative;
-    left: -5rem;
-    font-family: Arial, sans-serif;
-    width: 40%;
-    font-size: 1.5rem;
-}
-#caption_texte{
-    position: relative;
-    left: -5rem;
-    font-family: Arial, sans-serif;
-    text-align: justify;
-    width: 56vh;
-    font-size: 1.4rem;
-}
-
-#texte3{
-    position:relative;
-    top:0.8rem;
-    font-family:Arial, sans-serif;
-    font-size: 1.5rem;
-}
-#card1 {
-    background-color: black; 
-    box-shadow: 10px 5px 5px rgba(169, 169, 169, 0.432);
-    color:white;
-    font-size: 3rem;
-    width: 35rem;
-    height: 40rem;
-}
-#logo2{
-    position:relative;
-    top: 35%;
-    width: 250p; 
-    z-index: 30;
-    animation-duration: 0.3s;
-}
-#card_titre{
-    font-family: Arial, sans-serif;
-    font-size: 1.4rem;
-}
-#card_texte{
-    font-family: Arial, sans-serif;
-    font-size: 1.2rem;
-}
-#article4{
-    position:absolute;
-    margin-left: 2rem;
-    text-align: start;
-    top: 75%;
-}
-#article5{
-    position:absolute;
-    margin-left: 2rem;
-    text-align: start;
-    top: 75%;
-}
-
-#ma_modal{
-    background-color: grey; 
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
-    color:white;
-    font-size: 3rem;
-}
-#titre_modal{
-    font-family: Arial, sans-serif;
-    font-size: 1.7rem;
-}
-#logo3{
-    position:relative;
-    margin-left: 8rem;
-}
-#image3{
-    width:18vw;
-    height: auto;
-}
-#section2 #section3 #section4{
-    width: 100%;
-    height: 90vh !important;    
-}
-#inter {
-    width: 100%;
-    height: 10vh !important;
-}
-
-.buttom-title {
+.bottom-title {
     background-color: rgba(207, 207, 207, 0.384);
-    position:absolute;
+    position: absolute;
     z-index: 5000;
-    bottom: 0px;
+    bottom: 0;
     padding: 1rem;
-    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.322);
+    box-shadow: 0 0 3px 2px rgba(41, 41, 41, 0.55);
 }
 
-@media screen and (max-width: 1280px) {
-    #card1 {
-        position: relative;
-        left: -1rem;
-        background-color: black; 
-        box-shadow: 8px 4px 4px rgba(169, 169, 169, 0.404);
-        color:white;
-        font-size: 2.5rem;
-        margin-right: 0.5rem;
-        width: 40vw;
-        height: 25rem;
-       
-    }
-    #section2 #section3 #section4{
-        width: 100%;
-        height: 90vh !important;
-    }
-    #inter {
-        width: 100%;
-        height: 10vh !important;
-    }
-    #logo2{
-        width:20vw;
-        height: auto;
-        position: relative;
-        margin-left: 0px;
-    }
-    #logo3{
-        width:20vw;
-        height: auto;
-    }
-  }
+.article {
+    box-shadow: 3px 3px 5px 2px rgba(128, 128, 128, 0.55);
+}
 
+.img-press {
+    min-width: 300px;
+}
 
+//.slide_1 {
+//    background-color: black;
+//    width: 100%;
+//}
+//
+//.logo1 {
+//    position: relative;
+//    left: 41vw;
+//    top: 43vh;
+//    width: 250px;
+//    z-index: 30;
+//}
+//
+//.caption_date {
+//    position: relative;
+//    left: -5rem;
+//    margin-left: 2rem;
+//    font-family: Arial, sans-serif;
+//    font-size: 1.4rem;
+//}
+//
+//.caption_CA {
+//    position: relative;
+//    left: -5rem;
+//    font-family: Arial, sans-serif;
+//    width: 40%;
+//    font-size: 1.5rem;
+//}
+//
+//.caption_texte {
+//    position: relative;
+//    left: -5rem;
+//    font-family: Arial, sans-serif;
+//    text-align: justify;
+//    width: 56vh;
+//    font-size: 1.4rem;
+//}
+//
+//.texte3 {
+//    position: relative;
+//    top: 0.8rem;
+//    font-family: Arial, sans-serif;
+//    font-size: 1.5rem;
+//}
+//
+//.card1 {
+//    background-color: black;
+//    box-shadow: 10px 5px 5px rgba(169, 169, 169, 0.432);
+//    color: white;
+//    font-size: 3rem;
+//    width: 35rem;
+//    height: 40rem;
+//}
+//
+//.logo2 {
+//    position: relative;
+//    top: 35%;
+//    width: 250 p;
+//    z-index: 30;
+//    animation-duration: 0.3s;
+//}
+//
+//.card_titre {
+//    font-family: Arial, sans-serif;
+//    font-size: 1.4rem;
+//}
+//
+//.card_texte {
+//    font-family: Arial, sans-serif;
+//    font-size: 1.2rem;
+//}
+//
+//.article4 {
+//    position: absolute;
+//    margin-left: 2rem;
+//    text-align: start;
+//    top: 75%;
+//}
+//
+//.article5 {
+//    position: absolute;
+//    margin-left: 2rem;
+//    text-align: start;
+//    top: 75%;
+//}
+//
+//.ma_modal {
+//    background-color: grey;
+//    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.452);
+//    color: white;
+//    font-size: 3rem;
+//}
+//
+//.titre_modal {
+//    font-family: Arial, sans-serif;
+//    font-size: 1.7rem;
+//}
+//
+//.logo3 {
+//    position: relative;
+//    margin-left: 8rem;
+//}
+//
+//.image3 {
+//    width: 18vw;
+//    height: auto;
+//}
+//
+//.section2 .section3 .section4 {
+//    width: 100%;
+//    height: 90vh !important;
+//}
+//
+//.inter {
+//    width: 100%;
+//    height: 10vh !important;
+//}
+//
 
-@media screen and (max-width: 576px) {
-   
-    #slide_1{
-        height: 60vh;
-    }
-    #logo1{
-        width: 125px;
-        height: auto;
-        position: relative;
-        left: 8rem;
-        top:50%;
-    }
-    #image{
-        width:100vh;
-        height: 60vh;
-        z-index: -1;
-    }
-    #caption_date{
-        position:relative;
-        margin-left: 0.4rem;
-        font-family: Arial, sans-serif;
-        font-size: 0.7rem;
-        z-index: 10;
-        color:white;
-        top:55%;
-        z-index: 10;
-    }
-    #caption_CA{
-        font-family: Arial, sans-serif;
-        font-size: 0.9rem;
-        z-index: 10;
-        color:white;
-        position:relative;
-        margin-left: 0.4rem;
-        top:55%;
-    }
-    #caption_texte{
-        font-family: Arial, sans-serif;
-        text-align: justify;
-        width: 56vh;
-        font-size: 0.7rem;
-        color:white;
-        z-index: 10;
-        position:relative;
-        margin-left: 0.4rem;
-        top:55%;
-        z-index: 10;
-    }    
-    #titre1{
-        position:absolute;
-        top:80%;
-        font-family:'ARBONNIE-webfont';
-        font-size: 2rem;
-    }
-    #texte3{
-        position:relative;
-        top:3rem;
-        font-family:Arial, sans-serif;
-        font-size: 1.1rem;
-    }
-    #inter {
-        width: 100%;
-        height: 10vh !important;
-    }
-    #card1 {
-        background-color: black; 
-        box-shadow: 10px 5px 5px rgba(169, 169, 169, 0.438);
-        color:white;
-        font-size: 3rem;
-        width: 80%;
-        height: 23rem;
-        margin-top: 1.3rem;
-        position:relative;
-        padding-right: 0%;
-        left: 1.5rem;
-    }
-    #card_titre{
-        
-        margin-left: -2rem;
-        font-family: Arial, sans-serif;
-        font-size: 1.3rem;
-    }
-    #card_texte{
-        margin-left: -2rem;
-        font-family: Arial, sans-serif;
-        font-size: 0.8rem;
-    }
-    #image1{
-        width: 90%;
-        height: auto;
-    }
-    #image2{
-        width: 90%;
-        height: auto;
-    }
-    #image3{
-        width: 80%;
-        height: auto;
-    }
-
-       }
+//
+//@media screen and (max-width: 1280px) {
+//    .card1 {
+//        position: relative;
+//        left: -1rem;
+//        background-color: black;
+//        box-shadow: 8px 4px 4px rgba(169, 169, 169, 0.404);
+//        color: white;
+//        font-size: 2.5rem;
+//        margin-right: 0.5rem;
+//        width: 40vw;
+//        height: 25rem;
+//
+//    }
+//    .section2 .section3 .section4 {
+//        width: 100%;
+//        height: 90vh !important;
+//    }
+//    .inter {
+//        width: 100%;
+//        height: 10vh !important;
+//    }
+//    .logo2 {
+//        width: 20vw;
+//        height: auto;
+//        position: relative;
+//        margin-left: 0px;
+//    }
+//    .logo3 {
+//        width: 20vw;
+//        height: auto;
+//    }
+//}
+//
+//
+//
+//@media screen and (max-width: 576px) {
+//
+//    .slide_1 {
+//        height: 60vh;
+//    }
+//    .logo1 {
+//        width: 125px;
+//        height: auto;
+//        position: relative;
+//        left: 8rem;
+//        top: 50%;
+//    }
+//    .image {
+//        width: 100vh;
+//        height: 60vh;
+//        z-index: -1;
+//    }
+//    .caption_date {
+//        position: relative;
+//        margin-left: 0.4rem;
+//        font-family: Arial, sans-serif;
+//        font-size: 0.7rem;
+//        z-index: 10;
+//        color: white;
+//        top: 55%;
+//        z-index: 10;
+//    }
+//    .caption_CA {
+//        font-family: Arial, sans-serif;
+//        font-size: 0.9rem;
+//        z-index: 10;
+//        color: white;
+//        position: relative;
+//        margin-left: 0.4rem;
+//        top: 55%;
+//    }
+//    .caption_texte {
+//        font-family: Arial, sans-serif;
+//        text-align: justify;
+//        width: 56vh;
+//        font-size: 0.7rem;
+//        color: white;
+//        z-index: 10;
+//        position: relative;
+//        margin-left: 0.4rem;
+//        top: 55%;
+//        z-index: 10;
+//    }
+//    .titre1 {
+//        position: absolute;
+//        top: 80%;
+//        font-family: 'ARBONNIE-webfont';
+//        font-size: 2rem;
+//    }
+//    .texte3 {
+//        position: relative;
+//        top: 3rem;
+//        font-family: Arial, sans-serif;
+//        font-size: 1.1rem;
+//    }
+//    .inter {
+//        width: 100%;
+//        height: 10vh !important;
+//    }
+//    .card1 {
+//        background-color: black;
+//        box-shadow: 10px 5px 5px rgba(169, 169, 169, 0.438);
+//        color: white;
+//        font-size: 3rem;
+//        width: 80%;
+//        height: 23rem;
+//        margin-top: 1.3rem;
+//        position: relative;
+//        padding-right: 0%;
+//        left: 1.5rem;
+//    }
+//    .card_titre {
+//
+//        margin-left: -2rem;
+//        font-family: Arial, sans-serif;
+//        font-size: 1.3rem;
+//    }
+//    .card_texte {
+//        margin-left: -2rem;
+//        font-family: Arial, sans-serif;
+//        font-size: 0.8rem;
+//    }
+//    .image1 {
+//        width: 90%;
+//        height: auto;
+//    }
+//    .image2 {
+//        width: 90%;
+//        height: auto;
+//    }
+//    .image3 {
+//        width: 80%;
+//        height: auto;
+//    }
+//}

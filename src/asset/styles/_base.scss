@@ -17,3 +17,16 @@ a {
     color: black;
   }
 }
+
+footer {
+  margin-top: 10rem;
+  background-color: #333333;
+  color: whitesmoke;
+  padding: 2rem;
+  a {
+    color: whitesmoke;
+    &:hover {
+      color: #bababa;
+    }
+  }
+}
