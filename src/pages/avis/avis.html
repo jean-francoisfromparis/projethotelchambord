@@ -17,7 +17,362 @@
 <nav id="navbar-left"></nav>
 <!--main-->
 <main>
-    <h1>TODO <%= htmlWebpackPlugin.options.title %></h1>
+<section id="section1">
+<div class="container text-center g-0" ><p id="titre">Votre avis nous intéresse</p></div>
+      <div class="container text-center mb-4"><p id="adresse"> 1 Avenue Montaigne ~ 75008 ~ PARIS </p></div>
+                                      <!-- Barre de progression -->
+<div class="container " id="barre">
+      <div class="row row-cols-lg-2 text-md-center">
+            <div class="col">
+                  <div class="my-md-2">
+                  <a href="#accordeon1bis">
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                  </a>
+                  </div>
+                  <a href="#accordeon2bis"> <div class="my-md-2">
+                        <i class="far fa-star ms-1  taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size:0.5rem;"></i>
+                  </a>
+                  </div>
+                  <div class="#accordeon3bis my-md-2">
+                        <a href="">
+                        <i class="far fa-star ms-1 taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                  </a>
+                  </div>
+                  <div>
+                        <a href="#accordeon4bis">
+                        <i class="far fa-star ms-1  taille_lg" style="color:gold; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                        <i class="far fa-star taille_lg" style="color:black; font-size: 0.5rem;"></i>
+                  </a>
+                  </div>
+            </div>
+                  <div class="col">                        
+                        <div class="progress mt-2 largeur_barre" >
+                              <div class="progress-bar active" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">2400 avis</div>
+                        </div>
+                        <div class="progress mt-2 largeur_barre">
+                              <div class="progress-bar acitve" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">600</div>
+                        </div>
+                        <div class="progress mt-2 largeur_barre">
+                              <div class="progress-bar" role="progressbar" style="width:0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress mt-2 largeur_barre">
+                              <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                  </div>
+            </div>
+      </div>         
+</section>
+<section id="section2">
+                        <!-- Onglet -->
+<nav class="onglet">
+      <div class="nav nav-tabs largeur" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" 
+                  type="button" role="tab" aria-controls="nav-home" aria-selected="true"><p class="m-0">avis</p>
+                        <p class="m-0">Générale</p></button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" 
+                  type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><p class="m-0">avis</p>
+                  <p class="m-0">Chambre</p></button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" 
+                  type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><p class="m-0">avis</p>
+                        <p class="m-0">Restaurant</p></button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact2" 
+                  type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><p class="m-0">avis</p>
+                        <p class="m-0">Spa</p></button>
+      </div>
+</nav>
+<div class="tab-content largeur onglet" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <!-- accordeon 1 -->
+            <div class="accordion accordion-flush" id="accordionFlushExample1">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                         data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              <p class="titre">Alexandre M : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                         data-bs-parent="#accordionFlushExample1">
+                      <div class="accordion-body text-start titre">Meilleur hotel de Paris, service irreprochable.
+                        <br> Très bonne expérience au Hôtel CHAMBORD. <br> 
+                        <p>Date de l'expérience: 2 septembre 2020.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                              <p class="titre">John A : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" 
+                        data-bs-parent="#accordionFlushExample1">
+                      <div class="accordion-body text-start titre">Excellent séjour
+                        Une nouvelle fois nous avons séjourné au sein de l'Hôtel CHAMBORD.
+                        Quel plaisir de se sentir si attendu!
+                        Courtoisie , gentillesse , professionalisme , propreté tout est fait pour que votre séjour soit parfait !
+                        Toute l équipe est totalement disponoble comme il se doit.Je conseille vivement ! <br>
+                        <p>Date de l'expérience: 5 septembre 2021 </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                              <p class="titre">Magdalena B : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" 
+                        data-bs-parent="#accordionFlushExample1">
+                        <div class="accordion-body text-start titre">Gentilezza, professionalità.<br>
+                        <p>Date de l'expérience: 10 octobre 2021 </p></div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <!-- Accordéon2 -->
+            <div class="accordion accordion-flush" id="accordionFlushExample2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFour">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                              <p class="titre">Alexandre M : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" 
+                        data-bs-parent="#accordionFlushExample2">
+                      <div class="accordion-body text-start titre">Meilleur hotel de Paris, service irreprochable.
+                        <br> Très bonne expérience au Hôtel CHAMBORD. <br> 
+                        <p>Date de l'expérience: 2 septembre 2020.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingFive">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                        <p class="titre">John A : Séjour en 2021</p>                      
+                      </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" 
+                        data-bs-parent="#accordionFlushExample2">
+                      <div class="accordion-body text-start titre">Excellent séjour
+                        Une nouvelle fois nous avons séjourné au sein de l'Hôtel CHAMBORD.
+                        Quel plaisir de se sentir si attendu!
+                        Courtoisie , gentillesse , professionalisme , propreté tout est fait pour que votre séjour soit parfait !
+                        Toute l équipe est totalement disponoble comme il se doit.Je conseille vivement ! <br>
+                        <p>Date de l'expérience: 5 septembre 2021 </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingSix">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                          <p class="titre">Magdalena B : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" 
+                        data-bs-parent="#accordionFlushExample2">
+                      <div class="accordion-body text-start titre">Gentilezza, professionalità.<br>
+                        <p>Date de l'expérience: 10 octobre 2021 </p></div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <!-- Accordeon 3 -->
+            <div class="accordion accordion-flush" id="accordionFlushExample3">
+                  <div class="accordion-item" >
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                              <p class="titre">Alexandre M : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseSeven" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                    data-bs-parent="#accordionFlushExample3">
+                      <div class="accordion-body text-start titre">Meilleur hotel de Paris, service irreprochable.
+                        <br> Très bonne expérience au Hôtel CHAMBORD. <br> 
+                        <p>Date de l'expérience: 2 septembre 2020.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                      data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                        <p class="titre">John A : Séjour en 2021</p>                      
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEight" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" 
+                        data-bs-parent="#accordionFlushExample3">
+                      <div class="accordion-body text-start titre">Excellent séjour
+                        Une nouvelle fois nous avons séjourné au sein de l'Hôtel CHAMBORD.
+                        Quel plaisir de se sentir si attendu!
+                        Courtoisie , gentillesse , professionalisme , propreté tout est fait pour que votre séjour soit parfait !
+                        Toute l équipe est totalement disponoble comme il se doit.Je conseille vivement ! <br>
+                        <p>Date de l'expérience: 5 septembre 2021 </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                              <p class="titre">Magdalena B : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseNine" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" 
+                        data-bs-parent="#accordionFlushExample3">
+                      <div class="accordion-body text-start titre">Gentilezza, professionalità.<br>
+                        <p>Date de l'expérience: 10 octobre 2021 </p></div>
+                    </div>
+                  </div>
+                </div>
+      </div>
+      <div class="tab-pane fade" id="nav-contact2" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <div class="accordion accordion-flush" id="accordionFlushExample4">
+                  <div class="accordion-item" >
+                    <h2 class="accordion-header" id="flush-headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseTen" aria-expanded="false" aria-controls="flush-collapseTen">
+                        <p class="titre">Alexandre M : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTen" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" 
+                        data-bs-parent="#accordionFlushExample4">
+                      <div class="accordion-body text-start titre">Meilleur hotel de Paris, service irreprochable.
+                        <br> Très bonne expérience au Hôtel CHAMBORD. <br> 
+                        <p>Date de l'expérience: 2 septembre 2020.</p></div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseEleven" aria-expanded="false" aria-controls="flush-collapseEleven">
+                        <p class="titre">John A : Séjour en 2021</p>                     
+                      </button>
+                    </h2>
+                    <div id="flush-collapseEleven" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" 
+                        data-bs-parent="#accordionFlushExample4">
+                      <div class="accordion-body text-start titre">Excellent séjour
+                        Une nouvelle fois nous avons séjourné au sein de l'Hôtel CHAMBORD.
+                        Quel plaisir de se sentir si attendu!
+                        Courtoisie , gentillesse , professionalisme , propreté tout est fait pour que votre séjour soit parfait !
+                        Toute l équipe est totalement disponoble comme il se doit.Je conseille vivement ! <br>
+                        <p>Date de l'expérience: 5 septembre 2021 </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" 
+                        data-bs-target="#flush-collapseTwelve" aria-expanded="false" aria-controls="flush-collapseTwelve">
+                              <p class="titre">Magdalena B : Séjour en 2021</p>
+                      </button>
+                    </h2>
+                    <div id="flush-collapseTwelve" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" 
+                        data-bs-parent="#accordionFlushExample4">
+                      <div class="accordion-body text-start titre">Gentilezza, professionalità.<br>
+                        <p>Date de l'expérience: 10 octobre 2021 </p></div>
+                    </div>
+                  </div>
+            </div>
+      </div>
+</div>
+
+ 
+         
+</section>
+<section id="section3">
+                                                                              <!-- Formulaire -->
+      <div class="container"></div>
+      <div class="container text-center"><p class="alerte" id="info">info!</p></div>
+      <form name="formulaire" action="" method="get" class="mt-4 mt-sm-5" novalidate> 
+      <div class="container text-center mt-4 mt-sm-5 pb-5">
+          <div class="row"> 
+              <div class="col-md-6">
+                  <div class="input-group mb-3 ">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Nom &nbsp&nbsp&nbsp</span>
+                      <input type="text" name="nom" class="form-control" placeholder="Votre nom" aria-label="nom" aria-describedby="basic-addon1" maxlength="20" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Prénom</span>
+                      <input type="text" name="prenom" class="form-control" placeholder="Prénom" aria-label="prenom" aria-describedby="basic-addon1" maxlength="20" required>
+                  </div>
+              </div>
+          </div>  
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="input-group mb-3 ">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Société</span>
+                      <input type="text" name="societe" class="form-control" placeholder="société" aria-label="company" aria-describedby="basic-addon1" maxlength="20" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">email</span>
+                      <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                      
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Pays</span>
+                      <input type="text" name="pays" class="form-control" placeholder="pays" aria-label="pays" aria-describedby="basic-addon1" maxlength="20" required>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="input-group mb-3">
+                      <span class="input-group-text" id="basic-addon1" style="background-color: rgba(0, 0, 0, 0.795); color:white; border:1px solid rgba(0, 0, 0, 0.795);">Sujet</span>
+                      <input type="text" name="sujet" class="form-control" placeholder="Sujet" aria-label="sujet" aria-describedby="basic-addon1" maxlength="20" required>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <select name="categorie" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                      <option selected>Choissisez la catégorie</option>
+                      <option value="1">Chambre</option>
+                      <option value="2">Restauration</option>
+                      <option value="3">Spa</option>
+                      <option value="4">Ordre Générale</option>
+                  </select>
+              </div>
+              <div class="col-md-6"></div>
+          </div>
+          <div class="mt-4">            
+              <textarea name="message" class="form-control" id="exampleFormControlTextarea1" placeholder="Votre message ..." rows="5" maxlength="150" required></textarea>
+          </div >
+          <div class="row justify-content-between">
+              <div class="row justify-content-end">
+                  <div class=" col-6 mt-3">
+                  <button id="valid" class="btn btn-outline-dark" type="button">Envoyez</button>
+                  </div>
+                  <div class=" col-6 mt-3">
+                  <button id="reset" class="btn btn-outline-dark" type="reset">réinitialisez</button>
+              </div>
+              </div>
+      </div>
+      </div>
+  </form>
+</section>
 </main>
 <!--footer-->
 <footer></footer>
