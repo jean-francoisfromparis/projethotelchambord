@@ -18,11 +18,7 @@ let swiper = new Swiper(".mySwiper", {
     },
 });
 
-/**
- * PDF
- */
-
-// MENU
+// MENU CARTE
 const menuRestauration = document.getElementById('menu-restaurant');
 const menuCafe = document.getElementById('menu-cafe');
 const menuBrasserie = document.getElementById('menu-brasserie');
@@ -63,8 +59,12 @@ openModal.forEach((e)=> {
         }
     })
 })
+
+/**
+ * PDF
+ */
+
 pdfMake.vfs = pdfFonts.pdfMake.vfs;
-// MENU CARTE
 document.querySelectorAll('.btn-print').forEach((e)=> {
     e.addEventListener('click', () => {
         let dataID = e.getAttribute('data-id');

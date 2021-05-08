@@ -11,6 +11,7 @@
           integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 <nav id="navbar-top"></nav>
@@ -60,13 +61,617 @@
             </button>
         </div>
     </section>
-    <section id="position-2" class="top-present-item">
-        SPA
+
+    <div class="separator-page"></div>
+
+    <section id="position-2" class="top-present-item pb-5 d-flex justify-content-center">
+        <div class="container mt-4 block justify-content-center">
+            <div class="row mx-0 justify-content-between w-100">
+                <div class="col-4 img-fluid img-espace-détente"></div>
+                <div class="col-8 d-flex align-items-center flex-column block-info">
+                    <div class="row title-section">
+                        <h1>Espaces Détente</h1>
+                    </div>
+                    <div class="block-description mx-1 mt-4 w-100">
+                        <div class="mobile-descripton-accueil"><h3>- Nos Structures</h3></div>
+                        <div class="row">
+                            <div class="mobile-descripton-accueil flex-wrap">
+                                <div class="ico">Hammam & Sauna</div>
+                                <div class="ico">Hydrojet</div>
+                                <div class="ico">bain de boue</div>
+                                <div class="ico">piscine</div>
+                            </div>
+                            <div>
+                                <button class="open-modal" data-id="menuDetente">voir les espaces</button>
+                            </div>
+                            <p class="descripton-accueil mt-2">
+                                Paisible et élégant, le spa <span>Hôtel Chambord</span> se veut intimiste et se compose
+                                également d'un sauna et
+                                d'un hammam où oublier le stress du quotidien.
+                                L'espace Sauna & Hammam est actuellement proposé à la privatisation exclusivement pour
+                                les clients de l'hôtel (tarif : 50 euros pour une privatisation de 45 minutes).
+                            </p>
+                        </div>
+                        <div class="text-desciption">
+                            <hr>
+                            <div class="d-flex justify-content-center">
+                                <span class="text-center">☙ Évadez-vous le temps d'un week-end dans un de nos hotels spa :
+                                un séjour placé sous le signe de la détente et de la gastronomie.
+                                Oubliez le stress du quotidien et profitez d'un moment de bien être dans un
+                                établissement d'exception.. ❧</span>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <section id="position-3" class="top-present-item">
-        Soin
+
+    <div class="separator-page"></div>
+
+    <section id="position-3" class="top-present-item pb-5 d-flex justify-content-center">
+        <div class="container mt-4 block justify-content-center">
+            <div class="row mx-0 justify-content-between w-100">
+                <div class="col-4 img-fluid img-nos-soins"></div>
+                <div class="col-8 d-flex align-items-center flex-column block-info">
+                    <div class="row title-section">
+                        <h1>Nos Soins</h1>
+                    </div>
+                    <div class="block-description mx-1 mt-4 w-100">
+                        <div class="mobile-descripton-accueil"><h3>- La France</h3></div>
+                        <div class="row">
+                            <h4>Endroit typique</h4>
+                            <div class="mobile-descripton-accueil flex-wrap">
+                                <div class="ico">Soin Découverte <h6 class="text-dark">60€</H6></div>
+                                <div class="ico">Soin Détente <h6 class="text-dark">80€</h6></div>
+                                <div class="ico">Soin Relaxant <h6 class="text-dark">90€</h6></div>
+                                <div class="ico">Soin Plaisir <h6 class="text-dark">150€</h6></div>
+                                <div class="ico">Soin Evasion <h6 class="text-dark">250€</h6></div>
+                            </div>
+                            <div>
+                                <button class="open-modal" data-id="menuSoins">voir les soins</button>
+                            </div>
+                            <p class="descripton-accueil mt-2">Être écoutée, comprise, rassurée : une philosophie
+                                poursuivie depuis plus de 40 ans au travers de rituels de soins personnalisés et de
+                                formules de pointe. Dans une ambiance typique et exotique, venez profiter de soins
+                                effectués grâce à des produits 100% naturels. Plusieurs forfaits beauté et massages sont
+                                à votre disposition, notamment un forfait mariage. Nous effectuons toutes les épilations
+                                : orientale, traditionnelle et l'épilation à la pointe de la technologie avec la lumière
+                                pulsée. Après un soin dans le hammam, nous mettons à votre disposition un spa, dans une
+                                salle spécifique où vous pouvez vous relaxer, déguster un thé à la menthe et pourquoi
+                                pas, quelques gourmandises... </p>
+                        </div>
+                        <div class="text-desciption">
+                            <hr>
+                            <div class="d-flex justify-content-center text-center">
+                                <span>☙ Sur réservation, les forfaits comprennent par journée :
+                                    les soins et l’accès aux Bains sans limitation de durée. Le linge de soin et le
+                                    peignoir sont mis à votre disposition au Centre «Bien-être, Beauté et Santé».
+                                    L’hébergement n’est pas compris dans le prix de forfait. ❧
+                                </span>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <div class="separator-page"></div>
 </main>
+
+<!--
+##################
+    Section modal
+    -------------
+    Plugin  Swiper
+##################
+-->
+
+<!--
+#### Swiper
+-->
+<section id="menu-detente" class="modal" data-id="menuDetente">
+    <div class="display-menu-restaurant">
+        <div class="swiper-container mySwiper ">
+            <div class="swiper-wrapper">
+                <!--
+                ### Scroll 1
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuDetente">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Hammam & Sauna -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/spa-3.jpg" alt="Hôtel CHAMBORD - Hammam">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Le hammam, également appelé bain maure et bain turc en Occident,
+                                        favorise la détente. Le rituel et son rythme en font un véritable havre de paix.
+                                        Pour vous libérer des tensions musculaires et des toxines qui martyrisent votre
+                                        corps, plongez dans un bain de vapeur.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Privatisation</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">Prix:</span> <span class="px-1">50€ / 45min</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">5h00 - 00h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ## Scroll 2
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuDetente">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Hydrojet -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/hydrojet.jpg" alt="Hôtel CHAMBORD - Hydrojet">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Les vertus de la thalassothérapie sont reconnues depuis l’Antiquité. Au fil des
+                                        siècles, l’intérêt pour ces centres n’a pas faibli. Les bienfaits de l’eau sur
+                                        la santé ne sont plus à prouver et contrairement à de nombreux traitements, les
+                                        soins en thalassothérapie sont particulièrement agréables. Les grands centres
+                                        sont particulièrement attentifs au décorum. Tout est fait pour que les curistes
+                                        profitent d’un moment agréable avec des soins de qualité et innovants le tout
+                                        dans un cadre chaleureux.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>PRIX</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">Prix:</span> <span class="px-1">50€ / 45min</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">8h00 - 20h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ## Scroll 3
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuDetente">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Bain de boue -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/bain_de_boue.jpg" alt="Hôtel CHAMBORD - bain de boue">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Immergé jusqu’au cou dans une piscine remplie d’un mélange d’argile mélangé à de
+                                        l’eau thermale, vous profitez de la chaleur réconfortante d’un bain de boue
+                                        délassant et bienfaisant pour les articulations. Texture homogène, chaleur
+                                        diffuse, toucher lisse et agréable : les sensations offertes par le bain de boue
+                                        sont nombreuses. Ce pur instant de plaisir est généralement prescrit pour
+                                        favoriser le traitement des rhumatismes ou le traitement de l’arthrose.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Privatisation</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">Prix:</span> <span class="px-1">500€ / 45min</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">5h00 - 00h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ## Scroll 4
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuDetente">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Piscine -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/spa-1.jpg" alt="Hôtel CHAMBORD - Hammam">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Dès l’accueil, on se sent choyé. Dans les vestiaires, peignoirs enveloppants,
+                                        coiffeuses et larges fauteuils, ainsi que des produits de la gamme Sothys sont à
+                                        discrétion. Avec deux salons de soins dont un duo, un sauna, un hammam, une
+                                        salle de fitness et une piscine de 15 mètres, le Spa Le Burgundy by Sothys est
+                                        une destination en soi.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Privatisation</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">Prix:</span> <span class="px-1">3000€ / 45min</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">5h00 - 00h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+<!--
+#### Swiper
+-->
+<section id="menu-soins" class="modal" data-id="menuSoins">
+    <div class="display-menu-restaurant">
+        <div class="swiper-container mySwiper ">
+            <div class="swiper-wrapper">
+                <!--
+                ### Scroll 1
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuSoins">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Soin Découverte -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/spa-2.jpg" alt="Hôtel CHAMBORD - Hammam">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Première expérience, vous ne savez quels soins vous correspondent? nous vous
+                                        proposons de découvrir les différents soins sur une demi-journée pour faire une
+                                        idée
+                                        sur ceux qui vous correspondent le mieux.
+                                        Si vous ne ressortez pas avec le sourire et avec une sensation de bien-être nous
+                                        vous offrons ce soin.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Privatisation</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">60€</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">9h00 - 12h00 / 14h00 - 17h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ### Scroll 2
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuSoins">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Soin Détente -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/detante.jpg" alt="Hôtel CHAMBORD - soins détantes">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Envie de détente, d'évacuer le stress de la journée, ce pack comprend un massage
+                                        du viage, et du corps avec des huiles essentielles.
+                                        Vous pouvez demander si vous voulez une récitation dynamique, reposante, souple
+                                        ou décontractante.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>PRIX</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">80€</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">8h00 - 19h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ### Scroll 3
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuSoins">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Soin Relaxant -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/relaxant.jpg" alt="Hôtel CHAMBORD - relaxant">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Envie de vous relaxer ? Ici vous fait un massage de la tête aux pieds, une
+                                        séance privative avec hydrojet. Sur ce soin nous scrutons les moindres détails
+                                        de votre corps et détectons vos points de tensions.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>PRIX</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">90€</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">8h00 - 19h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ### Scroll 4
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuSoins">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Soin Plaisir -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/plaisir.jpg" alt="Hôtel CHAMBORD - soins plaisir">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Vous avez du temps libre seul ou entre amis vous voulez passer un bon moment et
+                                        avoir accès à toutes les activités et massage sans contrainte d'horaire,
+                                        réservez votre journée plaisir.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>PRIX</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">150€</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">8h00 - 19h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--
+                ### Scroll 5
+                -->
+                <div class="swiper-slide scroll-modal">
+                    <div class="mt-2">
+                        <div class="d-flex justify-content-end w-100">
+                            <div class="close-modal" data-id="menuSoins">
+                                X
+                            </div>
+                        </div>
+                        <div class="logo-menu">
+                            <img src="./asset/images/logo.png" alt="palace de luxe hôtel chambord">
+                            <h1>CHAMBORD</h1>
+                            <h1>- Soin Evasion -</h1>
+                            <div class="d-flex justify-content-center align-items-center mt-2 flex-wrap">
+                                <div class="img-present-spa col-4">
+                                    <hr>
+                                    <img src="./asset/images/spa/evasion.jpg" alt="Hôtel CHAMBORD - soins évasoins">
+                                    <hr>
+                                </div>
+                                <div class="col-6 description-spa">
+                                    <p class="fst-italic">
+                                        Changez vos habitudes, choisies un thème ou laissez vous porter par nos conseils
+                                        pour vous proposer des saveurs, odeur, massage exotique, dans une ambiance et
+                                        thème différents selon votre choix ou chambre privative.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-wrap p-2">
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>PRIX</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">250€</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Horaires</h3>
+                                    <div class="d-flex justify-content-center">
+                                        <span class="px-1">8h00 - 19h00</span>
+                                    </div>
+                                </div>
+                                <div class="col-4 min-300  p-2 ">
+                                    <h3>Services</h3>
+                                    <div class="d-flex justify-content-center">
+                                        Bar / Douches privées / Produit de beauté bio / Douches privées / serviettes
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+</section>
+
+
 <!--footer-->
 <footer></footer>
 <nav id="nav-bottom">
@@ -85,5 +690,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
         crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 </body>
 </html>

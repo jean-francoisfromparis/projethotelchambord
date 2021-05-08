@@ -30,7 +30,7 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, "dist"),
-        filename: "[name].bundle.js",
+        filename: "[name].[contenthash].bundle.js",
     },
     module: {
         rules: [
@@ -115,6 +115,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             minify: false,
             filename: "index.html",
+            hash: true,
             title: "Accueil | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France ",
             meta: {title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
                 description: `Le CHAMBORD Hôtel Palace ***** a toujours représenté la quintessence de Luxe parisien
@@ -129,6 +130,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "acces.html",
             title: "Accès | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -145,6 +147,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "actualite.html",
             title: "Actualité | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -159,6 +162,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "avis.html",
             title: "Avis | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -173,6 +177,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "chambres.html",
             title: "Chambres | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Découvrez nos chambres - Hôtel Palace ***** 1 Avenue Montaigne - Paris, France",
@@ -187,6 +192,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "cgv.html",
             title: "CGV | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -202,6 +208,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "contact.html",
             title: "Contact | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Contact | Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -218,6 +225,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "evenements.html",
             title: "Evènement| Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Evénement - Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -229,6 +237,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "hotel.html",
             title: "Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France| Accueil",
@@ -241,6 +250,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "mentions-legales.html",
             title: "Mentions-Legales | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -257,6 +267,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "plan-du-site.html",
             title: "Plan du site | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "sitemap - plan du site",
@@ -270,6 +281,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "presse.html",
             title: "Presse | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {title: "What's news ? Hôtel Palace CHAMBORD ***** 1 Avenue Montaigne - Paris, France",
@@ -283,6 +295,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "qui-sommes-nous.html",
             title: "Qui-sommes-nous ? | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -296,6 +309,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "reservation.html",
             title: "Reservation | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -309,6 +323,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "restaurant.html",
             title: "Restaurant | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -328,6 +343,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "spa-soins.html",
             title: "Soins et SPA | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             meta: {
@@ -345,6 +361,7 @@ module.exports = {
         }),
         new HtmlWebpackPlugin({
             minify: false,
+            hash: true,
             filename: "panier.html",
             title: "Panier | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             template: path.join(__dirname, "./src/pages/panier/panier.html"),
@@ -353,6 +370,15 @@ module.exports = {
     ],
     optimization: {
         minimize: true,
+        splitChunks: {
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'all',
+                },
+            },
+        },
     },
     stats: "minimal",
     devtool: "inline-source-map",

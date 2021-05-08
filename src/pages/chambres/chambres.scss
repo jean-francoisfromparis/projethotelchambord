@@ -7,30 +7,30 @@
 
 
 .img-suites {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("../../asset/images/chambres/chambres-4.jpg");
   background-size: cover;
 }
 
 .img-deluxe {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("../../asset/images/chambres/chambres-3.jpg");
   background-size: cover;
 }
 
 .img-confort {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("../../asset/images/chambres/chambres-2.jpg");
   background-size: cover;
 }
 .img-classic {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("../../asset/images/chambres/chambres-1.jpg");
   background-size: cover;
 }
 
 .block{
-  height: 80vh;
+  min-height: 80vh;
 }
 
 .title-section {
@@ -54,21 +54,6 @@
 
 .block-info {
   max-height: 70vh;
-}
-
-.mobile-descripton-accueil {
-  display: flex;
-  .ico {
-    margin: 0 0.1rem 0.8rem 0;
-    padding: 0 0.5rem;
-    font-size: 0.7rem;
-    background-color: #d7b076;
-    color: white;
-    border-radius: 15%;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
 }
 
 .descripton-accueil {

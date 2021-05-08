@@ -13,7 +13,7 @@
 
 .top-present-item {
   padding-top: 80px;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .top-of-page {
@@ -23,3 +23,30 @@
 .separator-page {
   height: 20vh;
 }
+
+.mobile-descripton-accueil {
+  display: flex;
+  .ico {
+    margin: 0 0.1rem 0.8rem 0;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
+    background-color: #d7b076;
+    color: white;
+    border-radius: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .ico-light-dark {
+    margin: 0 0.1rem 0.8rem 0;
+    padding: 0 0.5rem;
+    font-size: 0.7rem;
+    background-color: #c6c6c6;
+    color: white;
+    border-radius: 15%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+}
+

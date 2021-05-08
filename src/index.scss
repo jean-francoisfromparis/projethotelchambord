@@ -1,36 +1,21 @@
-@import "asset/styles/media";
-
-.block {
-  height: 80vh;
-  min-height: 100%;
-  justify-content: center;
-}
-
+@import "./asset/styles/modal-presentation-pdf";
 
 .img-accueil {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("asset/images/chambres/chambres-4.jpg");
   background-size: cover;
 }
 
 .img-restaurant {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("asset/images/restaurant/restaurant-2.jpg");
   background-size: cover;
 }
 
 .img-spa {
-  height: 70vh;
+  min-height: 70vh;
   background-image: url("asset/images/spa/spa-1.jpg");
   background-size: cover;
-}
-
-.title-section {
-  text-align: center;
-  width: 100%;
-  background-color: #606060;
-  color: white;
-  padding-top: 0.5rem ;
 }
 
 .a-btn {
@@ -41,33 +26,5 @@
     background-color: #666666;
     transition-duration: 0.3s;
     color: whitesmoke;
-  }
-}
-
-.block-info {
-  max-height: 70vh;
-  padding-right: 0;
-}
-
-.mobile-descripton-accueil {
-    display: flex;
-    .ico {
-      margin: 0 0.1rem 0.8rem 0;
-      padding: 0 0.5rem;
-      font-size: 0.7rem;
-      background-color: #d7b076;
-      color: white;
-      border-radius: 15%;
-      align-items: center;
-      text-align: center;
-      justify-content: center;
-    }
-}
-
-.descripton-accueil {
-  display: none;
-  font-style: italic;
-  @include breakpoint(tablette) {
-    display: block;
   }
 }

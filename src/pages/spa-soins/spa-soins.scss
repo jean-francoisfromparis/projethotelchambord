@@ -1,0 +1,29 @@
+@import "../../asset/styles/modal-presentation-pdf";
+@import "../../asset/styles/media";
+
+.img-espace-détente {
+  min-height: 70vh;
+  background-image: url("../../asset/images/spa/spa-1.jpg");
+  background-size: cover;
+}
+
+.img-nos-soins {
+  min-height: 70vh;
+  background-image: url("../../asset/images/spa/spa-2.jpg");
+  background-size: cover;
+}
+
+.img-present-spa {
+  min-width: 300px;
+}
+
+.description-spa {
+  @include breakpoint(smartphone) {
+    display: none;
+  }
+}
+
+.min-300 {
+  min-width: 300px;
+}
+
