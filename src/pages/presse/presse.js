@@ -39,7 +39,7 @@ On s’intéresse également à Charles de Vilmorin, qui, à 24 ans, vient de la
     }
 ];
 
-for (const elt of arrayDataArticle) {
+for (let elt of arrayDataArticle) {
     let eltDiv = document.createElement('div');
     eltDiv.innerHTML = `
     <div class="d-flex flex-wrap align-items-center border rounded article p-2 my-5">
