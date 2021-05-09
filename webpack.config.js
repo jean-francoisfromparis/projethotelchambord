@@ -28,6 +28,7 @@ module.exports = {
         navbarLeft: path.join(__dirname, "src/asset/component/navbar-left/navbar-left.js"),
         navbarTop: path.join(__dirname, "src/asset/component/navbar-top/navbar-top.js"),
         navbarBottom: path.join(__dirname, "src/asset/component/navbar-bottom/navbar-bottom.js"),
+        spinner: path.join(__dirname, "src/asset/component/spinner/spinner.js")
     },
     output: {
         path: path.join(__dirname, "dist"),
@@ -127,7 +128,7 @@ module.exports = {
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/index.html"),
-            chunks: ["main", "footer", "navbarLeft", "navbarTop", "navbarBottom"]
+            chunks: ["main", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"]
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -144,7 +145,7 @@ module.exports = {
                     , Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
             template: path.join(__dirname, "./src/pages/acces/acces.html"),
-            chunks: ["acces", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["acces", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -159,7 +160,7 @@ module.exports = {
                     Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
             template: path.join(__dirname, "./src/pages/actualite/actualite.html"),
-            chunks: ["actualite", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["actualite", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -174,7 +175,7 @@ module.exports = {
                     Champs Elysées, Arc de Triomphe, Musée du Louvre, Avis`,
             },
             template: path.join(__dirname, "./src/pages/avis/avis.html"),
-            chunks: ["avis", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["avis", "footer", "spinner", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -189,7 +190,7 @@ module.exports = {
                     étoile, exception, bien-être, expérience d'exception, amazing, Chambre, classique, confort, Deluxe, suite`,
             },
             template: path.join(__dirname, "./src/pages/chambres/chambres.html"),
-            chunks: ["chambres", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
+            chunks: ["chambres", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -205,7 +206,7 @@ module.exports = {
                 keywords: `Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
             },
             template: path.join(__dirname, "./src/pages/cgv/cgv.html"),
-            chunks: ["cgv", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["cgv", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -222,7 +223,7 @@ module.exports = {
                 keywords:`Telephone, fax:, email, serviceclient@HotelChambord.com, 1 Avenue Montaigne, Paris, Champs Elysées `,
             },
             template: path.join(__dirname, "./src/pages/contact/contact.html"),
-            chunks: ["contact", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["contact", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -234,7 +235,7 @@ module.exports = {
                 keywords:`Mariage, baptème, anniversaire, séminaire, festival, Authenticité, Luxe, arts deco, adresse, Triangle d'Or, Hôtel Palace, 5, étoiles, 5 étoiles
             étoile, exception, bien-être, expérience d'exception, amazing, Chambre, classique, confort, Deluxe, suite`,
             },          template: path.join(__dirname, "./src/pages/evenements/evenements.html"),
-            chunks: ["evenements", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["evenements", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -247,7 +248,7 @@ module.exports = {
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/hotel/hotel.html"),
-            chunks: ["hotel", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["hotel", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -264,7 +265,7 @@ module.exports = {
                 keywords: `Mention légales, Description des services, Prix et paiement, Annulation, responsabilité du client, Loi applicable et réglement des litiges`,
             },
             template: path.join(__dirname, "./src/pages/mentions-legales/mentions-legales.html"),
-            chunks: ["mentionsLegales", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["mentionsLegales", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -278,7 +279,7 @@ module.exports = {
                     Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
             template: path.join(__dirname, "./src/pages/plan-du-site/plan-du-site.html"),
-            chunks: ["planDuSite", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["planDuSite", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -292,7 +293,7 @@ module.exports = {
                     Champs Elysées, Arc de Triomphe, Musée du Louvre`,
             },
             template: path.join(__dirname, "./src/pages/presse/presse.html"),
-            chunks: ["presse", "footer", "navbarLeft","navbarTop"],
+            chunks: ["presse", "spinner", "footer", "navbarLeft","navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -306,7 +307,7 @@ module.exports = {
                     étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/qui-sommes-nous/qui-sommes-nous.html"),
-            chunks: ["quiSommesNous", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["quiSommesNous", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -320,7 +321,7 @@ module.exports = {
                 étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/reservation/reservation.html"),
-            chunks: ["reservation", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["reservation", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -340,7 +341,7 @@ module.exports = {
                 keywords:`Authenticité, Luxe, arts deco, adresse, Triangle d'Or, restauration, Master class, premium, unique, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/restaurant/restaurant.html"),
-            chunks: ["restaurant", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
+            chunks: ["restaurant", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -358,7 +359,7 @@ module.exports = {
                     effet whaoo, whaoo effect,amazing`,
             },
             template: path.join(__dirname, "./src/pages/spa-soins/spa-soins.html"),
-            chunks: ["spaSoins", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
+            chunks: ["spaSoins", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -366,7 +367,7 @@ module.exports = {
             filename: "panier.html",
             title: "Panier | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             template: path.join(__dirname, "./src/pages/panier/panier.html"),
-            chunks: ["panier", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["panier", "spinner", "footer", "navbarLeft", "navbarTop"],
         })
     ],
     optimization: {

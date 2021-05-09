@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -12,8 +12,35 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
           integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <style>
+        #spinner {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 100000;
+            min-height: 100vh;
+            min-width: 100%;
+            background-color: white;
+
+        }
+        #modal {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
 </head>
 <body>
+<div id="spinner">
+    <div id="modal" class="flex-column">
+        <img src="./asset/images/logo-spinner.png" alt="hôtel chambord - Paris" height="100">
+        <div class="mt-5">
+            <div class="spinner-border" role="status"></div>
+            <span class="mx-1">Loading...</span>
+        </div>
+    </div>
+</div>
 <nav id="navbar-top"></nav>
 <nav id="navbar-left"></nav>
 <!--main-->
