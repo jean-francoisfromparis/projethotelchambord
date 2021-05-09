@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!--    CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <style>
+        #spinner {
+            position: fixed;
+            left: 0;
+            top: 0;
+            z-index: 100000;
+            min-height: 100vh;
+            min-width: 100%;
+            background-color: white;
+
+        }
+
+        #modal {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+<div id="spinner">
+    <div id="modal" class="flex-column">
+        <img src="./asset/images/logo-spinner.png" alt="hôtel chambord - Paris" height="100">
+        <div class="mt-5">
+            <div class="spinner-border" role="status"></div>
+            <span class="mx-1">Loading...</span>
+        </div>
+    </div>
+</div>
+<nav id="navbar-top"></nav>
+<nav id="navbar-left"></nav>
+<!--main-->
+<main class="top-of-page">
+    <section>
+        <div class="container mt-5">
+            <h1>Recrutement</h1>
+            <hr>
+            <div class="my-3 py-2 px-5 text-center">
+                Nous recrutons et formons tout le long de l'année sur des différents postes de l'hôtellerie. Nous
+                mettons notre attention sur l'amélioration continue du personnel et nous prosons nos formations haut de
+                gamme.
+            </div>
+            <hr>
+            <form name="employmentForm" action="" novalidate>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-nom">nom</span>
+                            <input type="text" name="nom" class="form-control" placeholder="nom" aria-label="nom"
+                                   aria-describedby="basic-nom" required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" id="basic-prenom">prénom</span>
+                            <input type="text" class="form-control" name="prenom" placeholder="prénom"
+                                   aria-label="prénom"
+                                   aria-describedby="basic-prenom" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <div class="mb-3">
+                            <label for="formLM" class="btn btn-dark w-100"><i class="fas fa-file-pdf"></i> PDF -Lettre
+                                de motivation</label>
+                            <input class="form-control" name="lm" type="file" id="formLM" accept="image/*,.pdf" hidden required>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="mb-3">
+                            <label for="formCV" class="btn btn-dark w-100"><i class="fas fa-file-pdf"></i> PDF -
+                                Curriculum Vitae</label>
+                            <input class="form-control filename" name="cv" type="file" id="formCV" accept="image/*,.pdf"
+                                   hidden required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="message" class="form-label">message</label>
+                            <textarea class="form-control" id="message" name="message" rows="3" required></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button id="valid-form" type="button" class="btn btn-dark">Envoyer</button>
+                    <div class="info mx-2 text-danger"></div>
+                </div>
+            </form>
+        </div>
+    </section>
+</main>
+<!--footer-->
+<footer></footer>
+
+<!--CDN-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function () {
+        $("#formCV").change(function () {
+            // filename = this.files[0].value
+            console.log(this.files[0].name);
+        });
+    });
+</script>
+</body>
+</html>

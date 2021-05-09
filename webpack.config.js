@@ -23,6 +23,7 @@ module.exports = {
         restaurant: path.join(__dirname, "src/pages/restaurant/restaurant.js"),
         spaSoins: path.join(__dirname, "src/pages/spa-soins/spa-soins.js"),
         panier: path.join(__dirname, "src/pages/panier/panier.js"),
+        recrutement: path.join(__dirname, "src/pages/recrutement/recrutement.js"),
         // Component
         footer: path.join(__dirname, "src/asset/component/footer/footer.js"),
         navbarLeft: path.join(__dirname, "src/asset/component/navbar-left/navbar-left.js"),
@@ -368,6 +369,14 @@ module.exports = {
             title: "Panier | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             template: path.join(__dirname, "./src/pages/panier/panier.html"),
             chunks: ["panier", "spinner", "footer", "navbarLeft", "navbarTop"],
+        }),
+        new HtmlWebpackPlugin({
+            minify: false,
+            hash: true,
+            filename: "recrutement.html",
+            title: "Recrutement | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
+            template: path.join(__dirname, "./src/pages/recrutement/recrutement.html"),
+            chunks: ["recrutement", "spinner", "footer", "navbarLeft", "navbarTop"],
         })
     ],
     optimization: {

@@ -32,7 +32,7 @@ footer.innerHTML = `
                     <li><a href="/mentions-legales.html">Mentions Légales</a></li>
                     <li><a href="/cgv.html">Conditions Générales de Vente</a></li>
                     <li><a href="/plan-du-site.html">Plan du site TODO a FAIRE</a></li>
-                    <li><a href="/#">Recrutement TODO A FAIRE + CREER LA PAGE</a></li>
+                    <li><a href="/recrutement.html">Recrutement</a></li>
                 </ul>
             </div>
         </div>
@@ -45,7 +45,7 @@ footer.innerHTML = `
                         <form name="form-news-letter" action="">
                             <div class="input-group mb-3">
                                 <input type="text" class="form-control" name="email-news-letter" placeholder="mon-adress@email.fr" aria-label="mon-adress@email.fr" aria-describedby="button-addon2">
-                                <button class="btn btn-outline-secondary news-letters" type="button" id="button-addon2">Button</button>
+                                <button class="btn btn-outline-secondary news-letters" type="button" id="button-addon2">envoyé</button>
                             </div>
                         </form>
                     </li>
