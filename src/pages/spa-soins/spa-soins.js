@@ -36,7 +36,7 @@ const openModal = document.querySelectorAll(".open-modal");
 openModal.forEach((e)=> {
     e.addEventListener('click', ()=> {
         let dataID = e.getAttribute('data-id');
-        console.log(dataID)
+
         // open menu restaurant
         if(dataID === 'menuDetente') {
             menuDetente.style.left = '0';
