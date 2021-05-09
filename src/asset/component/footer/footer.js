@@ -8,7 +8,7 @@ footer.innerHTML = `
                 <ul>
                     <li><a href="/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
                     <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="/actualite.html">Actualités TODO A FAIRE</a></li>
+                    <li><a href="/actualite.html">Actualités</a></li>
                     <li><a href="/evenements.html">Evénements TODO A FAIRE</a></li>
                     <li><a href="/presse.html">Presse</a></li>
                     <li>

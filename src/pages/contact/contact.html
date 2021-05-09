@@ -68,36 +68,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="input-group mb-3 ">
-                            <span class="input-group-text" >Société</span>
-                            <input type="text" name="societe" class="form-control flex-grow-1" placeholder="société" aria-label="company" aria-describedby="basic-addon1" maxlength="20" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" >email</span>
-                            <input type="email" name="email" class="form-control flex-grow-1" id="exampleFormControlInput1" placeholder="name@example.com" required>
-
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text" >Pays</span>
-                            <input type="text" name="pays" class="form-control" placeholder="pays" aria-label="pays" aria-describedby="basic-addon1" maxlength="20" required>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="input-group mb-3">
-                            <span class="input-group-text">Sujet</span>
-                            <input type="text" name="sujet" class="form-control" placeholder="Sujet" aria-label="sujet" aria-describedby="basic-addon1" maxlength="20" required>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <select name="categorie" class="form-select form-select-sm" aria-label=".form-select-sm example" required>
+                        <select name="categorie" class="form-select form-select-sm mb-3 p-2" aria-label=".form-select-sm example" required>
                             <option selected>Choissisez la catégorie</option>
                             <option value="1">Chambre</option>
                             <option value="2">Restauration</option>
@@ -105,20 +76,19 @@
                             <option value="4">Ordre Générale</option>
                         </select>
                     </div>
-                    <div class="col-md-6"></div>
+                    <div class="col-md-6">
+                        <div class="input-group mb-3">
+                            <span class="input-group-text" >email</span>
+                            <input type="email" name="email" class="form-control flex-grow-1" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                        </div>
+                    </div>
                 </div>
                 <div class="mt-4">
                     <textarea name="message" class="form-control" id="formControlTextarea" placeholder="Votre message ..." rows="5" maxlength="150" required></textarea>
                 </div >
-                <div class="row justify-content-between">
-                    <div class="row justify-content-end">
-                        <div class=" col-6 mt-3">
-                            <button id="reset" class="btn btn-dark" type="reset">réinitialisez</button>
-                        </div>
-                        <div class=" col-6 mt-3">
-                            <button id="valid" class="btn btn-dark" type="button">Envoyez</button>
-                        </div>
-                    </div>
+                <div class="d-flex justify-content-between mt-2">
+                    <button id="reset" class="btn btn-dark" type="reset">réinitialisez</button>
+                    <button id="valid" class="btn btn-dark" type="button">Envoyez</button>
                 </div>
             </div>
         </form>
