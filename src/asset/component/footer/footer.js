@@ -31,7 +31,7 @@ footer.innerHTML = `
                     <li><a href="/acces.html">Accès</a></li>
                     <li><a href="/mentions-legales.html">Mentions Légales</a></li>
                     <li><a href="/cgv.html">Conditions Générales de Vente</a></li>
-                    <li><a href="/plan-du-site.html">Plan du site TODO a FAIRE</a></li>
+                    <li><a href="/plan-du-site.html">Plan du site</a></li>
                     <li><a href="/recrutement.html">Recrutement</a></li>
                 </ul>
             </div>

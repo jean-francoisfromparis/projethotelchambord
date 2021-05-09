@@ -1,10 +1,6 @@
 import "../../asset/styles/styles.scss";
 import "./actualite.scss";
 
-
-// <img src="https://picsum.photos/200/300?random=1">
-// <img src="https://picsum.photos/200/300?random=2">
-
 const arrayActuality = [
     {
         title: `Coronavirus : les clients d’un hôtel confinés dans les Canaries`,
