@@ -150,63 +150,37 @@
 <div class="container ">
     <div class="row mt-5 align-items-center">
         <div class="col-md-6 text-center ">
-            <a data-bs-toggle="modal" data-bs-target="#modal_mariage">
-                <figure class="figure">
-                    <img class="w-75 rounded" src="./asset/images/evenements/maries.jpg" alt="Mariés heureux" style="box-shadow: 5px 2px 2px grey;">
-                    <figcaption class="figure-caption text-center">Cliquez pour voir la video.</figcaption>
-                </figure>
-            </a>
+            <div class="figure">
+                <img class="w-75 rounded video-youtube" src="./asset/images/evenements/maries.jpg" alt="Mariés heureux"
+                     style="box-shadow: 5px 2px 2px grey;" data-id="mariage">
+                <p class="figure-caption text-center">Cliquez pour voir la video.</p>
+            </div>
         </div>
         <div class="col-md-6 text-center ">
             <h4>Notre équipes événementielles</h4>
             <p style="text-align: justify;">
                 Ils ont pu découvrir l'excellence "Made In CHAMBORD" pour leur mariage le 23 Avril 2021.</p>
         </div>
+        <!--        Block-->
         <div class="col-md-6 text-center">
             <h4>Séminaire 20-03-2021</h4>
             <p style="text-align: justify;">
                 Vous pouvez également profiter en toute simplicité de l'atmosphère détendu de notre brasserie.</p>
         </div>
         <div class="col-md-6 text-center">
-        <a data-bs-toggle="modal" data-bs-target="#modal_seminaire">      
-            <figure class="figure">
-                <img class="w-75 rounded" src="./asset/images/evenements/photo_seminaire.jpg" alt="séminaire 21-Avril-2021" style="box-shadow: 5px 2px 2px grey;">
-                <figcaption class="figure-caption text-center">Cliquez pour voir la video.</figcaption>
-            </figure>
-        </a>
-    </div>
+            <div class="figure">
+                <img class="w-75 rounded video-youtube" src="./asset/images/evenements/photo_seminaire.jpg"
+                     alt="séminaire 21-Avril-2021" style="box-shadow: 5px 2px 2px grey;" data-id="seminaire">
+                <p class="figure-caption text-center">Cliquez pour voir la video.</p>
+            </div>
+        </div>
     </div>
 </div>
 </section>
                             <!-- Modal séminaire -->
-<div class="modal fade" id="modal_seminaire" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Séminaire du 20-03-2021</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-            <iframe width="80%" height="auto" src="https://youtube.com/embed/Med_qI-adB8?autoplay=0"></iframe>
-        </div>
-      </div>
-    </div>
-  </div>
-
-                           <!-- Modal séminaire -->
-<div class="modal fade" id="modal_mariage" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-sm  modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="staticBackdropLabel">Mariage du 23 Avril 2021</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body text-center">
-            <iframe width="80%" height="auto" src="https://youtube.com/embed/93kEaCEgZRM?autoplay=0"></iframe>
-        </div>
-      </div>
-    </div>
-  </div> 
+<section id="modal-video">
+    <iframe width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+</section>
 <!--footer-->
 <footer></footer>
 <!--CDN-->
