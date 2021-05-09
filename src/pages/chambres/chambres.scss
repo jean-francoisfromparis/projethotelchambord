@@ -1,30 +1,30 @@
 @import "../../asset/styles/media";
 
 .block {
-  min-height: 100%;
+  min-height: 75vh;
   justify-content: center;
 }
 
 
 .img-suites {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("../../asset/images/chambres/chambres-4.jpg");
   background-size: cover;
 }
 
 .img-deluxe {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("../../asset/images/chambres/chambres-3.jpg");
   background-size: cover;
 }
 
 .img-confort {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("../../asset/images/chambres/chambres-2.jpg");
   background-size: cover;
 }
 .img-classic {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("../../asset/images/chambres/chambres-1.jpg");
   background-size: cover;
 }
@@ -59,8 +59,8 @@
 .descripton-accueil {
   display: none;
   font-style: italic;
-  @include breakpoint(tablette) {
-    display: block;
+  @include breakpoint(laptop) {
+    display: flex;
   }
 }
 
@@ -68,13 +68,18 @@
   margin-top: 1rem;
   text-align: center;
   font-style: italic;
-  @include breakpoint(smartphone) {
-    display: block;
-  }
+}
+
+.text-start {
+  font-size: 0.7rem;
   @include breakpoint(tablette) {
-    display: none;
+    font-size: 1rem;
   }
-  @include breakpoint(laptop) {
-    display: block;
+}
+
+
+@media (max-width: 350px) {
+  .text-desciption {
+    display: none;
   }
 }

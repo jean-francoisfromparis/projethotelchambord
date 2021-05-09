@@ -1,19 +1,19 @@
 @import "./asset/styles/modal-presentation-pdf";
 
 .img-accueil {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("asset/images/chambres/chambres-4.jpg");
   background-size: cover;
 }
 
 .img-restaurant {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("asset/images/restaurant/restaurant-2.jpg");
   background-size: cover;
 }
 
 .img-spa {
-  min-height: 70vh;
+  min-height: 75vh;
   background-image: url("asset/images/spa/spa-1.jpg");
   background-size: cover;
 }
@@ -22,6 +22,7 @@
   background-color: #333333;
   padding: 1rem;
   color: whitesmoke;
+  margin: 1rem 0;
   &:hover {
     background-color: #666666;
     transition-duration: 0.3s;
