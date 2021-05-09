@@ -9,7 +9,7 @@ footer.innerHTML = `
                     <li><a href="/qui-sommes-nous.html">Qui sommes-nous ?</a></li>
                     <li><a href="/contact.html">Contact</a></li>
                     <li><a href="/actualite.html">Actualités</a></li>
-                    <li><a href="/evenements.html">Evénements TODO A FAIRE</a></li>
+                    <li><a href="/evenements.html">Evénements</a></li>
                     <li><a href="/presse.html">Presse</a></li>
                     <li>
                         <a href="/avis.html" class="d-flex w-100">
