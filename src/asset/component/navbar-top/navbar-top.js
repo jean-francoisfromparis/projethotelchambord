@@ -37,7 +37,7 @@ navbarTop.innerHTML = `
         </div>
     </a>
     <div class="d-flex menu-option">
-        <div class="d-flex align-items-center"><a href="#"><span class="text-price">0</span><span class="fw-bold fs-6 text-price"></span><i class="fas fa-euro-sign mx-1"></i></a></div>
+        <div class="d-flex align-items-center"><a href="/panier.html"><span class="text-price">40500</span><span class="fw-bold fs-6 text-price"></span><i class="fas fa-euro-sign mx-1"></i></a></div>
         <span class="separator"><div>|</div></span>
         <div class="d-flex justify-content-center block-language mx-1"></a><span class="language">${languageLocalStorage}</span></div>
     </div>

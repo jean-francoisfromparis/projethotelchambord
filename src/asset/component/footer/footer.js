@@ -1,7 +1,7 @@
 const footer = document.querySelector("footer");
 footer.innerHTML = `
 <div class="container d-flex justify-content-center flex-wrap">
-    <div class="d-flex w-100 block-footer">
+    <div class="d-flex block-footer flex-wrap w-100">
         <div class="col-12 col-md-4">
             <h3 class="text-decoration-underline text-center">l'hôtel</h3>
             <div class=" d-flex align-items-center flex-column">

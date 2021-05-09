@@ -1,0 +1,18 @@
+.tb-head {
+  background-color: #333333;
+  color: whitesmoke;
+  border-right:1px solid white;
+  text-align: center;
+}
+
+.btn-command {
+  outline: none;
+  background-color: #333333;
+  color: whitesmoke;
+  border: none;
+  padding: 1rem;
+  &:hover {
+    transition-duration: 0.3s;
+    background-color: #666666;
+  }
+}
