@@ -113,6 +113,10 @@ module.exports = {
                     from: "./src/asset/images/presse/*",
                     to: 'asset/images/presse/[name][ext]',
                 },
+                {
+                    from: "./src/asset/images/evenements/*",
+                    to: 'asset/images/evenements/[name][ext]',
+                },
             ],
         }),
         new HtmlWebpackPlugin({
