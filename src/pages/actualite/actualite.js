@@ -41,7 +41,7 @@ const arrayActuality = [
     },
     {
         title: `Top 5 des tendances technologiques de l’hôtellerie pour 2021`,
-        img: `http://www.hoteldefrance.org/wp-content/uploads/2021/04/rfid-hotel-cloud-678x381.jpg`,
+        img: `https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Suite_ex%C3%A9cutive_de_luxe_-_H%C3%B4tel_Le_Saint_Sulpice.jpg/800px-Suite_ex%C3%A9cutive_de_luxe_-_H%C3%B4tel_Le_Saint_Sulpice.jpg`,
         link: `http://www.hoteldefrance.org/top-5-tendances-technologiques-hotellerie-2021/`,
         name: `hoteldefrance.org`,
         description: `Jamais dans l’histoire le secteur de l’hôtellerie n’a connu une année comparable à celle de 2020. Aucun aspect n’a été laissé de côté. Comme pour les crises précédentes, cela aura sans aucun doute des effets durables sur le fonctionnement de l’industrie et nous pouvons nous attendre à voir de nouvelles opportunités surgir à partir de cela également.`

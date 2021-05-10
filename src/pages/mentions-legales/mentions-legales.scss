@@ -1,24 +1,12 @@
 @import "../../asset/styles/media";
 
-#sommaire-ml {
-  position: fixed;
-  font-family: Arial, sans-serif;
-  display: block;
-  font-size: 1.4rem;
-  padding-left: 1rem;
-  background-color: snow;
-  height: 100vh;
-  overflow-y: auto;
-  width: 300px;
-  @include breakpoint(smartphone) {
-    display: none;
-  }
-
+.info {
+  background-color: #e74c3c;
+  color: whitesmoke;
 }
 
 #mention {
-  margin-left: 300px;
-  padding: 100px 1rem;
+  padding: 1rem;
   font-family: Arial, sans-serif;
   text-align: justify;
   text-decoration: line-through;
