@@ -326,7 +326,7 @@ module.exports = {
                 étoile, exception, bien-être, expérience d'exception, amazing`,
             },
             template: path.join(__dirname, "./src/pages/reservation/reservation.html"),
-            chunks: ["reservation", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
+            chunks: ["reservation", "spinner", "footer", "navbarLeft", "navbarTop"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
@@ -372,7 +372,7 @@ module.exports = {
             filename: "panier.html",
             title: "Panier | Hôtel Palace CHAMBORD ***** - 1 Avenue Montaigne - Paris, France",
             template: path.join(__dirname, "./src/pages/panier/panier.html"),
-            chunks: ["panier", "spinner", "footer", "navbarLeft", "navbarTop"],
+            chunks: ["panier", "spinner", "footer", "navbarLeft", "navbarTop", "navbarBottom"],
         }),
         new HtmlWebpackPlugin({
             minify: false,
