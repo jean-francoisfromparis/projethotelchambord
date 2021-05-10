@@ -3,6 +3,10 @@
 ## <span style="color: red"> Important </span>
 <h5 style="color: forestgreen"> lire la documentation </h5>
 
+lien https://hotel-chambord.nicolas-zanardo.com/
+
+lien https://jflepantewebdev.go.yj.fr/
+
 ## Utilisation du serveur interne webpack
 
 ```bash
