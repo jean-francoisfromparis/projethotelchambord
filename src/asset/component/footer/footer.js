@@ -60,7 +60,7 @@ footer.innerHTML = `
         </div>
     </div>
     <div class="d-flex flex-column align-items-center">
-        <h1>HOTEL CAHMBORD</h1>
+        <h1>HOTEL CHAMBORD</h1>
         <p>1 avenue Montaigne, 75008 Paris</p>
     </div>
 </div>
